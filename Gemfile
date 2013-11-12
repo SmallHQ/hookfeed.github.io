@@ -10,3 +10,6 @@ gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-blog"
 
 gem "middleman-deploy"
+
+gem "redcarpet"
+gem "middleman-syntax"
