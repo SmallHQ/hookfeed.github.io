@@ -30,10 +30,19 @@ end
 # Helpers
 ###
 activate :livereload
+
 activate :blog do |blog|
   blog.permalink = ":category/:title.html"
   blog.layout = "blog_layout"
   blog.prefix = "blog"
+end
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+
+  deploy.method = :git
+  deploy.remote = "github"
+  deploy.branch = "gh-pages"
 end
 
 set :css_dir, 'stylesheets'
