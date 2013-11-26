@@ -36,7 +36,13 @@
     </div><!-- END #header_bar.container -->
   </section><!-- END #header_bar_banner -->
 
-  <%= yield %>
+  <section id="skinny_page_banner">
+    <div id="skinny_page" class="container">
+      <div class="twelve columns offset-by-two">
+        <%= yield %>
+      </div><!-- END .twelve.columns.offset-by-two -->
+    </div><!-- END #skinny_page.container -->
+  </section><!-- END #skinny_page_banner -->
 
   <% unless development? %>
     <!-- Google Analytics -->

@@ -1,0 +1,36 @@
+body#page_layout.index {
+
+  #headline_banner {
+    background-color: green;
+    color: white;
+
+    #headline {
+      text-align: center;
+
+      h1 {
+        color: pink;
+      }
+    }
+  }
+
+  #faqs_banner {
+    background-color: red;
+    color: white;
+
+    #faqs {
+      h2 {
+        color: yellow
+      }
+
+      dl {
+        dt {
+          font-weight: bold;
+        }
+
+        dd {
+
+        }
+      }
+    }
+  }
+}

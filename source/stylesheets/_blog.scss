@@ -1,0 +1,114 @@
+#blog_layout {
+  background-color: #fff;
+}
+
+#blog_banner #blog {
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin: 50px 0;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      font-size: 30px;
+      line-height: 34px;
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 6px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 4px;
+  }
+
+  img {
+    width: 660px;
+    margin: 0 -40px;
+    border-radius: 4px;
+
+    /* Tablet Portrait size to standard 960 (devices and browsers) */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      width: 540px;
+    }
+
+    /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      width: 500px;
+    }
+
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (max-width: 479px) {
+      width: 380px;
+    }
+  }
+
+  ul, ol {
+    list-style-position: inside;
+    margin-left: 20px;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  pre {
+    color: #F7F7F7;
+    background-color: $bold_text;
+    padding: 40px;
+    border-radius: 4px;
+    margin: 0 -40px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Menlo, monospace;
+  }
+
+  p, ul, ol, dl, pre, blockquote {
+    margin-bottom: 30px;
+  }
+
+  p, ul, ol, dl {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  blockquote {
+    text-align: center;
+
+    p {
+      color: $bold_text;
+      font-size: 32px;
+      font-style: italic;
+      font-weight: bold;
+      letter-spacing: -1px;
+      line-height: 36px;
+      margin-bottom: 5px;
+    }
+
+    blockquote {
+      margin-bottom: 0px;
+
+      p {
+        color: $text;
+        font-size: 15px;
+        font-style: normal;
+        letter-spacing: 0px;
+        line-height: 20px;
+        font-weight: normal;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
