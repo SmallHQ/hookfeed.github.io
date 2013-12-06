@@ -42,15 +42,6 @@ body {
     }
     &:visited {color: $blue}
   }
-
-  h1, h2, h3 {
-    color: $bold_text;
-    font-weight: bold;
-  }
-
-  b, strong {
-    color: $bold_text;
-  }
 /* END TYPOGRAPHY */
 
 /* BEGIN HEADER BAR */

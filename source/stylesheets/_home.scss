@@ -1,25 +1,168 @@
 body#page_layout.index {
 
   #headline_banner {
-    background-color: green;
-    color: white;
+    background-color: #fff;
+    padding: 80px;
 
     #headline {
       text-align: center;
 
       h1 {
-        color: pink;
+
+      }
+
+      h2 {
+
+      }
+
+      a {
+
+      }
+    }
+  }
+
+  #benefits_banner {
+    background-color: #f1f3f5;
+    padding-top: 350px;
+    padding-bottom: 70px;
+
+    #benefits {
+      #email_diagrams {
+        position: absolute;
+        top:-440px;
+
+        #alert_diagram {
+          h2, h3 {
+            padding-right: 34px;
+          }
+        }
+
+        #digest_diagram {
+          text-align: right;
+
+          h2, h3 {
+            padding-left: 34px;
+          }
+        }
+
+        #alert_diagram, #digest_diagram {
+          h2, h3 {
+            text-align: center;
+          }
+
+          h2 {
+
+          }
+
+          h3 {
+
+          }
+        }
+      }
+
+      #three_benefits {
+        .benefit {
+          text-align: center;
+
+          img {
+
+          }
+
+          h2 {
+
+          }
+
+          p {
+
+          }
+        }
+      }
+    }
+  }
+
+  #testimonials_banner {
+    background-color: #dee2e7;
+    padding: 80px;
+
+    #testimonials {
+      .testimonial {
+        clear: both;
+        margin-bottom: 50px;
+
+        img {
+          border-radius: 100px;
+          float: left;
+          margin-right: 40px;
+          width: 100px;
+        }
+
+        h2 {
+
+        }
+
+        h3 {
+
+        }
+
+        p {
+
+        }
+      }
+
+      #left_testimonials {
+
+      }
+
+      #right_testimonials {
+
+      }
+    }
+
+    .divider {
+      text-align: center;
+      width: 100%;
+    }
+
+    #companies_using {
+
+    }
+  }
+
+  #pricing_banner {
+    background-color: #868e96;
+    padding: 50px;
+
+    #pricing {
+      #cta_headline {
+        h1 {
+
+        }
+
+        h2 {
+
+        }
+      }
+
+      #interval_toggle {
+        text-align: right;
+
+        a {
+
+          &.active {
+
+          }
+        }
       }
     }
   }
 
   #faqs_banner {
-    background-color: red;
-    color: white;
+    background-color: #dee2e7;
+    padding: 80px;
 
     #faqs {
       h2 {
-        color: yellow
+        text-align: center;
       }
 
       dl {
