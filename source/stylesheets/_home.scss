@@ -3,20 +3,35 @@ body#page_layout.index {
   #headline_banner {
     background-color: #fff;
     padding: 80px;
+    padding-bottom: 248px;
 
     #headline {
       text-align: center;
 
       h1 {
-
+        color: #494b4d;
+        font-size: 31px;
+        font-weight: bold;
+        line-height: 40px;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
       }
 
       h2 {
-
+        color: #868e96;
+        font-size: 31px;
+        letter-spacing: -1px;
+        margin-bottom: 80px;
       }
 
       a {
-
+        font-size: 16px;
+        background-color: #5a9bce;
+        color: #fff;
+        padding: 20px 44px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 3px;
       }
     }
   }
@@ -29,11 +44,25 @@ body#page_layout.index {
     #benefits {
       #email_diagrams {
         position: absolute;
-        top:-440px;
+        top:-488px;
 
         #alert_diagram {
           h2, h3 {
             padding-right: 34px;
+          }
+
+          h2 {
+           color: #505254;
+           font-size: 24px;
+           line-height: 30px;
+           margin-bottom: 6px;
+          }
+
+          h3 {
+          color: #909295;
+          font-size: 16px;
+          line-height: 22px;
+          margin-bottom: 14px;
           }
         }
 
@@ -42,6 +71,20 @@ body#page_layout.index {
 
           h2, h3 {
             padding-left: 34px;
+          }
+
+          h2 {
+           color: #505254;
+           font-size: 24px;
+           line-height: 30px;
+           margin-bottom: 6px;
+          }
+
+          h3 {
+          color: #909295;
+          font-size: 16px;
+          line-height: 22px;
+          margin-bottom: 14px;
           }
         }
 
