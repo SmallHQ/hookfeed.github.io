@@ -2,7 +2,6 @@
 
 ```bash
 $ git clone git@github.com:HookFeed/hookfeed.github.io.git
-$ git remote rename origin github
 $ bundle install --path vendor
 ```
 
