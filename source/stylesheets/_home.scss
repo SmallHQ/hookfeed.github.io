@@ -66,6 +66,11 @@ body#page_layout.index {
           padding: 15px 30px;
         }
       }
+      #nudge {
+        margin-top: 6px;
+        font-size: 14px;
+        color: #999;
+      }
     }
   }
 
@@ -383,16 +388,21 @@ body#page_layout.index {
       footer {
         text-align: center;
 
-        span {
-          color: #898f95;
-          margin-right: 10px;
-        }
-
         a {
           color: #898f95;
           font-size: 15px;
           line-height: 29px;
           text-decoration: underline;
+          display: block;
+        }
+
+        span {
+          color: #898f95;
+          margin-right: 10px;
+
+          a {
+            display: inline;
+          }
         }
       }
     }
