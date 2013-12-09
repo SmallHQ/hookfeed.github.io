@@ -29,11 +29,11 @@ body#page_layout.index {
       h1 {
         color: #494b4d;
         font-weight: bold;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
-          margin-bottom: 6px;
+          margin-bottom: 12px;
         }
 
         span {
