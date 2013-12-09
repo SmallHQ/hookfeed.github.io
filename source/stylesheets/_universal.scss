@@ -46,8 +46,10 @@ body {
 
 /* BEGIN HEADER BAR */
 #header_bar_banner {
-  background-color: #ffffff;
-  padding-top: 35px;
+  background-color: rgba(255,255,255,0.95);
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 #header_bar {
   height: 50px;
