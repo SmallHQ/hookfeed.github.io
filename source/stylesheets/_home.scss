@@ -317,21 +317,48 @@ body#page_layout.index {
     }
 
     #pricing {
-      h1 {
-        color: #fff;
-        font-size: 30px;
-        line-height: 40px;
-      }
+      #pricing_headlines {
+        float: left;
+        margin-left: 10px;
+        width: 720px;
 
-      h2 {
-        color: #e2e7ed;
-        font-size: 24px;
-        line-height: 30px;
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+          width: 540px;
+        }
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-left: 0px;
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          width: 420px;
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          width: 300px;
+        }
+
+        h1 {
+          color: #fff;
+          font-size: 30px;
+          line-height: 40px;
+        }
+
+        h2 {
+          color: #e2e7ed;
+          font-size: 24px;
+          line-height: 30px;
+        }
       }
 
       #interval_toggle {
+        float: right;
+        margin-right: 10px;
         padding-top: 33px;
-        text-align: right;
 
         /* All Mobile Sizes */
         @media only screen and (max-width: 767px) {
@@ -551,7 +578,7 @@ body#page_layout.index {
         /* Tablet Portrait size to  standard 960 (devices and browsers) */
         @media only screen and (min-width: 768px) and (max-width: 959px) {
           left: 175px;
-          width: 150px;
+          width: 145px;
           border-bottom-right-radius: 0px;
         }
 
@@ -594,8 +621,8 @@ body#page_layout.index {
         @media only screen and (min-width: 768px) and (max-width: 959px) {
           border-top-left-radius: 0px;
           border-bottom-left-radius: 0px;
-          left: 325px;
-          width: 150px;
+          left: 320px;
+          width: 146px;
         }
 
         /* All Mobile Sizes */
@@ -619,8 +646,8 @@ body#page_layout.index {
 
         /* Tablet Portrait size to standard 960 (devices and browsers) */
         @media only screen and (min-width: 768px) and (max-width: 959px) {
-          left: 475px;
-          width: 150px;
+          left: 466px;
+          width: 146px;
         }
       }
 
@@ -634,8 +661,8 @@ body#page_layout.index {
 
         /* Tablet Portrait size to standard 960 (devices and browsers) */
         @media only screen and (min-width: 768px) and (max-width: 959px) {
-          left: 625px;
-          width: 150px;
+          left: 612px;
+          width: 146px;
         }
 
         /* All Mobile Sizes */
