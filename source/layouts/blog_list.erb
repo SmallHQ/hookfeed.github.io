@@ -20,7 +20,7 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
-<body id="page_layout" class="<%= page_classes %>">
+<body id="blog_list_layout" class="<%= page_classes %>">
   <section id="header_bar_banner">
     <div id="header_bar" class="container">
       <div class="sixteen columns">
@@ -28,7 +28,7 @@
           <%= link_to '<img src="https://s3.amazonaws.com/HookFeed/hookfeed_logo_retina.png" width="130" height="24">', '/' %>
         </div>
         <nav>
-          <%= link_to 'Pricing/Start Free Trial', '/#pricing_banner', id: "trial_button" %>
+          <%= link_to 'About HookFeed', '/' %>
           <%= link_to 'Blog', '/blog' %>
           <%= link_to 'Login', 'https://secure.hookfeed.com/login' %>
         </nav>
@@ -36,13 +36,7 @@
     </div><!-- END #header_bar.container -->
   </section><!-- END #header_bar_banner -->
 
-  <section id="skinny_page_banner">
-    <div id="skinny_page" class="container">
-      <div class="twelve columns offset-by-two">
-        <%= yield %>
-      </div><!-- END .twelve.columns.offset-by-two -->
-    </div><!-- END #skinny_page.container -->
-  </section><!-- END #skinny_page_banner -->
+  <%= yield %>
 
   <% unless development? %>
     <!-- Google Analytics -->
