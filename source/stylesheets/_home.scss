@@ -2,90 +2,116 @@ body#page_layout.index {
 
   #headline_banner {
     background-color: #fff;
-    padding: 80px;
-    padding-bottom: 248px;
+    padding-top: 95px;
+    padding-bottom: 273px;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      padding-top: 30px;
+      padding-bottom: 193px;
+    }
 
     #headline {
       text-align: center;
 
+      h1, h2 {
+        font-size: 31px;
+        line-height: 38px;
+        letter-spacing: -1px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+
       h1 {
         color: #494b4d;
-        font-size: 31px;
         font-weight: bold;
-        line-height: 40px;
-        letter-spacing: -1px;
-        margin-bottom: 20px;
+        margin-bottom: 12px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 6px;
+        }
+
+        span {
+          border-bottom: 1px solid #ddd;
+        }
       }
 
       h2 {
         color: #868e96;
-        font-size: 31px;
-        letter-spacing: -1px;
-        margin-bottom: 80px;
+        margin-bottom: 59px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 30px;
+        }
       }
 
       a {
-        font-size: 16px;
         background-color: #5a9bce;
-        color: #fff;
-        padding: 20px 44px;
-        text-decoration: none;
-        font-weight: bold;
         border-radius: 3px;
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 19px 43px;
+        text-decoration: none;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          padding: 15px 30px;
+        }
       }
     }
   }
 
   #benefits_banner {
     background-color: #f1f3f5;
-    padding-top: 350px;
-    padding-bottom: 70px;
+    padding-top: 400px;
+    padding-bottom: 114px;
+
+    /* Tablet Portrait size to standard 960 (devices and browsers) */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      padding-top: 320px;
+    }
+
+    /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      padding-top: 841px;
+    }
+
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (max-width: 479px) {
+      padding-top: 640px;
+    }
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      padding-bottom: 60px;
+    }
 
     #benefits {
       #email_diagrams {
         position: absolute;
-        top:-488px;
+        top: -538px;
 
-        #alert_diagram {
-          h2, h3 {
-            padding-right: 34px;
-          }
-
-          h2 {
-           color: #505254;
-           font-size: 24px;
-           line-height: 30px;
-           margin-bottom: 6px;
-          }
-
-          h3 {
-          color: #909295;
-          font-size: 16px;
-          line-height: 22px;
-          margin-bottom: 14px;
-          }
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+          top: -458px;
         }
 
-        #digest_diagram {
-          text-align: right;
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          top: -961px;
+        }
 
-          h2, h3 {
-            padding-left: 34px;
-          }
-
-          h2 {
-           color: #505254;
-           font-size: 24px;
-           line-height: 30px;
-           margin-bottom: 6px;
-          }
-
-          h3 {
-          color: #909295;
-          font-size: 16px;
-          line-height: 22px;
-          margin-bottom: 14px;
-          }
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          top: -760px;
         }
 
         #alert_diagram, #digest_diagram {
@@ -94,29 +120,66 @@ body#page_layout.index {
           }
 
           h2 {
-
+            color: #505254;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 5px;
           }
 
           h3 {
+            color: #909295;
+            font-size: 15px;
+            line-height: 21px;
+            margin-bottom: 21px;
+          }
+        }
 
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          #alert_diagram {
+            margin-bottom: 40px;
           }
         }
       }
 
       #three_benefits {
         .benefit {
+          margin-bottom: 0px;
           text-align: center;
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            margin-bottom: 40px;
+          }
+
+          &:last-child {
+            /* All Mobile Sizes (devices and browser) */
+            @media only screen and (max-width: 767px) {
+              margin-bottom: 0px;
+            }
+          }
 
           img {
 
           }
 
           h2 {
+            color: #505254;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 3px;
 
+            /* All Mobile Sizes (devices and browser) */
+            @media only screen and (max-width: 767px) {
+              font-size: 21px;
+              line-height: 27px;
+            }
           }
 
           p {
-
+            color: #909295;
+            font-size: 15px;
+            line-height: 29px;
           }
         }
       }
@@ -125,55 +188,117 @@ body#page_layout.index {
 
   #testimonials_banner {
     background-color: #dee2e7;
-    padding: 80px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
 
     #testimonials {
       .testimonial {
         clear: both;
-        margin-bottom: 50px;
+        margin-bottom: 87px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 50px;
+        }
 
         img {
-          border-radius: 100px;
+          border-radius: 44px;
           float: left;
-          margin-right: 40px;
-          width: 100px;
+          margin-right: 33px;
+          width: 88px;
         }
 
         h2 {
+          font-size: 21px;
+          line-height: 24px;
+          margin-bottom: 8px;
+          padding-top: 18px;
 
+          a {
+            color: #505254;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
         }
 
         h3 {
+          color: #72adcf;
+          font-size: 15px;
+          line-height: 19px;
+          margin-bottom: 25px;
 
+          a {
+            color: #72adcf;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
         }
 
         p {
+          color: #909295;
+          font-size: 15px;
+          line-height: 29px;
+          padding-left: 121px;
 
+          /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+          @media only screen and (max-width: 479px) {
+            padding-left: 0px;
+            padding-top: 20px;
+          }
         }
       }
-
-      #left_testimonials {
-
-      }
-
-      #right_testimonials {
-
-      }
-    }
-
-    .divider {
-      text-align: center;
-      width: 100%;
     }
 
     #companies_using {
+      text-align: center;
 
+      #anchor_divider {
+        color: #c0c5ce;
+        font-family: Pictos;
+        font-size: 20px;
+        margin-bottom: 77px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 50px;
+        }
+      }
+
+      h3 {
+        color: #505254;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 87px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 40px;
+        }
+      }
+
+      /* All Mobile Sizes (devices and browser) */
+      @media only screen and (max-width: 767px) {
+        .four.columns {
+          margin-bottom: 30px;
+        }
+      }
     }
   }
 
   #pricing_banner {
     background-color: #868e96;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     #pricing {
       #cta_headline {
@@ -201,20 +326,73 @@ body#page_layout.index {
 
   #faqs_banner {
     background-color: #dee2e7;
-    padding: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
 
     #faqs {
       h2 {
+        color: #868e96;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 77px;
         text-align: center;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 50px;
+        }
       }
 
-      dl {
-        dt {
-          font-weight: bold;
+      dt {
+        color: #868e96;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 13px;
+      }
+
+      dd {
+        color: #868e96;
+        font-size: 15px;
+        line-height: 29px;
+        margin-bottom: 56px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 30px;
         }
 
-        dd {
+        &:last-child {
+          margin-bottom: 120px !important;
+        }
+      }
 
+      .left_half dl dd:last-child {
+        margin-bottom: 30px !important;
+      }
+
+      .right_half dl dd:last-child {
+        margin-bottom: 60px !important;
+      }
+
+      footer {
+        text-align: center;
+
+        span {
+          color: #898f95;
+          margin-right: 10px;
+        }
+
+        a {
+          color: #898f95;
+          font-size: 15px;
+          line-height: 29px;
+          text-decoration: underline;
         }
       }
     }

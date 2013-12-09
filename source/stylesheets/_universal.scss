@@ -47,6 +47,7 @@ body {
 /* BEGIN HEADER BAR */
 #header_bar_banner {
   background-color: #ffffff;
+  padding-top: 35px;
 }
 #header_bar {
   height: 50px;
@@ -71,20 +72,21 @@ body {
     float: right;
 
     a {
-      color: $text;
-      font-size: 16px;
+      color: #bcc3cc;
+      font-size: 15px;
       line-height: 24px;
       padding: 13px 0px;
       display: inline-block;
-      margin-left: 30px;
+      margin-left: 28px;
       transition: color .2s;
 
       &#trial_button {
         color: #84c1b1;
         font-weight: bold;
       }
+
       &:hover {
-        color: #5799d6;
+        color: #5799d6 !important;
         text-decoration: none;
       }
 
