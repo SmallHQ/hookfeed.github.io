@@ -169,6 +169,7 @@
     text-align: center;
 
     p {
+      font-size: 16px;
       line-height: 20px;
       margin-bottom: 14px;
       color: #909295;
@@ -181,7 +182,7 @@
         margin-bottom: 40px;
     }
 
-    #twitter, #googleplus, #facebook, #linkedin {
+    #twitter, #googleplus, #facebook, #linkedin, #buffer {
       display: inline-block;
 
       /* All Mobile Sizes (devices and browser) */
