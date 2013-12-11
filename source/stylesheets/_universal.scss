@@ -55,6 +55,10 @@ footer {
   }
 }
 
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
 /* BEGIN TYPOGRAPHY */
   a {
     color: $blue;
