@@ -371,6 +371,7 @@ body#page_layout.index {
           font-size: 16px;
           font-weight: bold;
           padding: 8px 20px;
+          transition: .2s background-color, .2s color;
 
           &:hover {
             text-decoration: none;
