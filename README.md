@@ -16,7 +16,7 @@ $ bundle
 
 ## Working on a new feature/bug/refactor
 
-1. Create the given feature, refactor, or bug branch, make sure you're currently on the master branch:
+#### Create the given feature, refactor, or bug branch, make sure you're currently on the master branch:
 
 ```bash
 $ git feature [name]
@@ -28,23 +28,23 @@ Afterwards, the same command will check out the branch:
 $ git feature [name]
 ```
 
-2. Push to GitHub:
+#### Push to GitHub:
 
 ```bash
 $ git push -u github feature/[name]
 ```
 
-3. Do some work, make some commits, push some more. 
+#### Do some work, make some commits, push some more. 
 
-4. Open a pull request on github when ready (to merge or to discuss), and mention me if necessary in the description of your pull request:
+#### Open a pull request on github when ready (to merge or to discuss), and mention me if necessary in the description of your pull request:
 
 ```bash
 $ git pull-request
 ```
 
-5. Future dialog/merges will take place on GitHub. To make more changes to your feature, just commit to the feature locally and push to GitHub. They will automatically be attached to the open pull request.
+#### Future dialog/merges will take place on GitHub. To make more changes to your feature, just commit to the feature locally and push to GitHub. They will automatically be attached to the open pull request.
 
-All of this works with `feature`, `bug`, or `refactor`.
+*All of this works with `feature`, `bug`, or `refactor`.*
 
 ## Running a development server
 
