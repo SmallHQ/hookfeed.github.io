@@ -1,0 +1,21 @@
+---
+title: HookFeed Blog - Stripe Email Notifications and Digest Analytics
+layout: blog_list
+priority: 1
+changefreq: daily
+---
+
+<section id="blog_list_banner">
+  <div id="blog_list" class="container">
+    <div class="ten columns offset-by-three">
+
+      <% blog.articles.each do |article| %>
+        <article>
+          <h1><a href="<%= article.url %>"><%= article.title %></a></h1>
+          <p><%= article.data.teaser %></p>
+        </article>
+      <% end %>
+
+    </div><!-- END .sixteen.columns -->
+  </div><!-- END #blog_list.container -->
+</section><!-- END #blog_list_banner -->

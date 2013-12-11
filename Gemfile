@@ -11,5 +11,9 @@ gem "middleman-blog"
 
 gem "middleman-deploy"
 
+gem "middleman-minify-html"
+
 gem "redcarpet"
 gem "middleman-syntax"
+
+gem "builder"

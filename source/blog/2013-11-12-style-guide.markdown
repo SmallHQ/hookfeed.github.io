@@ -1,14 +1,9 @@
 ---
 title: Style Guide
 category: awesomeness
+teaser: This is some teaser text about the article
 published: false
 ---
-
-set front matter so that the `head tag` contains:
-
-```html
-<link rel="author" href="https://plus.google.com/112350659218699921775">
-```
 
 <!-- Image (660px wide by any height, 300px tall looks good - retina: 1320px wide by 600px tall) -->
 ![Alt text](http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_5263607dd1bfc_1.JPG)
@@ -18,6 +13,12 @@ set front matter so that the `head tag` contains:
 Kale chips gentrify bespoke actually, Cosby sweater try-hard distillery vinyl ethnic lo-fi cray American Apparel sartorial church-key. Actually PBR&B raw denim, squid ennui Shoreditch semiotics. Meggings dreamcatcher viral YOLO, street art mlkshk cray fixie.
 
 **Thundercats shabby chic Cosby sweater selfies fingerstache mixtape.**
+
+set front matter so that the `head tag` contains:
+
+```html
+<link rel="author" href="https://plus.google.com/112350659218699921775">
+```
 
 Cardigan occupy raw denim chia meh mustache, *American Apparel fap Thundercats* tattooed Vice tousled mumblecore Schlitz. Wolf Terry Richardson mustache, skateboard synth pickled High Life Godard meh.
 

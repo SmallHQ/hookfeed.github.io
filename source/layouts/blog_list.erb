@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title><%= current_page.data.title || "HookFeed Blog" %></title>
+  <title><%= current_page.data.title || "HookFeed" %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Always force latest IE rendering engine or request Chrome Frame -->
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -20,27 +20,23 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
-<body id="blog_layout" class="<%= page_classes %>">
+<body id="blog_list_layout" class="<%= page_classes %>">
   <section id="header_bar_banner">
     <div id="header_bar" class="container">
       <div class="sixteen columns">
         <div id="logo">
-          <%= link_to '<img src="https://s3.amazonaws.com/HookFeed/hookfeed_logo.png" width="107" height="24">', '/' %>
+          <%= link_to '<img src="https://s3.amazonaws.com/HookFeed/hookfeed_logo_retina.png" width="130" height="24">', '/' %>
         </div>
         <nav>
-          <%= link_to 'View All Posts', '/blog' %>
+          <%# link_to 'About HookFeed', '/' %>
+          <%# link_to 'Blog', '/blog' %>
+          <%# link_to 'Login', 'https://secure.hookfeed.com/login' %>
         </nav>
       </div><!-- END .sixteen.columns -->
     </div><!-- END #header_bar.container -->
   </section><!-- END #header_bar_banner -->
 
-  <section id="blog_banner">
-    <div id="blog" class="container">
-      <div class="ten columns offset-by-three">
-        <%= yield %>
-      </div><!-- END .ten.columns.offset-by-three -->
-    </div><!-- END #blog.container -->
-  </section> <!-- END #blog_banner -->
+  <%= yield %>
 
   <% unless development? %>
     <!-- Google Analytics -->

@@ -1,8 +1,21 @@
 /* Privacy Policy and Terms of Service */
-#skinny_page_content {
-  p {
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 20px;
+#skinny_page_banner {
+  padding-top: 125px;
+  padding-bottom: 125px;
+
+  #skinny_page {
+    h1 {
+      color: #505254;
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: #909295;
+      font-size: 15px;
+      line-height: 29px;
+      margin-bottom: 30px;
+    }
   }
 }
