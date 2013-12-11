@@ -162,3 +162,222 @@
     }
   }
 }
+
+#sharing_banner {
+  padding: 20px 0px;
+  #sharing {
+    text-align: center;
+
+    p {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 14px;
+      color: #909295;
+    }
+
+    #anchor_divider {
+        color: #c0c5ce;
+        font-family: Pictos;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    #twitter, #googleplus, #facebook, #linkedin, #buffer {
+      display: inline-block;
+
+      /* All Mobile Sizes (devices and browser) */
+      @media only screen and (max-width: 767px) {
+        display: block;
+        margin-bottom: 8px;
+      }
+    }
+
+    #facebook {
+      margin-right: 40px;
+    }
+  }
+}
+
+#promo_banner {
+  padding: 20px 0px;
+
+  #promo_inner {
+    background-color: #f4f2e7;
+    border-radius: 4px;
+    padding: 30px 40px;
+    color: #053d5a;
+    min-height: 248px;
+
+    img {
+      float: right;
+      margin-left: 13px;
+
+      /* Smaller than standard 960 (devices and browsers) */
+      @media only screen and (max-width: 959px) {
+        float: none;
+        margin-left: 0px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      font-size: 15px;
+      line-height: 18px;
+      margin-top: 6px;
+      list-style-type: square;
+      list-style-position: inside;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    input[type="email"] {
+      padding: 10px 10px;
+      width: 241px;
+      margin: 0px 2px 6px;
+      background-color: #f7f7f7;
+      color: #579fc1;
+      font-size: 14px;
+      box-shadow: inset 0px 1px 3px rgba(0,0,0,.13);
+
+      /* Tablet Portrait size to standard 960 (devices and browsers) */
+      @media only screen and (min-width: 768px) and (max-width: 959px) {
+        width: 199px;
+      }
+
+      /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        width: 320px;
+      }
+
+      /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+      @media only screen and (max-width: 479px) {
+        width: 200px;
+      }
+    }
+
+    input[type="submit"] {
+      background-color: #59ABCE;
+      color: #f7f7f7;
+      font-size: 13px;
+      font-weight: bold;
+      padding: 10px 20px;
+      cursor: pointer;
+
+      /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        width: 340px;
+      }
+
+      /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+      @media only screen and (max-width: 479px) {
+        width: 220px;
+      }
+    }
+
+    input[type="email"],
+    input[type="submit"] {
+      font-family: $proxima;
+      border-radius: 4px;
+      display: inline-block;
+      border: none;
+
+      /* All Mobile Sizes (devices and browser) */
+      @media only screen and (max-width: 767px) {
+        display: block;
+      }
+    }
+  }
+}
+
+#bio_banner {
+  padding: 20px 0px 125px;
+
+  #bio {
+    .ten.columns {
+      position: relative;
+    }
+
+    h4 {
+      color: #444444;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 32px;
+      margin-bottom: 10px;
+    }
+
+    img {
+      border-radius: 44px;
+      float: left;
+      margin-right: 33px;
+      width: 88px;
+    }
+
+    h2 {
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 2px;
+      padding-top: 12px;
+
+      a {
+        color: #505254;
+      }
+    }
+
+    h3 {
+      color: #909295;
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 8px;
+
+      a {
+        color: #909295;
+      }
+    }
+
+    p {
+      color: #909295;
+      font-size: 15px;
+      line-height: 29px;
+      padding-left: 121px;
+
+      /* Mobile Landscape Size and Portrait */
+      @media only screen and (max-width: 767px) {
+        padding-left: 0px;
+        margin-top: 40px;
+      }
+
+      a {
+        color: #909295;
+      }
+    }
+
+    #follow {
+      position: absolute;
+      right: 0px;
+      top: 80px;
+
+      /* Mobile Landscape Size and Portrait */
+      @media only screen and (max-width: 767px) {
+        position: static;
+        margin-top: 6px;
+      }
+    }
+  }
+}
