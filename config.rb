@@ -1,3 +1,5 @@
+require 'builder'
+
 Time.zone = "Pacific Time (US & Canada)"
 
 ###
@@ -10,28 +12,11 @@ compass_config do |config|
 end
 
 ###
-# Page options, layouts, aliases and proxies
-###
-
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-###
 # Helpers
 ###
 activate :blog do |blog|
   blog.permalink = ":category/:title.html"
-  blog.layout = "blog_layout"
+  blog.layout = "blog"
   blog.prefix = "blog"
 end
 
@@ -53,6 +38,25 @@ set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true
+
+###
+# Page options, layouts, aliases and proxies
+###
+
+# Per-page layout changes:
+#
+# With no layout
+# page "/path/to/file.html", :layout => false
+#
+# With alternative layout
+# page "/path/to/file.html", :layout => :otherlayout
+#
+# A path which all have the same layout
+# with_layout :admin do
+#   page "/admin/*"
+# end
+page "/feed.xml", layout: false
+page "/sitemap.xml", layout: false
 
 # Build-specific configuration
 configure :build do

@@ -16,7 +16,7 @@ $green: #54BD9C;
 $green_hover: #51AE91;
 $blue: #5799D6;
 $blue_hover: #4C8BC5;
-$bg: #E8EAED;
+$bg: #f1f3f5;
 $text: #6C7079;
 $bold_text: #444444;
 
@@ -46,7 +46,10 @@ body {
 
 /* BEGIN HEADER BAR */
 #header_bar_banner {
-  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.95);
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 #header_bar {
   height: 50px;
@@ -55,8 +58,9 @@ body {
   @media only screen and (max-width: 767px) {height: 100px}
 
   #logo {
-    float: left;
-    width: 300px;
+    /*float: left;*/ /*TODO: turn back on*/
+    text-align: center;/*remove this*/
+    width: 100%; /*change back to 300px*/
     height: 24px;
     padding: 12px 0px 14px;
 
@@ -71,16 +75,21 @@ body {
     float: right;
 
     a {
-      color: $text;
-      font-size: 16px;
+      color: #bcc3cc;
+      font-size: 15px;
       line-height: 24px;
       padding: 13px 0px;
       display: inline-block;
-      margin-left: 20px;
+      margin-left: 28px;
       transition: color .2s;
 
+      &#trial_button {
+        color: #84c1b1;
+        font-weight: bold;
+      }
+
       &:hover {
-        color: #5799d6;
+        color: #5799d6 !important;
         text-decoration: none;
       }
 

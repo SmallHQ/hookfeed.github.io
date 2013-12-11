@@ -13,3 +13,5 @@ gem "middleman-deploy"
 
 gem "redcarpet"
 gem "middleman-syntax"
+
+gem "builder"
