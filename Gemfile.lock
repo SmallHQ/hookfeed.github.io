@@ -63,6 +63,8 @@ GEM
       middleman-core (>= 3.0.2)
       multi_json (~> 1.0)
       rack-livereload
+    middleman-minify-html (3.1.1)
+      middleman-core (~> 3.0)
     middleman-sprockets (3.2.0)
       middleman-core (~> 3.2)
       sprockets (~> 2.1)
@@ -116,5 +118,6 @@ DEPENDENCIES
   middleman-blog
   middleman-deploy
   middleman-livereload (~> 3.1.0)
+  middleman-minify-html
   middleman-syntax
   redcarpet

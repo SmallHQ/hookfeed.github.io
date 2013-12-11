@@ -28,9 +28,9 @@
           <%= link_to '<img src="https://s3.amazonaws.com/HookFeed/hookfeed_logo_retina.png" width="130" height="24">', '/' %>
         </div>
         <nav>
-          <%= link_to 'Pricing/Start Free Trial', '/#pricing_banner', id: "trial_button" %>
-          <%= link_to 'Blog', '/blog' %>
-          <%= link_to 'Login', 'https://secure.hookfeed.com/login' %>
+          <%# link_to 'Pricing/Start Free Trial', '/#pricing_banner', id: "trial_button" %>
+          <%# link_to 'Blog', '/blog' %>
+          <%# link_to 'Login', 'https://secure.hookfeed.com/login' %>
         </nav>
       </div><!-- END .sixteen.columns -->
     </div><!-- END #header_bar.container -->
@@ -41,6 +41,11 @@
       <div class="twelve columns offset-by-two">
         <%= yield %>
       </div><!-- END .twelve.columns.offset-by-two -->
+
+      <footer class="sixteen columns">
+        <a href="mailto:support@hookfeed.com">Support</a>
+        <span>Built by <a href="http://www.smallhq.com">Small HQ</a> &nbsp;|&nbsp;  <a href="http://www.madeinsd.org"> Made in SD</a></span>
+      </footer>
     </div><!-- END #skinny_page.container -->
   </section><!-- END #skinny_page_banner -->
 

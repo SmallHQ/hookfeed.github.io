@@ -57,6 +57,7 @@ set :markdown, fenced_code_blocks: true, smartypants: true
 # end
 page "/feed.xml", layout: false
 page "/sitemap.xml", layout: false
+page "/robots.txt", layout: false
 
 # Build-specific configuration
 configure :build do
@@ -65,6 +66,8 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
+  activate :minify_html
 
   # Enable cache buster
   activate :asset_hash

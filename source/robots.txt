@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+Disallow: /privacy-policy/
+Disallow: /terms-of-service/
+Disallow: /homepage_bottom/
+Sitemap: http://www.hookfeed.com/sitemap.xml

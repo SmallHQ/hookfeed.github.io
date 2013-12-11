@@ -29,6 +29,32 @@ body {
   line-height: 20px;
 }
 
+footer {
+  margin-top: 100px;
+  text-align: center;
+
+  a {
+    color: #898f95;
+    font-size: 15px;
+    line-height: 29px;
+    text-decoration: underline;
+    display: block;
+
+    &:visited {
+      color: #898f95;
+    }
+  }
+
+  span {
+    color: #898f95;
+    margin-right: 10px;
+
+    a {
+      display: inline;
+    }
+  }
+}
+
 /* BEGIN TYPOGRAPHY */
   a {
     color: $blue;
