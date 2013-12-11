@@ -36,8 +36,9 @@ body#page_layout.index {
           margin-bottom: 12px;
         }
 
-        span {
-          border-bottom: 1px solid #ddd;
+        img {
+          vertical-align: bottom;
+          margin: 0px 12px -2px 14px;
         }
       }
 
@@ -50,7 +51,7 @@ body#page_layout.index {
           margin-bottom: 30px;
         }
       }
-
+ /* Temporary email sign up field */
       input[type="email"] {
         padding: 10px 10px;
         width: 241px;
@@ -97,6 +98,9 @@ body#page_layout.index {
           margin-bottom: 10px;
         }
       }
+
+ /* END - Temporary email sign up field */
+
 
       a {
         background-color: #5a9bce;
@@ -194,7 +198,16 @@ body#page_layout.index {
         }
       }
 
-      #three_benefits {
+      #six_benefits {
+        .row:first-child {
+          margin-bottom: 80px;
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            margin-bottom: 40px;
+          }
+        }
+
         .benefit {
           margin-bottom: 0px;
           text-align: center;
@@ -211,8 +224,11 @@ body#page_layout.index {
             }
           }
 
-          img {
-
+          span {
+            font-family: $pictos;
+            font-size: 34px;
+            line-height: 38px;
+            color: #9DA3A9;
           }
 
           h2 {
@@ -232,6 +248,28 @@ body#page_layout.index {
             color: #909295;
             font-size: 15px;
             line-height: 29px;
+          }
+        }
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 100px;
+
+        a {
+          color: #898f95;
+          font-size: 15px;
+          line-height: 29px;
+          text-decoration: underline;
+          display: block;
+        }
+
+        span {
+          color: #898f95;
+          margin-right: 10px;
+
+          a {
+            display: inline;
           }
         }
       }
