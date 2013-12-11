@@ -39,6 +39,12 @@ body#page_layout.index {
         img {
           vertical-align: bottom;
           margin: 0px 12px -2px 14px;
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            height: 38px;
+            width: 93px;
+          }
         }
       }
 
@@ -51,7 +57,7 @@ body#page_layout.index {
           margin-bottom: 30px;
         }
       }
- /* Temporary email sign up field */
+ /* TODO: Temporary email sign up field */
       input[type="email"] {
         padding: 10px 10px;
         width: 241px;
@@ -794,7 +800,7 @@ body#page_layout.index {
       }
 
       footer {
-        margin-top: 0px;
+        margin-top: 0px !important;
       }
     }
   }
