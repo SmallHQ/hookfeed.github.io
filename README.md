@@ -36,6 +36,12 @@ $ git push -u github feature/[name]
 
 #### Do some work, make some commits, push some more. 
 
+```bash
+$ git add -A
+$ git commit -m 'description of changes'
+$ git push
+```
+
 #### Open a pull request on github when ready (to merge or to discuss), and mention me if necessary in the description of your pull request:
 
 ```bash
