@@ -70,53 +70,34 @@
 <section id="pricing_banner">
   <div id="pricing" class="container">
     <div id="pricing_headlines">
-      <h1>One-Click Setup. No Code. <strong>Just Awesomeness</strong>.</h1>
+      <h1>One-Click Setup. No Code. <strong>Just Awesomeness.</strong>.</h1>
       <h2>Get Started with a Risk-Free 14-Day Trial</h2>
     </div><!-- END #pricing_headlines -->
 
     <div id="interval_toggle">
       <a href="#" id="toggle_monthly" class="active">Monthly</a><a href="#" id="toggle_annual">Annual</a>
+      <div>Two Months Free</div>
     </div><!-- END #interval_toggle -->
 
     <div class="sixteen columns" id="pricing_table">
       <div id="labels">
-        <span class="label">Recipients</span>
-        <span class="label">Stripe Accounts</span>
         <span class="label">Email Alerts</span>
-        <span class="label">Daily Digests</span>
         <span class="label">Weekly Digests</span>
+        <span class="label">Daily Digests</span>
       </div><!-- END #labels -->
-
-      <div id="dev_plan" class="plan">
-        <div id="max_transactions_notice">Less than 20<br>monthly transactions?</div>
-
-        <h3>Dev</h3>
-
-        <ul>
-          <li>1<span> Recipient</span></li>
-          <li>Unlimited<span> Stripe Accounts</span></li>
-          <li class="yup">3<span>Email Alerts</span></li>
-          <li class="nope">*<span>Daily Digests</span></li>
-          <li class="nope">*<span>Weekly Digests</span></li>
-        </ul>
-
-        <div class="price">$0<span class="interval">/month</spn></div>
-
-        <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?p=dev_0_14_1_monthly" class="signup">Sign Up</a>
-      </div><!-- END #dev_plan -->
 
       <div id="solo_plan" class="plan">
         <h3>Solo</h3>
 
         <ul>
-          <li>1<span> Recipient</span></li>
-          <li>Unlimited<span> Stripe Accounts</span></li>
+          <li>1 Recipient</li>
           <li class="yup">3<span>Email Alerts</span></li>
-          <li class="yup">3<span>Daily Digests</span></li>
-          <li class="yup">3<span>Weekly Digests</span></li>
+          <li class="nope">*<span>Weekly Digests</span></li>
+          <li class="nope">*<span>Daily Digests</span></li>
         </ul>
 
-        <div class="price">$12<span class="interval">/month</spn></div>
+        <div class="monthly_price">$9<span class="interval">/month</span></div>
+        <div class="yearly_price">$90<span class="interval">/year</span></div>
 
         <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?p=solo_1200_14_1_monthly" class="signup">Start Trial</a>
       </div><!-- END #solo_plan -->
@@ -125,14 +106,14 @@
         <h3>Startup</h3>
 
         <ul>
-          <li>3<span> Recipients</span></li>
-          <li>Unlimited<span> Stripe Accounts</span></li>
+          <li>5 Recipients</li>
           <li class="yup">3<span>Email Alerts</span></li>
-          <li class="yup">3<span>Daily Digests</span></li>
           <li class="yup">3<span>Weekly Digests</span></li>
+          <li class="nope">*<span>Daily Digests</span></li>
         </ul>
 
-        <div class="price">$24<span class="interval">/month</spn></div>
+        <div class="monthly_price">$19<span class="interval">/month</span></div>
+        <div class="yearly_price">$190<span class="interval">/year</span></div>
 
         <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?p=startup_2400_14_3_monthly" class="signup">Start Trial</a>
       </div><!-- END #startup_plan -->
@@ -141,14 +122,14 @@
         <h3>Business</h3>
 
         <ul>
-          <li>10<span> Recipients</span></li>
-          <li>Unlimited<span> Stripe Accounts</span></li>
+          <li>10 Recipients</li>
           <li class="yup">3<span>Email Alerts</span></li>
-          <li class="yup">3<span>Daily Digests</span></li>
           <li class="yup">3<span>Weekly Digests</span></li>
+          <li class="yup">3<span>Daily Digests</span></li>
         </ul>
 
-        <div class="price">$72<span class="interval">/month</spn></div>
+        <div class="monthly_price">$39<span class="interval">/month</span></div>
+        <div class="yearly_price">$390<span class="interval">/year</span></div>
 
         <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?p=business_7200_14_10_monthly" class="signup">Start Trial</a>
       </div><!-- END #business_plan -->
