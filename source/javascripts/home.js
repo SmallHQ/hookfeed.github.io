@@ -8,5 +8,5 @@ $(document).ready(function(){
       clearOnHighlight  : true,
       typerInterval     : 4000
     });
-  }, 4000);
+  }, 2000);
 });
