@@ -18,16 +18,26 @@ $(document).ready(function(){
       $(this).attr("href", _href + '&c=' + stripe_coupon_id);
     });
 
+  /* On Page Load (i.e. back button) */
+  $('input[type="checkbox"]', 'form.annual_offer').each(function(){
+    updatePricingFor($(this));
+  });
+
+  /* On Checked/Unchecked */
   $('input[type="checkbox"]', 'form.annual_offer').change(function(){
-    if ($(this).is(':checked')) {
-      switchToYearlyPricing($(this));
-      yearlySignupButton($(this));
-    } else {
-      switchToMonthlyPricing($(this));
-      monthlySignupButton($(this));
-    }
+    updatePricingFor($(this));
   });
 });
+
+function updatePricingFor($checkbox){
+  if ($checkbox.is(':checked')) {
+    switchToYearlyPricing($checkbox);
+    yearlySignupButton($checkbox);
+  } else {
+    switchToMonthlyPricing($checkbox);
+    monthlySignupButton($checkbox);
+  }
+}
 
 function switchToMonthlyPricing($checkbox){
   $checkbox.parent().parent().siblings('.yearly_price').hide();
