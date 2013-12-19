@@ -10,14 +10,9 @@ changefreq: daily
       <h1>Stop missing important<img src="https://s3.amazonaws.com/HookFeed/stripe_logo.png" height="50" width="122">events</h1>
       <h2>We notify you of <span data-typer-targets="failed charges, failed bank transfers, successful bank transfers, refunded charges, new subscriptions, canceled subscriptions, disputed charges">disputed charges</span></h2>
 
-      <!--Sign Up Button - turn back on when ready.
       <a href="#pricing_banner">Start 14-Day Free Trial</a>
-      <div id="nudge">One-click setup. No code necessary.</div> -->
+      <div class="nudge"><u>Limited Time Offer</u> thru 12/31:<br>Get 3 months free when you sign up for an annual plan</div>
 
-       <form action="http://email.demandloyalty.com/t/r/s/tylujrr/" method="post" id="subForm" class="sixteen columns">
-        <input type="email" name="cm-tylujrr-tylujrr" id="tylujrr-tylujrr" placeholder="Email Address" /><input type="submit" value="Reserve Your Launch Discount" />
-      </form>
-      <span id="nudge">Today's the <u>last day</u> to claim your launch discount!</span>
     </div><!-- END .sixteen.columns -->
   </div><!-- END #headline.container -->
 </section><!-- END #headline_banner -->
@@ -86,10 +81,130 @@ changefreq: daily
         </div><!-- END .benefit -->
       </div><!-- END .row -->
     </div><!-- END #six_benefits -->
+  </div><!-- END #benefits.container -->
+</section><!-- END #benefits_banner -->
 
-    <footer class="sixteen columns">
+<section id="pricing_banner">
+  <div id="pricing" class="container">
+    <div id="pricing_headlines">
+      <h1>Get Started with a <u>Risk-Free</u> 14-Day Trial</h1>
+    </div><!-- END #pricing_headlines -->
+
+    <div class="sixteen columns" id="pricing_table">
+      <div id="labels">
+        <span class="label">Recipients</span>
+        <span class="label">Email Alerts</span>
+        <span class="label">Weekly Digests</span>
+        <span class="label">Daily Digests</span>
+      </div><!-- END #labels -->
+
+      <div id="solo_plan" class="plan">
+        <h3>Solo</h3>
+
+        <ul>
+          <li>1 Recipient</li>
+          <li class="yup">3<span>Email Alerts</span></li>
+          <li class="nope">*<span>Weekly Digests</span></li>
+          <li class="nope">*<span>Daily Digests</span></li>
+        </ul>
+
+        <form class="annual_offer">
+          <label><input type="checkbox" name="annual" value="annual" data-yearly-plan-id="solo_8100_yearly">I want three months free</label>
+        </form>
+
+        <div class="monthly_price">$9<span class="interval">/month</span></div>
+        <div class="yearly_price">$81<span class="interval">/year</span><span class="yearly_discount">*Save $27 by<br>paying annually</span></div>
+
+        <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?p=solo_900_monthly" class="signup" data-monthly-plan-id="solo_900_monthly">Start Free<br>14-Day Trial</a>
+      </div><!-- END #solo_plan -->
+
+      <div id="startup_plan" class="plan">
+        <h3>Startup</h3>
+
+        <ul>
+          <li>5 Recipients</li>
+          <li class="yup">3<span>Email Alerts</span></li>
+          <li class="yup">3<span>Weekly Digests</span></li>
+          <li class="nope">*<span>Daily Digests</span></li>
+        </ul>
+
+        <form class="annual_offer">
+          <label><input type="checkbox" name="annual" value="annual" data-yearly-plan-id="startup_17100_yearly">I want three months free</label>
+        </form>
+
+        <div class="monthly_price">$19<span class="interval">/month</span></div>
+        <div class="yearly_price">$171<span class="interval">/year</span><span class="yearly_discount">*Save $57 by<br>paying annually</span></div>
+
+        <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?p=startup_1900_monthly" class="signup" data-monthly-plan-id="startup_1900_monthly">Start Free<br>14-Day Trial</a>
+      </div><!-- END #startup_plan -->
+
+      <div id="business_plan" class="plan">
+        <h3>Business</h3>
+
+        <ul>
+          <li>10 Recipients</li>
+          <li class="yup">3<span>Email Alerts</span></li>
+          <li class="yup">3<span>Weekly Digests</span></li>
+          <li class="yup">3<span>Daily Digests</span></li>
+        </ul>
+
+        <form class="annual_offer">
+          <label><input type="checkbox" name="annual" value="annual" data-yearly-plan-id="business_35100_yearly">I want three months free</label>
+        </form>
+
+        <div class="monthly_price">$39<span class="interval">/month</span></div>
+        <div class="yearly_price">$351<span class="interval">/year</span><span class="yearly_discount">*Save $117 by<br>paying annually</span></div>
+
+        <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?p=business_3900_monthly" class="signup" data-monthly-plan-id="business_3900_monthly">Start Free<br>14-Day Trial</a>
+      </div><!-- END #business_plan -->
+    </div><!-- END #pricing_table -->
+  </div><!-- END #pricing.container -->
+</section><!-- END #pricing_banner -->
+
+
+
+
+<section id="faqs_banner">
+  <div id="faqs" class="container">
+
+    <div class="sixteen columns">
+      <h2>FAQs</h2>
+    </div><!-- END .sixteen.columns -->
+
+    <div class="row">
+      <div class="left_half columns">
+        <dl>
+          <dt>Is HookFeed Secure?</dt>
+          <dd>Completely. When you connect HookFeed to you Stripe account you’re giving read-only access. And we’ll never share your information with anyone.</dd>
+
+          <dt>Can I cancel anytime?</dt>
+          <dd>Yes. We’ll be sad to see you go, but if HookFeed isn’t for you we totally understand. We make it super easy to cancel your service and disconnect your Stripe account.</dd>
+
+          <dt>Which Stripe events do you track?</dt>
+          <dd>Currently we track Charges, Failed Charges, Refunds, New Subscribers, Cancellations, Bank Transfers, Failed Bank Transfers, Disputed Charges, and Settled Disputes. We are open to your suggestions for other events. A full list of events from Stripe can be found <a href="https://stripe.com/docs/api#list_events">here</a>.</dd>
+        </dl>
+      </div><!-- END .left_half.columns -->
+
+      <div class="right_half columns">
+        <dl>
+
+          <dt>Do I need to know how to code?</dt>
+          <dd>No! You can connect your Stripe account to HookFeed in one click. Literally. No code necessary.</dd>
+
+          <dt>Can I pick what events get sent to me?</dt>
+          <dd>Yes. Once you’re logged into your HookFeed account you can choose which events get sent to you in an instant email alert, and which events will be compiled into a daily and/or weekly digest email. You'll do the same for any teammates you add.</dd>
+
+          <dt>Who do I contact for help?</dt>
+          <dd><a href="https://twitter.com/SDMattG">Matt</a> and  <a href="https://twitter.com/JoelleSteiniger">Joelle</a>. We’re running the show but always have time to chat with you. In fact, we love hearing from you - so even if you don’t have a specific question, feel free to just say hi! <br>You can email us at <a href="mailto:support@hookfeed.com">support@hookfeed.com</a></dd>
+        </dl>
+      </div><!-- END .right_half.columns -->
+    </div><!-- END .row -->
+
+    <footer>
       <a href="mailto:support@hookfeed.com">Support</a>
       <span>Built by <a href="http://www.smallhq.com">Small HQ</a> &nbsp;|&nbsp;  <a href="http://www.madeinsd.org"> Made in SD</a></span>
     </footer>
-  </div><!-- END #benefits.container -->
-</section><!-- END #benefits_banner -->
+  </div><!-- END #faqs.container -->
+</section><!-- END #faqs_banner -->
+
+
