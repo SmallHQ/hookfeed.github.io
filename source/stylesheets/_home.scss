@@ -58,56 +58,6 @@ body#page_layout.homepage_bottom  {
           margin-bottom: 30px;
         }
       }
- /* TODO: Temporary email sign up field */
-      input[type="email"] {
-        padding: 10px 10px;
-        width: 241px;
-        margin: 0px 2px 6px;
-        background-color: #f1f3f5;
-        color: #579fc1;
-        font-size: 16px;
-        box-shadow: inset 0px 1px 3px rgba(0,0,0,.13);
-
-        /* All Mobile Sizes (devices and browser) */
-        @media only screen and (max-width: 767px) {
-          width: 264px;
-        }
-      }
-
-      input[type="submit"] {
-        background-color: #5a9bce;
-        border-radius: 3px;
-        color: #fff;
-        display: inline-block;
-        font-size: 16px;
-        font-weight: bold;
-        padding: 10px 20px;
-        cursor: pointer;
-
-
-        /* All Mobile Sizes (devices and browser) */
-        @media only screen and (max-width: 767px) {
-          padding: 10px 32px;
-        }
-      }
-
-      input[type="email"],
-      input[type="submit"] {
-        font-family: $proxima;
-        border-radius: 4px;
-        display: inline-block;
-        border: none;
-
-        /* All Mobile Sizes (devices and browser) */
-        @media only screen and (max-width: 767px) {
-          display: block;
-          margin: 0 auto;
-          margin-bottom: 10px;
-        }
-      }
-
- /* END - Temporary email sign up field */
-
 
       a {
         background-color: #5a9bce;
@@ -124,11 +74,17 @@ body#page_layout.homepage_bottom  {
           padding: 15px 30px;
         }
       }
-      #nudge {
+      .nudge {
         margin-top: 6px;
         font-size: 13px;
-        color: #e97573;
+        line-height: 18px;
+        color: #84c1b1;
         font-weight: bold;
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          font-size: 11px;
+        }
       }
     }
   }
