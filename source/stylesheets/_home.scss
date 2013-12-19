@@ -420,57 +420,6 @@ body#page_layout.homepage_bottom  {
         }
       }
 
-      #interval_toggle {
-        float: right;
-        margin-right: 10px;
-        padding-top: 33px;
-        position: relative;
-        height: 55px;
-
-        /* All Mobile Sizes */
-        @media only screen and (max-width: 767px) {
-          display: none;
-
-        }
-
-        div {
-          position: absolute;
-          top: 68px;
-          width: 100%;
-          color: #fff;
-          font-size: 14px;
-          text-align: center;
-        }
-
-        a {
-          background-color: #dee3e8;
-          color: #95a4b4;
-          font-size: 16px;
-          font-weight: bold;
-          padding: 8px 20px;
-          transition: .2s background-color, .2s color;
-
-          &:hover {
-            text-decoration: none;
-          }
-
-          &.active {
-            background-color: #f5f8fb;
-            color: #676f76;
-          }
-
-          &#toggle_monthly {
-            border-top-left-radius: 3px;
-            border-bottom-left-radius: 3px;
-          }
-
-          &#toggle_annual {
-            border-top-right-radius: 3px;
-            border-bottom-right-radius: 3px;
-          }
-        }
-      }
-
       #pricing_table {
         padding-top: 143px;
 
@@ -586,12 +535,12 @@ body#page_layout.homepage_bottom  {
           font-weight: bold;
           line-height: 32px;
           text-align: center;
-          display: none;
+          display: block;
           position: relative;
 
           &.yearly_price {
             text-align: left;
-            display: block;
+            display: none;
             padding-left: 32px;
           }
 
