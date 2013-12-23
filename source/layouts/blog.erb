@@ -94,7 +94,7 @@
         </div><!-- END #googleplus -->
         <!-- Facebook -->
         <div id="facebook">
-          <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" data-href="http://google.com">
+          <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false">
           </div>
         </div><!-- END #facebook -->
       </div><!-- END .ten columns offset-by-three -->
@@ -104,22 +104,7 @@
   <section id="promo_banner">
     <div id="promo" class="container">
       <div class="ten columns offset-by-three">
-        <div id="promo_inner">
-          <%= link_to '<img src="https://s3.amazonaws.com/HookFeed/rocketship.png" width="200" height="248">', "http://howtobuildarocketship.com" %>
-          <h2>Are you building your own SaaS?</h2>
-          <h3>Learn how to do it <i>our way</i>, and launch into revenue from <b>day one</b>.</h3>
-          <ul>Learn our secrets to:
-            <li>Building a quality audience</li>
-            <li>Developing the right product</li>
-            <li>Converting beta testers into paid users</li>
-            <li>Launching into revenue from day one</li>
-            <li>and more...</li>
-          </ul>
-          <form action="http://email.demandloyalty.com/t/r/s/tyjtukk/" method="post">
-            <input type="email" name="cm-tyjtukk-tyjtukk" placeholder="Your Email" id="sign_up" required>
-            <input type="submit" value="Reserve Your Launch Discount" id="submit">
-          </form>
-        </div> <!-- END #promo_inner -->
+        <%= partial "promos/#{current_page.data.promo}" %>
       </div><!-- END .ten columns offset-by-three -->
     </div><!-- END #promo.container -->
   </section> <!-- END #promo_banner -->
@@ -128,11 +113,7 @@
     <div id="bio" class="container">
       <div class="ten columns offset-by-three">
         <h4>About the Author</h4>
-        <%= link_to '<a href="https://twitter.com/JoelleSteiniger"><img src="https://s3.amazonaws.com/HookFeed/joelle.png" width="88" height="88"</a>' %>
-          <h2><a href="https://twitter.com/JoelleSteiniger">Joelle Steiniger</a></h2>
-          <h3>Co-Pilot, <a href="https://twitter.com/HookFeed">HookFeed</a></h3>
-          <p>Working tirelessly with Matt Goldman to build <a href="http://www.smallhq.com">Small HQ</a>, <a href="http://www.minimalytics.com">Minimalytics</a> &amp; <a href="http://www.hookfeed.com">HookFeed</a>. Writer, reader and triathlete. IPA connoisseur. Wanderlust.</p>
-          <div id="follow"><a href="https://twitter.com/JoelleSteiniger" class="twitter-follow-button" data-show-count="false">Follow @JoelleSteiniger</a></div>
+        <%= partial "authors/#{current_page.data.author}" %>
       </div><!-- END .ten columns offset-by-three -->
     </div><!-- END #bio.container -->
   </section> <!-- END #bio_banner -->
