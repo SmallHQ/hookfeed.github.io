@@ -46,6 +46,10 @@
   }
 
   #blog {
+    h1, h2, h3 {
+      color: #505254;
+    }
+
     h1 {
       font-size: 40px;
       line-height: 45px;
@@ -129,18 +133,19 @@
     }
 
     p, ul, ol, dl {
+      color: #909295;
       font-size: 20px;
       line-height: 28px;
     }
 
     blockquote {
+      padding: 20px;
       text-align: center;
 
       p {
-        color: $bold_text;
-        font-size: 32px;
-        font-style: italic;
-        font-weight: bold;
+        color: #505254;
+        font-size: 26px;
+        font-weight: normal;
         letter-spacing: -1px;
         line-height: 36px;
         margin-bottom: 5px;
@@ -148,9 +153,10 @@
 
       blockquote {
         margin-bottom: 0px;
+        padding: 0px;
 
         p {
-          color: $text;
+          color: #909295;
           font-size: 15px;
           font-style: normal;
           letter-spacing: 0px;
@@ -201,12 +207,12 @@
 #promo_banner {
   padding: 20px 0px;
 
-  #promo_inner {
+  #rocketship_promo {
     background-color: #f4f2e7;
     border-radius: 4px;
-    padding: 30px 40px;
     color: #053d5a;
     min-height: 248px;
+    padding: 30px 40px;
 
     img {
       float: right;
@@ -315,7 +321,7 @@
     }
 
     h4 {
-      color: #444444;
+      color: #505254;
       font-size: 24px;
       font-weight: bold;
       line-height: 32px;
@@ -365,6 +371,7 @@
 
       a {
         color: #909295;
+        text-decoration: underline;
       }
     }
 

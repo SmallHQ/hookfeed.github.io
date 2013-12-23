@@ -1,7 +1,8 @@
 ---
 title: Style Guide
-category: awesomeness
 teaser: This is some teaser text about the article
+promo: rocketship
+author: joelle_steiniger
 published: false
 ---
 
