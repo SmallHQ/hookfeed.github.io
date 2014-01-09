@@ -1,0 +1,27 @@
+body#tools_layout {
+  background-color: black;
+
+  #header_bar_banner {
+    background-color: #333;
+  }
+
+  #tool_banner {
+    padding-top: 145px;
+  }
+
+  #tools_banner {
+    padding-top: 145px;
+  }
+
+  form {
+    input[type="text"] {
+      background-color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 29px;
+      outline: none;
+      padding: 10px;
+    }
+  }
+}
