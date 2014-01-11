@@ -15,10 +15,23 @@ end
 # Helpers
 ###
 activate :blog do |blog|
+  blog.name = "blog"
+  blog.prefix = "blog"
   blog.permalink = ":title.html"
   blog.layout = "blog"
-  blog.prefix = "blog"
 end
+
+activate :blog do |blog|
+  blog.name = "guides"
+  blog.prefix = "guides"
+  blog.permalink = ":title.html"
+  blog.layout = "guide"
+end
+
+
+
+
+
 
 activate :livereload
 activate :directory_indexes
