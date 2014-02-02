@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HookFeed Blog</title>
+  <id>http://www.hookfeed.com/blog</id>
+  <link href="http://www.hookfeed.com/blog"/>
+  <link href="http://www.hookfeed.com/feed.xml" rel="self"/>
+  <updated>2013-12-23T08:00:00Z</updated>
+  <author>
+    <name>Matt Goldman</name>
+    <name>Joelle Steiniger</name>
+  </author>
+  <entry>
+    <title>How to Boost SaaS Cash Flow by Exploiting December</title>
+    <link rel="alternate" href="http://www.hookfeed.com/blog/how-to-boost-saas-cash-flow-by-exploiting-december/"/>
+    <id>http://www.hookfeed.com/blog/how-to-boost-saas-cash-flow-by-exploiting-december/</id>
+    <published>2013-12-23T08:00:00Z</published>
+    <updated>2014-01-27T22:13:53-08:00</updated>
+    <author>
+      <name>Matt Goldman</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="Boost December Software as a Service Cash Flow" src="https://s3.amazonaws.com/HookFeed/december-cash-flow%402x.png" /&gt;&lt;/p&gt;
+
+&lt;h1&gt;How to Boost SaaS Cash Flow by Exploiting December&lt;/h1&gt;
+
+&lt;p&gt;December can be a fickle month for sales in the SaaS biz. But we think we’ve discovered a way to squeeze the most juice out of the lemon and turn December into a powerhouse month for cash flow by taking advantage of one simple reality:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Year-End Budget Surpluses&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Before I dive into our tactics, let me back up to the origins of this strategy.&lt;/p&gt;
+
+&lt;p&gt;Last Spring, I flew to Vegas for a little SaaS conference. It ended up being my best business decision all year.&lt;/p&gt;
+
+&lt;p&gt;I hesitate to tell you which conference, because I worry that if more people catch on…prices will increase and attendance will become even more limited.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ah hell, it was &lt;a href="http://www.microconf.com/"&gt;MicroConf&lt;/a&gt; !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Within minutes of the first talk by &lt;a href="https://twitter.com/asmartbear"&gt;Jason Cohen&lt;/a&gt;, I was writing frantically jotting down notes about what’s worked for his company, &lt;a href="http://wpengine.com/"&gt;WP Engine&lt;/a&gt;. Many of the strategies were simple, and seemed obvious in hindsight, but they had significant impacts on the cash flow of his company.&lt;/p&gt;
+
+&lt;p&gt;The gist was this: by pushing monthly-paying customers towards annual plans, cash flow would increase to the extent that their marketing budget was covered. They were essentially raising investment from their current customers who trusted them most.&lt;/p&gt;
+
+&lt;p&gt;Over the past few months, we’ve struggled with &lt;a href="http://www.hookfeed.com"&gt;HookFeed&lt;/a&gt; and &lt;a href="http://www.minimalytics.com"&gt;Minimalytics&lt;/a&gt; to find opportunities to increase cash flow via an annual plan option. It can be difficult when your product is brand new, or when you know you haven’t found product-market fit quite yet.&lt;/p&gt;
+
+&lt;p&gt;At MicroConf, Jason detailed a few strategies that they use to increase cash flow. One of them really stood out.&lt;/p&gt;
+
+&lt;p&gt;They send an email a few months after sign up, re-iterating the discount for paying annually. &lt;a href="http://moz.com/rand/"&gt;Rand Fishkin&lt;/a&gt; wrote a bit about this email &lt;a href="http://moz.com/rand/exceptional-upgrade-path-ux-from-wpengine/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jason isn&amp;rsquo;t the only one doing this sort of marketing. Just the other day, I received this email from &lt;a href="https://www.codeship.io/"&gt;CodeShip&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="CodeShip Annual Upgrade Email" src="https://s3.amazonaws.com/HookFeed/codeship-annual-email.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;And this morning, I received the following well-timed email from &lt;a href="https://twitter.com/brennandunn"&gt;Brennan Dunn&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Quick — what&amp;rsquo;s tax deductible for 2013 and has helped over 5,000 freelancers get more clients and make more money? If you guessed my books, you&amp;rsquo;re right :-) Today, and just today, I&amp;rsquo;m putting both on sale for the next few hours [&amp;hellip;]&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I can tell you that as soon as I read these emails, the gears were turning in my head calculating how much I’d save&amp;hellip;thinking it’s a no-brainer to upgrade.&lt;/p&gt;
+
+&lt;p&gt;If we weren’t currently running leaner than normal, we absolutely would have upgraded our CodeShip account. And now that I know it’s an option, I’ll probably upgrade to annual billing in the future once our own SaaS revenues increase.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When you show happy customers pricing options, they no longer need to choose whether or not to buy&amp;hellip;they need to choose how much to pay.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;All these strategies are great — especially when you’re targeting existing customers. But we just launched &lt;a href="http://www.hookfeed.com"&gt;HookFeed&lt;/a&gt; last week. If we’re waiting a few months to send an upgrade promotion email, or triggering it based on heavy usage, people won’t be seeing those promotions for some time. And we’ll have to wait even longer to see a bump in our cash flow.&lt;/p&gt;
+
+&lt;p&gt;So we asked ourselves, &amp;ldquo;What can we do upon launch, in a tough month, to entice annual plan signups?&amp;rdquo;&lt;/p&gt;
+
+&lt;h2&gt;Using Timing to Increase Your SaaS Cash Flow&lt;/h2&gt;
+
+&lt;p&gt;In many businesses, December is a month of blowing budgets. Many companies have budget surpluses heading into the end of the year and are much looser with how they spend funds than they are in surrounding months.&lt;/p&gt;
+
+&lt;p&gt;In fact, employees are often encouraged to spend any remaining budget they can.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I don’t know about you, but that sounds like a gold mine to me.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I reached out to some friends to ask about their experience with budget surpluses, and learned a bit about budgets in large companies:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;In fact employees are often encouraged to spend any remaining budget they have. In contrast to startups; big business department annual budgets can put departments in a &amp;lsquo;use it or lose it&amp;rsquo; scenario. Where annual budgets may not roll over to the next year.&amp;rdquo;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/kevinsmoker"&gt;Kevin Smoker&lt;/a&gt; - Project Manager at &lt;a href="http://www.lifetechnologies.com/"&gt;Life Technologies&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And about the tax benefits of making certain purchases:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Businesses are incentived to spend year end budgets because these purchases are at a &amp;lsquo;pre-tax&amp;rsquo; discount of up to 39%.&amp;rdquo;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/michaelsacca"&gt;Michael Sacca&lt;/a&gt; - Co-Founder of &lt;a href="https://twitter.com/TinyFactorySD"&gt;Tiny Factory&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Implementing Annual Discounts in Our Product&lt;/h2&gt;
+
+&lt;p&gt;Here&amp;rsquo;s how we approached this with &lt;a href="http://www.hookfeed.com"&gt;HookFeed&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;We modified our homepage design before launch, in order to push the annual plan harder than previously planned. After a few iterations, we decided the following aspects were important:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Promotion text in the pricing section speaking directly to any visitors who may be looking to spend their remaining budgets&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Make it clear that the promotion is only available through the end of the year — adding some urgency (we’re offering 3 months free versus the regular 2 months free when paying annually).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Decided to still default to monthly prices so as not to give sticker shock to those who want to choose monthly billing&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Added a checkbox saying &amp;ldquo;I want three months free&amp;rdquo; which toggles the price to the annual plan&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href="http://www.hookfeed.com"&gt;Here&lt;/a&gt; is what we ended up with:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="HookFeed's Approach to Annual Pricing Discounts #1" src="https://s3.amazonaws.com/HookFeed/hookfeed-annual-pricing-header.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="HookFeed's Approach to Annual Pricing Discounts #2" src="https://s3.amazonaws.com/HookFeed/hookfeed-annual-pricing.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;As an early-stage, bootstrapped SaaS, cash flow is a top priority. If you’re in a similar boat, it should be your priority as well. It is the one metric that decides whether we’ll still be working on our products in X months and not looking for jobs.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;So if I can combine a small tweak with good timing to yield a cash-flow surge, you bet your ass I’m gonna try!&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+</feed>
