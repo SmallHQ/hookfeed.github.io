@@ -27,6 +27,19 @@ $(document).ready(function(){
   $('input[type="checkbox"]', 'form.annual_offer').change(function(){
     updatePricingFor($(this));
   });
+
+  // Lookup charges
+  // Set time to 30 days ago if we have JS and fade in button
+  $('a', '#charge_instructions').attr('href', 'https://manage.stripe.com/payments?created%5Bgte%5D=' + Math.floor((30).days().ago().getTime()/1000));
+  $('#lookup_charges').show();
+
+  $('#lookup_charges').click(function(){
+    $(this).fadeOut(300, function(){
+      $('#charge_instructions').fadeIn(300);
+    });
+
+    return false;
+  });
 });
 
 function updatePricingFor($checkbox){

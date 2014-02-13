@@ -125,7 +125,15 @@ changefreq: daily
           </tr>
         </tbody>
       </table>
-      <a href="#">Check your number of monthly charges</a>
+      <a href="#" id="lookup_charges">Check your number of monthly charges</a>
+      <div id="charge_instructions">
+        <ol>
+          <li>Login to Stripe and then <a href="#" target="_blank">click here</a>.</li>
+          <li>Make sure you are viewing Live (not Test) mode.</li>
+          <li>Your total charges for the past 30 days are in the bottom left corner.</li>
+          <li>Repeat this for each of your Stripe accounts and add up the totals.</li>
+        </ol>
+      </div>
     </div><!-- END #pricing_table -->
 
     <div class="six columns offset-by-one" id="testimonial_cta">
@@ -137,7 +145,7 @@ changefreq: daily
      </div><!-- END .testimonial -->
 
       <div id="start_trial">
-        <a href="#">Start Free 14-Day Trial</a>
+        <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new">Start Free 14-Day Trial</a>
         <p>100% Money Back Guarantee</p>
       </div>
     </div><!-- END #testimonial_cta -->

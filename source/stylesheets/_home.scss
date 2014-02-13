@@ -3,8 +3,8 @@ body#page_layout.homepage_bottom  {
 
   #headline_banner {
     background-color: #fff;
-    padding-top: 145px;
-    padding-bottom: 273px;
+    padding-top: 100px;
+    padding-bottom: 200px;
 
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {
@@ -72,6 +72,10 @@ body#page_layout.homepage_bottom  {
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
           padding: 15px 30px;
+        }
+
+        &:active {
+          background-color: $blue_hover;
         }
       }
       .nudge {
@@ -303,13 +307,13 @@ body#page_layout.homepage_bottom  {
             &:first-child {
               border-top-left-radius: 3px;
               text-align: left;
-              padding-left: 40px;
+              padding-left: 25px;
             }
 
             &:last-child {
               border-top-right-radius: 3px;
               text-align: right;
-              padding-right: 40px;
+              padding-right: 25px;
             }
           }
 
@@ -321,12 +325,12 @@ body#page_layout.homepage_bottom  {
 
             &:first-child {
               color: #909295;
-              padding: 16px 0px 16px 40px;
+              padding: 16px 0px 16px 25px;
             }
             &:last-child {
               color: #50bfa3;
               text-align: right;
-              padding: 16px 40px 16px 0px;
+              padding: 16px 25px 16px 0px;
             }
           }
 
@@ -356,10 +360,24 @@ body#page_layout.homepage_bottom  {
           }
         }
 
-        a {
-          display: block;
+        a#lookup_charges {
+          display: none;
           text-align: center;
           font-size: 15px;
+        }
+
+        #charge_instructions {
+          color: #909295;
+          display: none;
+          background-color: #f7f7f7;
+          padding: 25px;
+          border-radius: 3px;
+
+          ol {
+            font-size: 14px;
+            line-height: 21px;
+            list-style-position: inside;
+          }
         }
       }
 
@@ -425,7 +443,7 @@ body#page_layout.homepage_bottom  {
       #start_trial {
         a {
           display: block;
-          background-color: #50bfa3;
+          background-color: $blue;
           color: #fff;
           font-weight: bold;
           font-size: 18px;
@@ -434,6 +452,10 @@ body#page_layout.homepage_bottom  {
           padding: 24px 0px;
           border-radius: 4px;
           margin-bottom: 6px;
+
+          &:active {
+            background-color: $blue_hover;
+          }
         }
 
         p {
@@ -457,7 +479,7 @@ body#page_layout.homepage_bottom  {
 
     #faqs {
       h2 {
-        color: #fff;
+        color: #f7f7f7;
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 77px;
@@ -470,17 +492,19 @@ body#page_layout.homepage_bottom  {
       }
 
       dt {
-        color: #868e96;
+        color: #f7f7f7;
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 13px;
       }
 
       dd {
-        color: #868e96;
-        font-size: 15px;
-        line-height: 29px;
+        color: #aaa;
+        font-size: 16px;
+        line-height: 30px;
         margin-bottom: 56px;
+
+        a { color: #ccc; text-decoration: underline; }
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
@@ -501,7 +525,10 @@ body#page_layout.homepage_bottom  {
       }
 
       footer {
-        margin-top: 0px !important;
+        color: #aaa;
+        margin-top: 100px !important;
+
+        a {color: #ccc;}
       }
     }
   }
