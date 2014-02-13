@@ -285,7 +285,14 @@ body#page_layout.homepage_bottom  {
           color: #505254;
           font-size: 28px;
           line-height: 40px;
-          margin-bottom: 77px;
+          margin-bottom: 20px;
+        }
+
+        h2 {
+          color: #909295;
+          font-size: 20px;
+          line-height: 32px;
+          margin-bottom: 70px;
         }
       }
 
@@ -370,8 +377,9 @@ body#page_layout.homepage_bottom  {
           color: #909295;
           display: none;
           background-color: #f7f7f7;
-          padding: 25px;
+          padding: 10px 25px;
           border-radius: 3px;
+          margin-top:-13px;
 
           ol {
             font-size: 14px;
@@ -443,7 +451,7 @@ body#page_layout.homepage_bottom  {
       #start_trial {
         a {
           display: block;
-          background-color: $blue;
+          background-color: $green;
           color: #fff;
           font-weight: bold;
           font-size: 18px;
@@ -454,7 +462,7 @@ body#page_layout.homepage_bottom  {
           margin-bottom: 6px;
 
           &:active {
-            background-color: $blue_hover;
+            background-color: $green_hover;
           }
         }
 
