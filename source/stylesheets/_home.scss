@@ -272,11 +272,6 @@ body#page_layout.homepage_bottom  {
       padding-bottom: 60px;
     }
 
-    /* Larger than tablet */
-    @media only screen and (min-width: 768px) {
-      height: 592px;
-    }
-
     #pricing {
       #pricing_headlines {
         text-align: center;
@@ -287,111 +282,175 @@ body#page_layout.homepage_bottom  {
           line-height: 40px;
           margin-bottom: 20px;
         }
+      }
+
+      #all_plans_include {
+        margin-top: 38px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        padding: 30px 0;
+        text-align: center;
+        box-shadow: inset 0px 0px 6px rgba(0,0,0,0.25);
+        background-color: rgba(255,255,255,0.2);
 
         h2 {
-          color: #909295;
-          font-size: 20px;
-          line-height: 32px;
-          margin-bottom: 70px;
+          color: #505254;
+          font-size: 25px;
+          line-height: 27px;
+          margin-bottom: 8px;
+          padding-top: 8px;
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) {
+            font-size: 22px;
+          }
+
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (min-width: 480px) and (max-width: 767px) {
+            font-size: 22px;
+          }
+        }
+
+        span {
+          font-family: $pictos;
+          color: $green;
+          margin-right: 10px;
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) {
+             margin-right: 4px;
+          }
+
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (min-width: 480px) and (max-width: 767px) {
+            margin-right: 4px;
+          }
+        }
+
+        li {
+          font-size: 18px;
+          line-height: 26px;
+          display: inline;
+          margin-right: 10px;
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) {
+            font-size: 14px;
+          }
+
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (min-width: 480px) and (max-width: 767px) {
+            font-size: 16px;
+          }
+
+          /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+          @media only screen and (max-width: 479px) {
+            display: block;
+            text-align: left;
+            padding-left: 30px;
+          }
+
+          &:last-child {
+            margin-right: 0px;
+          }
         }
       }
 
-      #pricing_table {
-        table {
-          width: 100%;
-          margin-bottom: 8px;
+      #pricing_buckets {
+        margin-bottom: 20px;
 
-          td, th {
-            background-color: #f7f7f7;
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (min-width: 480px) and (max-width: 767px) {
+            margin-bottom: 10px;
           }
 
-          th {
-            font-size: 16px;
-            color: #909295;
-            padding: 20px 0px 8px;
-            border-bottom: 1px solid #dee2e7;
+        .pricing_bucket {
 
-            &:first-child {
-              border-top-left-radius: 3px;
-              text-align: left;
-              padding-left: 25px;
-            }
-
-            &:last-child {
-              border-top-right-radius: 3px;
-              text-align: right;
-              padding-right: 25px;
-            }
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (min-width: 480px) and (max-width: 767px) {
+            margin-bottom: 20px;
           }
 
-          td {
-            font-weight: bold;
-            font-size: 18px;
-            color: #909295;
-            border-bottom: 1px solid #efefef;
-
-            &:first-child {
-              color: #909295;
-              padding: 16px 0px 16px 25px;
-            }
-            &:last-child {
-              color: #50bfa3;
-              text-align: right;
-              padding: 16px 25px 16px 0px;
-            }
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (max-width: 479px) {
+            margin-bottom: 20px;
           }
 
-          tbody {
+          .inner {
+            background-color: #fff;
+            border-radius: 4px;
+            padding: 10px 10px;
+            text-align: center;
 
-            tr:first-child {
+            h3 {
+             font-size: 22px;
+             line-height: 26px;
+             font-weight: 800;
+             margin-bottom: 10px;
 
-              td:first-child {
-                padding-top: 18px;
-              }
-              td:last-child {
-                padding-top: 18px;
+              span {
+                font-size: 18px;
+                font-weight: 200;
               }
             }
 
-            tr:last-child {
-              border-bottom: none;
+            p {
+              font-size: 15px;
+              color: #505254;
 
-              td:first-child {
-                border-bottom-left-radius: 3px;
+              /* Tablet Portrait size to standard 960 (devices and browsers) */
+              @media only screen and (min-width: 768px) and (max-width: 959px) {
+               font-size: 13px;
               }
+            }
 
-              td:last-child {
-                border-bottom-right-radius: 3px;
+            .start_trial {
+                margin-top: 40px;
+                margin-bottom: 10px;
+              a {
+                background-color: $green;
+                color: #fff;
+                font-weight: bold;
+                font-size: 15px;
+                text-decoration: none;
+                text-align: center;
+                padding: 10px 20px;
+                border-radius: 4px;
+
+                /* Tablet Portrait size to standard 960 (devices and browsers) */
+                @media only screen and (min-width: 768px) and (max-width: 959px) {
+                  font-size: 13px;
+                  padding: 10px 10px;
+                }
+
+
+                &:active {
+                  background-color: $green_hover;
+                }
               }
             }
           }
         }
+      }
 
-        a#lookup_charges {
-          display: none;
+      #money_back_guarantee {
+        margin-bottom: 18px;
+
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 6px;
+        }
+
+        p {
+          font-size: 18px;
           text-align: center;
-          font-size: 15px;
-        }
-
-        #charge_instructions {
-          color: #909295;
-          display: none;
-          background-color: #f7f7f7;
-          padding: 10px 25px;
-          border-radius: 3px;
-          margin-top:-13px;
-
-          ol {
-            font-size: 14px;
-            line-height: 21px;
-            list-style-position: inside;
-          }
         }
       }
 
       .testimonial {
         margin-top: 38px;
-       margin-bottom: 52px;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
@@ -445,30 +504,6 @@ body#page_layout.homepage_bottom  {
           @media only screen and (max-width: 479px) {
             padding-top: 20px;
           }
-        }
-      }
-
-      #start_trial {
-        a {
-          display: block;
-          background-color: $green;
-          color: #fff;
-          font-weight: bold;
-          font-size: 18px;
-          text-decoration: none;
-          text-align: center;
-          padding: 24px 0px;
-          border-radius: 4px;
-          margin-bottom: 6px;
-
-          &:active {
-            background-color: $green_hover;
-          }
-        }
-
-        p {
-          font-size: 15px;
-          text-align: center;
         }
       }
     }
