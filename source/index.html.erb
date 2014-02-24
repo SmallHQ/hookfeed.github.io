@@ -89,60 +89,49 @@ changefreq: daily
       <h1>Stop Unnecessary Churn by Monitoring Your Stripe Accounts</h1>
     </div><!-- END #pricing_headlines -->
 
-    <div class="sixteen columns" id="all_plans_include">
-      <h2>All plans include everything:</h2>
-      <ul>
-        <li><span id="checks">3</span>Unlimited Alerts</li>
-        <li><span id="checks">3</span>Daily Digests</li>
-        <li><span id="checks">3</span>Weekly Digests</li>
-        <li><span id="checks">3</span>Unilimited Recipients</li>
-        <li><span id="checks">3</span>Unlimited Stripe Accounts</li>
-      </ul>
-    </div><!-- END #all_plans_include -->
-
     <div class="sixteen columns" id="pricing_buckets">
       <div class="four columns alpha pricing_bucket">
         <div class="inner">
           <h3>Free</h3>
           <p>Up to 20 charges/mo</p>
-          <div class="start_trial">
-            <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=0_0_20&p=0_0_20,900_21_100,1900_101_1000,4900_1001_5000">Sign Up</a>
-          </div> <!-- END .start_trial -->
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=0_0_20&p=0_0_20,900_21_100,1900_101_1000,4900_1001_5000">Sign Up</a>
         </div>
       </div>
       <div class="four columns pricing_bucket">
         <div class="inner">
           <h3>$9<span>/mo</span></h3>
           <p>Up to 100 charges/mo</p>
-          <div class="start_trial">
-            <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=900_21_100&p=0_0_20,900_21_100,1900_101_1000,4900_1001_5000">Start Free 14-Day Trial</a>
-          </div> <!-- END .start_trial -->
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=900_21_100&p=0_0_20,900_21_100,1900_101_1000,4900_1001_5000">Start Free 14-Day Trial</a>
         </div>
       </div>
       <div class="four columns pricing_bucket">
         <div class="inner">
           <h3>$19<span>/mo</span></h3>
           <p>Up to 1,000 charges/mo</p>
-          <div class="start_trial">
-            <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=1900_101_1000&p=0_0_20,900_21_100,1900_101_1000,4900_1001_5000">Start Free 14-Day Trial</a>
-          </div> <!-- END .start_trial -->
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=1900_101_1000&p=0_0_20,900_21_100,1900_101_1000,4900_1001_5000">Start Free 14-Day Trial</a>
         </div>
       </div>
       <div class="four columns omega pricing_bucket">
         <div class="inner">
           <h3>$49<span>/mo</span></h3>
           <p>Up to 5,000 charges/mo</p>
-          <div class="start_trial">
-            <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=4900_1001_5000&p=0_0_20,900_21_100,1900_101_1000,4900_1001_5000">Start Free 14-Day Trial</a>
-          </div> <!-- END .start_trial -->
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=4900_1001_5000&p=0_0_20,900_21_100,1900_101_1000,4900_1001_5000">Start Free 14-Day Trial</a>
         </div>
       </div>
     </div><!-- END #pricing_buckets -->
 
-    <div class="sixteen columns" id="money_back_guarantee">
-      <p>100% Money Back Guarantee</p>
-      <img src="https://s3.amazonaws.com/HookFeed/medal.png" width="50px">
-    </div>
+    <div class="seven columns offset-by-one" id="all_plans_include">
+      <div class="inner">
+        <h2>All plans include:</h2>
+        <ul>
+          <li><span id="checks">3</span><b>Unlimited</b> Stripe Accounts</li>
+          <li><span id="checks">3</span><b>Unlimited</b> Recipients</li>
+          <li><span id="checks">3</span><b>Unlimited</b> Alerts</li>
+          <li><span id="checks">3</span><b>Unlimited</b> Daily Digests</li>
+          <li><span id="checks">3</span><b>Unlimited</b> Weekly Digests</li>
+        </ul>
+      </div>
+    </div><!-- END #all_plans_include -->
 
     <div class="six columns offset-by-one testimonial">
       <a href="https://twitter.com/collision"><img src="https://s3.amazonaws.com/HookFeed/john_collison.jpg" width="72" height="72"></a>
@@ -150,14 +139,6 @@ changefreq: daily
       <h3><a href="https://stripe.com">Co-Founder of Stripe</a></h3>
       <p>"This is one of the things I've been hoping someone would build since we launched."</p>
     </div><!-- END .testimonial -->
-
-   <div class=" six columns offset-by-two testimonial">
-      <a href="https://twitter.com/michaelsacca"><img src="https://s3.amazonaws.com/HookFeed/michael_sacca.jpg" width="72" height="72"></a>
-      <h2><a href="https://twitter.com/michaelsacca">Michael Sacca</a></h2>
-      <h3><a href="https://brandisty.com/">Founder of Brandisty</a></h3>
-      <p>"HookFeed solves a major problem for our team. Digests especially help us assign actionable events to eachother."</p>
-    </div><!-- END .testimonial -->
-
   </div><!-- END #pricing.container -->
 </section><!-- END #pricing_banner -->
 
