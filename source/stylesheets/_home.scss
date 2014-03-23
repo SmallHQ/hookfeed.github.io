@@ -168,37 +168,31 @@ body#page_layout.homepage_bottom  {
     }
 
     #benefits {
-      #email_diagrams {
-        margin-bottom: 50px;
-        #alert_diagram, #digest_diagram {
-          h2, h3 {
-            text-align: center;
-          }
 
-          h2 {
-            color: #505254;
-            font-size: 24px;
-            line-height: 30px;
-            margin-bottom: 5px;
-          }
-
-          h3 {
-            color: #909295;
-            font-size: 15px;
-            line-height: 21px;
-            margin-bottom: 21px;
-          }
+      #payment_platform_logos {
+        img {
+          margin-bottom: 20px;
+          margin-left: 20px;
         }
+      }
 
-        /* All Mobile Sizes (devices and browser) */
-        @media only screen and (max-width: 767px) {
-          #alert_diagram {
-            margin-bottom: 40px;
+      #stripe_events {
+        margin-bottom: 100px;
+        a {
+          padding: 8px 10px;
+          border-bottom: 1px solid #505254;
+          display: block;
+          text-decoration: none;
+          color: #333;
+
+          &:hover {
+            background-color: #F1EFD2
           }
         }
       }
 
-      #six_benefits {
+      #three_benefits {
+
         .benefit {
           margin-bottom: 0px;
           text-align: center;
@@ -253,6 +247,19 @@ body#page_layout.homepage_bottom  {
     }
   }
 
+  #team_banner {
+    background-color: #333;
+    padding: 94px 0px;
+
+    h1 {
+      color: #fff;
+      font-size: 28px;
+      line-height: 40px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  }
+
 
   #pricing_banner {
     background-color: #dee2e7;
@@ -274,6 +281,12 @@ body#page_layout.homepage_bottom  {
           color: #505254;
           font-size: 28px;
           line-height: 40px;
+          margin-bottom: 10px;
+        }
+
+        h2 {
+          font-size: 22px;
+          line-height: 28px;
           margin-bottom: 20px;
         }
       }
