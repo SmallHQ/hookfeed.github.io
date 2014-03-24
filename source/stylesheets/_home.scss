@@ -164,30 +164,159 @@ body#page_layout.homepage_bottom  {
       font-size: 28px;
       line-height: 40px;
       text-align: center;
-      margin-bottom: 77px;
+      margin-bottom: 40px;
     }
 
     #benefits {
-
       #payment_platform_logos {
-        img {
-          margin-bottom: 20px;
-          margin-left: 20px;
+        margin-bottom: 40px;
+
+        a {
+          background-color: #fff;
+          display: inline-block;
+          float:left;
+          width: 217px;
+          margin-right: 28px;
+          padding: 30px 0;
+          text-align: center;
+          border-radius: 5px;
+          border: 1px solid #ddd;
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) {
+            width: 175px;
+            margin-right: 20px;
+          }
+
+          /* Non-Mobile Sizes */
+          @media only screen and (min-width: 768px) {
+            &:last-child {
+              margin-right:0px;
+            }
+          }
+
+          &#stripe {
+            cursor: default;
+            box-shadow: inset 0px 0px 15px rgba(0,0,0,0.1);
+          }
+
+          &#braintree,
+          &#balanced,
+          &#other {
+            border: 1px solid #ccc;
+            opacity: .4;
+          }
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            display: block;
+            float:none;
+            margin: 0px auto 20px;
+          }
+
+          img {
+          }
         }
       }
 
-      #stripe_events {
+      #email_samples {
         margin-bottom: 100px;
+      }
+
+      nav#stripe_events {
+        width: 300px;
+        float: left;
+        display: inline-block;
+
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+          width: 200px;
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          width: 420px;
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          width: 300px;
+        }
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          text-align: center;
+        }
+
+        h2 {
+          color: #505254;
+          font-size: 14px;
+          font-weight: bold;
+          margin-top:30px;
+          text-transform: uppercase;
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            margin-bottom: 5px;
+          }
+        }
+
         a {
-          padding: 8px 10px;
-          border-bottom: 1px solid #505254;
+          padding: 9px 10px;
+          border-bottom: 1px solid #ddd;
           display: block;
           text-decoration: none;
-          color: #333;
+          color: #909295;
 
           &:hover {
-            background-color: #F1EFD2
+            color: #505254;
           }
+
+          &.active {
+            color: #505254;
+            font-weight: bold;
+          }
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            padding: 2px;
+            border-bottom: 0px;
+            cursor: default;
+
+            &:hover {
+              color: #909295;
+            }
+
+            &.active {
+              color: #909295;
+              font-weight: normal;
+            }
+          }
+        }
+      }
+
+      #email_preview {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 10px rgba(0,0,0,0.1);
+        width: 658px;
+        float: left;
+        display: inline-block;
+        height:1000px;
+        overflow:hidden;
+
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+          width: 566px;
+        }
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          display: none;
+        }
+
+        img {
         }
       }
 
