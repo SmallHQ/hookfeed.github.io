@@ -9,6 +9,7 @@
 
 $helvetica: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $proxima: 'proxima-nova', $helvetica;
+$proxima-soft: 'proxima-nova-soft', 'proxima-nova', $helvetica;
 $pictos: 'Pictos';
 $red: #E96565;
 $red_hover: #D75C5C;
@@ -116,8 +117,13 @@ input[type="submit"] {
         color: #84c1b1;
         font-weight: bold;
         border: 2px solid #84c1b1;
-        border-radius: 4px;
+        border-radius: 3px;
         padding: 5px 8px;
+
+        &:hover {
+          color: #f7f7f7 !important;
+          background-color: #84c1b1 !important;
+        }
       }
 
       &:hover {

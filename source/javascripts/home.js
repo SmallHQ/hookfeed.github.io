@@ -32,11 +32,15 @@ $(document).ready(function(){
 
   // Sample Emails
   $('a', '#stripe_events').click(function(){
-    $('img', '#email_preview').fadeOut(function(){
-    })
+    $link = $(this);
 
+    // Change Active Email Preview
+    $('#email_preview').attr('height', $link.data('height'));
+    $('img', '#email_preview').attr('src', $link.data('src'));
+
+    // Change Active Stripe Event
     $('a', '#stripe_events').removeClass('active');
-    $(this).addClass('active');
+    $link.addClass('active');
 
     return false;
   });
