@@ -1,17 +1,6 @@
 var stripe_coupon_id = $.url().param('c');
 
 $(document).ready(function(){
-  window.setTimeout(function(){
-    $('[data-typer-targets]').typer({
-      highlightSpeed    : 400,
-      typeSpeed         : 50,
-      clearDelay        : 200,
-      typeDelay         : 100,
-      clearOnHighlight  : true,
-      typerInterval     : 4000
-    });
-  }, 2000);
-
   if(stripe_coupon_id)
     $("a.signup").each(function() {
       var _href = $(this).attr("href");
@@ -37,6 +26,21 @@ $(document).ready(function(){
     $(this).fadeOut(300, function(){
       $('#charge_instructions').fadeIn(300);
     });
+
+    return false;
+  });
+
+  // Sample Emails
+  $('a', '#stripe_events').click(function(){
+    $link = $(this);
+
+    // Change Active Email Preview
+    $('#email_preview').attr('height', $link.data('height'));
+    $('img', '#email_preview').attr('src', $link.data('src'));
+
+    // Change Active Stripe Event
+    $('a', '#stripe_events').removeClass('active');
+    $link.addClass('active');
 
     return false;
   });

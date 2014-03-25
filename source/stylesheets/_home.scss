@@ -3,22 +3,21 @@ body#page_layout.homepage_bottom  {
 
   #headline_banner {
     background-color: #fff;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
 
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {
-      padding-top: 130px;
-      padding-bottom: 193px;
+      padding-top: 150px;
+      padding-bottom: 80px;
     }
 
     #headline {
       text-align: center;
 
       h1, h2 {
-        font-size: 31px;
-        line-height: 38px;
         letter-spacing: -1px;
+        font-family: $proxima-soft;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
@@ -28,6 +27,8 @@ body#page_layout.homepage_bottom  {
       }
 
       h1 {
+        font-size: 41px;
+        line-height: 44px;
         color: #494b4d;
         font-weight: bold;
         margin-bottom: 20px;
@@ -50,6 +51,7 @@ body#page_layout.homepage_bottom  {
       }
 
       h2 {
+        font-size: 26px;
         color: #868e96;
         margin-bottom: 59px;
 
@@ -58,157 +60,339 @@ body#page_layout.homepage_bottom  {
           margin-bottom: 30px;
         }
       }
+    }
+  }
 
-      a {
-        background-color: #5a9bce;
-        border-radius: 3px;
-        color: #fff;
-        display: inline-block;
-        font-size: 16px;
+  #testimonial_banner {
+    background-color: #48A688;
+    color: #fff;
+    padding: 20px 0px;
+
+    #testimonial {
+      padding-top: 20px;
+
+      /* All Mobile Sizes (devices and browser) */
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 50px;
+      }
+
+      img#john {
+        border-radius: 36px;
+        float: left;
+        margin-right: 20px;
+        width: 72px;
+        vertical-align: center;
+      }
+
+      h2 {
+        font-size: 25px;
         font-weight: bold;
-        padding: 19px 43px;
-        text-decoration: none;
+        line-height: 27px;
+        margin-bottom: 8px;
+        padding-top: 8px;
 
-        /* All Mobile Sizes (devices and browser) */
-        @media only screen and (max-width: 767px) {
-          padding: 15px 30px;
-        }
+        a {
+          color: #fff;
 
-        &:active {
-          background-color: $blue_hover;
+          &:hover {
+            text-decoration: none;
+          }
         }
       }
-      .nudge {
-        margin-top: 6px;
-        font-size: 13px;
-        line-height: 18px;
-        color: #84c1b1;
-        font-weight: bold;
+
+      h3 {
+        color: #fff;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 25px;
+
+        a {
+          color: #fff;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+
+      p {
+        color: #fff;
+        font-size: 18px;
+        line-height: 29px;
 
         /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
         @media only screen and (max-width: 479px) {
-          font-size: 11px;
+          padding-top: 20px;
         }
       }
+     }
+    #customer_logos {
+      text-align: center;
+      color: #dee2e7;
+      padding-bottom: 20px;
+
+      /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        margin-top: 40px;
+      }
+
+      /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+      @media only screen and (max-width: 479px) {
+        margin-top: 40px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  #benefits_banner,
+  #team_banner {
+    h1 {
+      font-size: 28px;
+      line-height: 40px;
+      text-align: center;
+      font-family: $proxima-soft;
+      margin-bottom: 40px;
+      font-weight: bold;
     }
   }
 
   #benefits_banner {
     background-color: #f1f3f5;
-    padding-top: 380px;
+    padding-top: 94px;
     padding-bottom: 114px;
-
-    /* Tablet Portrait size to standard 960 (devices and browsers) */
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      padding-top: 300px;
-    }
-
-    /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-      padding-top: 841px;
-    }
-
-    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-    @media only screen and (max-width: 479px) {
-      padding-top: 640px;
-    }
 
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {
       padding-bottom: 60px;
     }
 
+    h1 {
+      color: #505254;
+    }
+
     #benefits {
-      #email_diagrams {
-        position: absolute;
-        top: -518px;
+      #payment_platform_logos {
+        margin-bottom: 40px;
+
+        p {
+          font-family: $proxima-soft;
+          font-size: 20px;
+          line-height: 28px;
+          color: #505254;
+        }
+
+        a {
+          background-color: #fff;
+          display: inline-block;
+          float:left;
+          width: 217px;
+          margin-right: 28px;
+          text-align: center;
+          border-radius: 5px;
+          border: 1px solid #ddd;
+          text-decoration: none;
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) {
+            width: 175px;
+            margin-right: 20px;
+          }
+
+          /* Non-Mobile Sizes */
+          @media only screen and (min-width: 768px) {
+            &:last-child {
+              margin-right:0px;
+            }
+          }
+
+          &#stripe {
+            cursor: default;
+            box-shadow: inset 0px 0px 15px rgba(0,0,0,0.1);
+            position: relative;
+            border: 2px solid #84C1B1;
+            padding: 34px 0 26px;
+
+            #pointer {
+              border-left: 10px solid rgba(0, 0, 0, 0);
+              border-right: 10px solid rgba(0, 0, 0, 0);
+              border-top: 10px solid #84C1B1;
+              position: absolute;
+              bottom: -12px;
+              left: 100px;
+              width: 0px;
+
+              /* Tablet Portrait size to standard 960 (devices and browsers) */
+              @media only screen and (min-width: 768px) and (max-width: 959px) {
+                left:80px;
+              }
+
+              /* All Mobile Sizes (devices and browser) */
+              @media only screen and (max-width: 767px) {
+                display: none;
+              }
+            }
+
+            /* Tablet Portrait size to standard 960 (devices and browsers) */
+            @media only screen and (min-width: 768px) and (max-width: 959px) {
+              img {width: 100px;height:41px;}
+              padding: 39px 0 30px;
+            }
+          }
+
+          &#braintree {
+            padding: 36px 0;
+
+            /* Tablet Portrait size to standard 960 (devices and browsers) */
+            @media only screen and (min-width: 768px) and (max-width: 959px) {
+              img {width: 140px;height:35px;}
+              padding: 40px 0 37px;
+            }
+          }
+
+          &#balanced {
+            padding: 28px 0 23px;
+
+            /* Tablet Portrait size to standard 960 (devices and browsers) */
+            @media only screen and (min-width: 768px) and (max-width: 959px) {
+              img {width: 120px;height:52px;}
+              padding: 33px 0 27px;
+            }
+          }
+
+          &#braintree,
+          &#balanced,
+          &#other {
+            border: 1px solid #ccc;
+            opacity: .4;
+          }
+
+          &#other {
+            padding: 47px 0 42px;
+            width: 215px;
+
+            /* Tablet Portrait size to standard 960 (devices and browsers) */
+            @media only screen and (min-width: 768px) and (max-width: 959px) {
+              width: 173px;
+            }
+          }
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            display: block;
+            float:none;
+            margin: 0px auto 20px;
+          }
+
+          img {
+          }
+        }
+      }
+
+      #email_samples {
+        margin-bottom: 100px;
+      }
+
+      nav#stripe_events {
+        width: 300px;
+        float: left;
+        display: inline-block;
+        font-family: $proxima-soft;
 
         /* Tablet Portrait size to standard 960 (devices and browsers) */
         @media only screen and (min-width: 768px) and (max-width: 959px) {
-          top: -438px;
+          width: 200px;
         }
 
         /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
         @media only screen and (min-width: 480px) and (max-width: 767px) {
-          top: -961px;
+          width: 420px;
         }
 
         /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
         @media only screen and (max-width: 479px) {
-          top: -760px;
-        }
-
-        #alert_diagram, #digest_diagram {
-          h2, h3 {
-            text-align: center;
-          }
-
-          h2 {
-            color: #505254;
-            font-size: 24px;
-            line-height: 30px;
-            margin-bottom: 5px;
-          }
-
-          h3 {
-            color: #909295;
-            font-size: 15px;
-            line-height: 21px;
-            margin-bottom: 21px;
-          }
+          width: 300px;
         }
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
-          #alert_diagram {
-            margin-bottom: 40px;
+          text-align: center;
+        }
+
+        h2 {
+          color: #505254;
+          font-size: 14px;
+          font-weight: bold;
+          margin-top:30px;
+          text-transform: uppercase;
+          margin-bottom: 5px;
+        }
+
+        a {
+          padding: 9px 10px;
+          border-bottom: 1px solid #ddd;
+          display: block;
+          text-decoration: none;
+          color: #909295;
+
+          &:hover {
+            color: #505254;
           }
-        }
-      }
 
-      #customize_your_events p {
-        color: #505254;
-        padding: 28px 0px;
-        border-top: solid 1px #bbb;
-        border-bottom: solid 1px #bbb;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-        margin-bottom: 80px;
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-        @media only screen and (min-width: 768px) and (max-width: 959px) {
-          padding: 22px 0px;
-        }
-
-        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-        @media only screen and (min-width: 480px) and (max-width: 767px) {
-          margin-bottom: 40px;
-          font-size: 18px;
-          line-height: 24px;
-          padding: 20px 0px;
-        }
-
-        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-        @media only screen and (max-width: 479px) {
-          margin-bottom: 40px;
-          font-size: 16px;
-          line-height: 22px;
-          padding: 18px 0px;
-
-
-        }
-      }
-
-      #six_benefits {
-        .row:first-child {
-          margin-bottom: 80px;
+          &.active {
+            color: #505254;
+            font-weight: bold;
+          }
 
           /* All Mobile Sizes (devices and browser) */
           @media only screen and (max-width: 767px) {
-            margin-bottom: 40px;
+            padding: 2px;
+            border-bottom: 0px;
+            cursor: default;
+
+            &:hover {
+              color: #909295;
+            }
+
+            &.active {
+              color: #909295;
+              font-weight: normal;
+            }
           }
         }
+      }
+
+      #email_preview {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 10px rgba(0,0,0,0.1);
+        width: 658px;
+        float: left;
+        display: inline-block;
+        height:667;
+        overflow:hidden;
+
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+          width: 566px;
+        }
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          display: none;
+        }
+
+        img {
+        }
+      }
+
+      #three_benefits {
 
         .benefit {
           margin-bottom: 0px;
@@ -217,6 +401,10 @@ body#page_layout.homepage_bottom  {
           /* All Mobile Sizes (devices and browser) */
           @media only screen and (max-width: 767px) {
             margin-bottom: 40px;
+          }
+
+          &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+            margin-bottom: 30px;
           }
 
           &:last-child {
@@ -260,6 +448,12 @@ body#page_layout.homepage_bottom  {
     }
   }
 
+  #team_banner {
+    background-color: #333;
+    padding: 94px 0px;
+    color: #f7f7f7;
+    display: none;
+  }
 
   #pricing_banner {
     background-color: #dee2e7;
@@ -278,9 +472,18 @@ body#page_layout.homepage_bottom  {
         text-align: center;
 
         h1 {
+          font-weight: bold;
+          font-family: $proxima-soft;
           color: #505254;
           font-size: 28px;
           line-height: 40px;
+          margin-bottom: 10px;
+        }
+
+        h2 {
+          font-size: 22px;
+          font-family: $proxima-soft;
+          line-height: 28px;
           margin-bottom: 20px;
         }
       }
@@ -374,11 +577,20 @@ body#page_layout.homepage_bottom  {
       }
 
       .testimonial {
-        margin-top: 38px;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
           margin-bottom: 50px;
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          margin-top: 38px;
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          margin-top: 38px;
         }
 
         img {
@@ -495,6 +707,8 @@ body#page_layout.homepage_bottom  {
     #faqs {
       h2 {
         color: #f7f7f7;
+        font-weight: bold;
+        font-family: $proxima-soft;
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 77px;
