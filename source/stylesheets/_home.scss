@@ -66,16 +66,9 @@ body#page_layout.homepage_bottom  {
   #testimonial_banner {
     background-color: #48A688;
     color: #fff;
-    padding: 20px 0px;
+    padding: 40px 0px;
 
     #testimonial {
-      padding-top: 20px;
-
-      /* All Mobile Sizes (devices and browser) */
-      @media only screen and (max-width: 767px) {
-        margin-bottom: 50px;
-      }
-
       img#john {
         border-radius: 36px;
         float: left;
@@ -125,11 +118,11 @@ body#page_layout.homepage_bottom  {
           padding-top: 20px;
         }
       }
-     }
+    }
+
     #customer_logos {
       text-align: center;
       color: #dee2e7;
-      padding-bottom: 20px;
 
       /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
       @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -146,6 +139,22 @@ body#page_layout.homepage_bottom  {
         line-height: 28px;
         text-align: center;
         margin-bottom: 20px;
+      }
+
+      .row:first-of-type {
+        margin-bottom: 20px;
+      }
+
+      a {display: inline-block;}
+
+      /* All Mobile Sizes (devices and browser) */
+      @media only screen and (max-width: 767px) {
+        .four.columns {
+          margin-bottom: 20px;
+        }
+        .row:first-of-type {
+          margin-bottom: 0px;
+        }
       }
     }
   }
