@@ -583,6 +583,22 @@ body#page_layout.homepage_bottom  {
             }
           }
         }
+
+        #enterprise {
+          font-size: 14px;
+          text-align: right;
+          margin: 10px 0;
+          color: #505254;
+
+          a {
+            font-weight: bold;
+          }
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            text-align: center;
+          }
+        }
       }
 
       .testimonial {
