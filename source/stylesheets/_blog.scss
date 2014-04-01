@@ -2,11 +2,11 @@
   background-color: #fff;
 }
 #blog_list_banner {
-  padding-top: 150px;
+  padding-top: 100px;
 
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {
-    padding-top: 200px;
+    padding-top: 175px;
   }
 
   #blog_list {
@@ -38,16 +38,17 @@
 }
 
 #blog_banner {
-  padding-top: 150px;
+  padding-top: 100px;
 
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {
-    padding-top: 100px;
+    padding-top: 175px;
   }
 
   #blog {
     h1, h2, h3 {
       color: #505254;
+      font-weight: bold;
     }
 
     h1 {
@@ -78,23 +79,44 @@
     }
 
     img {
-      width: 660px;
-      margin: 0 -40px;
       border-radius: 4px;
+      margin: 0 -40px;
+      width: 660px;
+
+      &.full-image {
+        border-radius: 4px;
+        margin: 0 -190px;
+        width: 960px;
+      }
 
       /* Tablet Portrait size to standard 960 (devices and browsers) */
       @media only screen and (min-width: 768px) and (max-width: 959px) {
         width: 540px;
+
+        &.full-image {
+          margin: 0 -154px;
+          width: 768px;
+        }
       }
 
       /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
       @media only screen and (min-width: 480px) and (max-width: 767px) {
         width: 500px;
+
+        &.full-image {
+          margin: 0 -40px;
+          width: 500px;
+        }
       }
 
       /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
       @media only screen and (max-width: 479px) {
         width: 380px;
+
+        &.full-image {
+          margin: 0 -40px;
+          width: 380px;
+        }
       }
     }
 
@@ -130,12 +152,13 @@
 
     p, ul, ol, dl, pre, blockquote {
       margin-bottom: 30px;
+      font-family: $proxima-soft;
     }
 
     p, ul, ol, dl {
-      color: #909295;
+      color: #666;
       font-size: 20px;
-      line-height: 28px;
+      line-height: 32px;
     }
 
     blockquote {
