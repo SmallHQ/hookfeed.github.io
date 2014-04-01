@@ -1,7 +1,6 @@
 ---
 title: Don't Act Huge...Don't Act Tiny
 teaser: How we launched a sign up page that didn't address the objections of our customers, and what we did to fix it.
-promo: hookfeed
 author: matt_goldman
 published: false
 ---

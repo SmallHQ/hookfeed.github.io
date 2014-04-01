@@ -2,9 +2,17 @@ var stripe_coupon_id = $.url().param('c');
 
 $(document).ready(function(){
   if(stripe_coupon_id)
-    $("a.signup").each(function() {
+    $("a.signup:not('#0_0_20_btn')").each(function() {
       var _href = $(this).attr("href");
       $(this).attr("href", _href + '&c=' + stripe_coupon_id);
+
+      if(stripe_coupon_id == '30days'){
+        $(this).html('Start Free 30-Day Trial');
+      }else if(stripe_coupon_id == '60days'){
+        $(this).html('Start Free 60-Day Trial');
+      }
+
+      $(this).append('<span>with coupon</span>');
     });
 
   /* On Page Load (i.e. back button) */

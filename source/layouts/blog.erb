@@ -106,7 +106,9 @@
   <section id="promo_banner">
     <div id="promo" class="container">
       <div class="ten columns offset-by-three">
-        <%= partial "promos/#{current_page.data.promo}" %>
+        <div class="promo_inner" id="hookfeed_promo">
+          <a href="/"><img src="https://s3.amazonaws.com/smallhq/hookfeed_promo%402x.png" width="560" class="scale-with-grid"></a>
+        </div> <!-- END #hookfeed_promo -->
       </div><!-- END .ten columns offset-by-three -->
     </div><!-- END #promo.container -->
   </section> <!-- END #promo_banner -->

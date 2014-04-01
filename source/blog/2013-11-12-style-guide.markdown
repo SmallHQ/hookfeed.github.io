@@ -1,7 +1,6 @@
 ---
 title: Style Guide
 teaser: This is some teaser text about the article
-promo: rocketship
 author: joelle_steiniger
 published: false
 ---
