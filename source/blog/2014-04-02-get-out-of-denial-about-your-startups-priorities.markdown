@@ -3,7 +3,7 @@ title: Get Out of Denial About Your Startup's Priorities
 teaser: As startup founders, we’re all looking for ways to move that needle. But when was the last time you stopped to question your efforts and whether or not they’re the ‘right ones’? I can say I did this zero times…until a few weeks ago.
 promo: hookfeed
 author: joelle_steiniger
-published: false
+published: true
 ---
 
 ![Get Out of Denial About Your Startup’s Priorities](https://s3.amazonaws.com/HookFeed/denial_blog_header.jpg)
