@@ -40,12 +40,6 @@ body#page_layout.homepage_bottom  {
         img {
           vertical-align: bottom;
           margin: 0px 12px -2px 14px;
-
-          /* All Mobile Sizes (devices and browser) */
-          @media only screen and (max-width: 767px) {
-            height: 38px;
-            width: 93px;
-          }
         }
       }
 
@@ -120,11 +114,6 @@ body#page_layout.homepage_bottom  {
         color: #fff;
         font-size: 18px;
         line-height: 29px;
-
-        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-        @media only screen and (max-width: 479px) {
-          padding-top: 20px;
-        }
       }
     }
 
@@ -544,10 +533,6 @@ body#page_layout.homepage_bottom  {
             }
           }
 
-          &:first-child {
-            h3 {margin-bottom: 12px}
-          }
-
           p {
             font-size: 15px;
             color: #fff;
@@ -577,7 +562,7 @@ body#page_layout.homepage_bottom  {
             font-weight: bold;
             font-size: 18px;
             margin: 30px 30px 0;
-            padding: 10px 0;
+            padding: 15px 0;
             text-decoration: none;
             text-align: center;
             box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
@@ -590,6 +575,12 @@ body#page_layout.homepage_bottom  {
 
             &:active {
               background-color: $green_hover;
+            }
+
+            span {
+              color: #eee;
+              font-size: 13px;
+              display: block;
             }
           }
         }
@@ -615,12 +606,17 @@ body#page_layout.homepage_bottom  {
 
       #free_plan, #enterprise {
         font-size: 14px;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 10px;
         color: #505254;
 
         a {
           font-weight: bold;
+        }
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-top: 10px;
         }
       }
     }
