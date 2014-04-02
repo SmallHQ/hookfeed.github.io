@@ -78,12 +78,12 @@
       margin-bottom: 4px;
     }
 
-    h4 {
+    h1:first-of-type+h2:first-of-type {
       font-size: 28px;
       line-height: 30px;
       font-weight: normal;
       text-align: center;
-      margin-bottom: 80px;
+      margin-bottom: 50px;
       margin-top: -29px;
 
       /* All Mobile Sizes (devices and browser) */
@@ -91,7 +91,6 @@
         font-size: 26px;
         margin-top: -16px;
       }
-
     }
 
     img {
