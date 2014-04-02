@@ -46,7 +46,7 @@
   }
 
   #blog {
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
       color: #505254;
       font-weight: bold;
     }
@@ -76,6 +76,22 @@
       font-size: 20px;
       line-height: 24px;
       margin-bottom: 4px;
+    }
+
+    h4 {
+      font-size: 28px;
+      line-height: 30px;
+      font-weight: normal;
+      text-align: center;
+      margin-bottom: 80px;
+      margin-top: -29px;
+
+      /* All Mobile Sizes (devices and browser) */
+      @media only screen and (max-width: 767px) {
+        font-size: 26px;
+        margin-top: -16px;
+      }
+
     }
 
     img {
@@ -198,7 +214,7 @@
     text-align: center;
 
     p {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 20px;
       margin-bottom: 14px;
       color: #909295;
