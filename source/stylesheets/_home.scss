@@ -105,6 +105,15 @@ body#page_layout.homepage_bottom  {
             text-decoration: none;
           }
         }
+
+        img {
+          vertical-align: bottom;
+          margin-left: 8px;
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+          }
+        }
       }
 
       p {
@@ -582,193 +591,36 @@ body#page_layout.homepage_bottom  {
             &:active {
               background-color: $green_hover;
             }
-
-            span {
-              color: #eee;
-              font-size: 13px;
-              display: block;
-            }
-          }
-
-          &#free_plan {
-            margin-bottom: 20px;
-
-            .inner {
-              background-color: $green;
-              color: #fff;
-              text-align: left;
-              position: relative;
-              padding: 20px;
-
-              h3 {
-                font-size: 22px;
-                line-height: 26px;
-                margin-bottom: 0px;
-                padding-top: 3px;
-                text-shadow: 0px 1px 0px rgba(0,0,0,0.09);
-              }
-
-              a.signup {
-                background-color: rgba(255, 255, 255, 0.2);
-                color:#fff;
-                position: absolute;
-                top:20px;
-                right:20px;
-                font-size: 15px;
-                padding: 5px 19px 4px;
-                text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.09);
-                border-top: 1px solid rgba(255, 255, 255, 0.15);
-                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-                margin: 0;
-
-                /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-                @media only screen and (max-width: 767px) {
-                  position: static;
-                  margin-top:20px;
-                  padding: 10px 0;
-                }
-
-                &:active {
-                  background-color: rgba(255, 255, 255, 0.15);
-                }
-
-                span {
-                  display: none;
-                }
-              }
-            }
-          }
-        }
-
-        #enterprise {
-          font-size: 14px;
-          text-align: right;
-          margin: 10px 0;
-          color: #505254;
-
-          a {
-            font-weight: bold;
-          }
-
-          /* All Mobile Sizes (devices and browser) */
-          @media only screen and (max-width: 767px) {
-            text-align: center;
           }
         }
       }
 
-      .testimonial {
+      #free_plan {
+        text-align: left;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
-          margin-bottom: 50px;
-        }
-
-        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-        @media only screen and (min-width: 480px) and (max-width: 767px) {
-          margin-top: 38px;
-        }
-
-        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-        @media only screen and (max-width: 479px) {
-          margin-top: 38px;
-        }
-
-        img {
-          border-radius: 36px;
-          float: left;
-          margin-right: 20px;
-          width: 72px;
-          vertical-align: center;
-        }
-
-        h2 {
-          font-size: 25px;
-          line-height: 27px;
-          margin-bottom: 8px;
-          padding-top: 8px;
-
-          a {
-            color: #505254;
-
-            &:hover {
-              text-decoration: none;
-            }
-          }
-        }
-
-        h3 {
-          color: #909295;
-          font-size: 18px;
-          line-height: 20px;
-          margin-bottom: 25px;
-
-          a {
-            color: #909295;
-
-            &:hover {
-              text-decoration: none;
-            }
-          }
-        }
-
-        p {
-          color: #505254;
-          font-size: 18px;
-          line-height: 29px;
-
-          /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-          @media only screen and (max-width: 479px) {
-            padding-top: 20px;
-          }
+          text-align: center;
         }
       }
 
-      #all_plans_include {
-        .inner {
-          background-color: #333;
-          border-radius: 3px;
-          color: #f7f7f7;
-          padding: 30px;
+      #enterprise {
+        text-align: right;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          text-align: center;
         }
+      }
 
-        h2 {
-          font-size: 25px;
-          line-height: 27px;
-          margin-bottom: 20px;
-          padding-top: 8px;
+      #free_plan, #enterprise {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #505254;
 
-          /* Tablet Portrait size to standard 960 (devices and browsers) */
-          @media only screen and (min-width: 768px) and (max-width: 959px) {
-            font-size: 22px;
-          }
-
-          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-          @media only screen and (min-width: 480px) and (max-width: 767px) {
-            font-size: 22px;
-          }
-        }
-
-        span {
-          font-family: $pictos;
-          color: $green;
-          margin-right: 10px;
-          vertical-align: top;
-        }
-
-        li {
-          font-size: 18px;
-          line-height: 26px;
-          margin-right: 10px;
-
-          /* Tablet Portrait size to standard 960 (devices and browsers) */
-          @media only screen and (max-width: 959px) {
-            font-size: 16px;
-          }
-
-          &:last-child {
-            margin-right: 0px;
-          }
+        a {
+          font-weight: bold;
         }
       }
     }

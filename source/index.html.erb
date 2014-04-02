@@ -18,7 +18,7 @@ changefreq: daily
     <div class="seven columns">
       <a href="https://twitter.com/collision"><img src="https://s3.amazonaws.com/HookFeed/john_collison.jpg" width="72" height="72" id="john"></a>
       <h2><a href="https://twitter.com/collision">John Collison</a></h2>
-      <h3><a href="https://stripe.com">Co-Founder of Stripe</a></h3>
+      <h3><a href="https://stripe.com">Co-Founder of<img src="https://s3.amazonaws.com/HookFeed/stripe-mini.png" height="20"></a></h3>
       <p>"This is one of the things I've been hoping someone would build since we launched."</p>
     </div><!-- END .six.columns -->
 
@@ -57,18 +57,11 @@ changefreq: daily
   <div id="pricing" class="container">
     <div id="pricing_headlines" class="sixteen columns">
       <h1>It's Time You Knew What's Happening in Your Stripe Account</h1>
-      <h2>Try HookFeed Risk-Free Today</h2>
+      <h2>Get Instant Notifications of Failed Charges, Cancellations, and More!</h2>
     </div><!-- END #pricing_headlines -->
 
-    <div class="sixteen columns" id="pricing_buckets">
-      <div class="sixteen columns alpha omega pricing_bucket" id="free_plan">
-        <div class="inner">
-          <h3>Free <span>if you collect less than 20 charges per month</span></h3>
-          <a id="0_0_20_btn" class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=0_0_20">Get Started Now</a>
-        </div>
-      </div>
-
-      <div class="one-third column alpha pricing_bucket">
+    <div class="row" id="pricing_buckets">
+      <div class="one-third column pricing_bucket">
         <div class="inner">
           <h3>$14<span>per month</span></h3>
           <p>If you collect between<strong>21 – 100 charges/mo</strong></p>
@@ -79,7 +72,7 @@ changefreq: daily
             <li>Unlimited Stripe Accounts</li>
             <li>Unlimited Teammates</li>
           </ul>
-          <a id="1400_21_100_btn" class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=1400_21_100">Start Free 14-Day Trial</a>
+          <a id="1400_21_100_btn" class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=1400_21_100">Get Free Trial</a>
         </div>
       </div>
 
@@ -94,11 +87,11 @@ changefreq: daily
             <li>Unlimited Stripe Accounts</li>
             <li>Unlimited Teammates</li>
           </ul>
-          <a id="3900_101_1000_btn" class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=3900_101_1000">Start Free 14-Day Trial</a>
+          <a id="3900_101_1000_btn" class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=3900_101_1000">Get Free Trial</a>
         </div>
       </div>
 
-      <div class="one-third column omega pricing_bucket">
+      <div class="one-third column pricing_bucket">
         <div class="inner">
           <h3>$99<span>per month</span></h3>
           <p>If you collect between<strong>1,001 – 5,000 charges/mo</strong></p>
@@ -109,14 +102,20 @@ changefreq: daily
             <li>Unlimited Stripe Accounts</li>
             <li>Unlimited Teammates</li>
           </ul>
-          <a id="9900_1001_5000_btn" class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=9900_1001_5000">Start Free 14-Day Trial</a>
+          <a id="9900_1001_5000_btn" class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=9900_1001_5000">Get Free Trial</a>
         </div>
       </div>
+    </div>
 
-      <div class="sixteen columns alpha omega" id="enterprise">
+    <div class="row">
+      <div class="eight columns" id="free_plan">
+        Collect less than 20 charges each month? Use our <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=0_0_20">free plan</a>.
+      </div>
+
+      <div class="eight columns" id="enterprise">
         Collect more than 5,000 charges each month? <a href="mailto:support@hookfeed.com">Let's talk...</a>
       </div>
-    </div><!-- END #pricing_buckets -->
+    </div><!-- END .row -->
   </div><!-- END #pricing.container -->
 </section><!-- END #pricing_banner -->
 
