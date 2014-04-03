@@ -1,6 +1,62 @@
 body#page_layout.index,
 body#page_layout.homepage_bottom  {
 
+  .testimonial {
+    img.person {
+      border-radius: 36px;
+      float: left;
+      margin-right: 20px;
+      width: 72px;
+      vertical-align: center;
+    }
+
+    h2 {
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 27px;
+      margin-bottom: 8px;
+      padding-top: 8px;
+
+      a {
+        color: #fff;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    h3 {
+      color: #fff;
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 25px;
+
+      a {
+        color: #fff;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      img {
+        vertical-align: bottom;
+        margin-left: 8px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+        }
+      }
+    }
+
+    p {
+      color: #fff;
+      font-size: 18px;
+      line-height: 29px;
+    }
+  }
+
   #headline_banner {
     background-color: #fff;
     padding-top: 150px;
@@ -61,62 +117,6 @@ body#page_layout.homepage_bottom  {
     color: #fff;
     padding: 40px 0px;
 
-    .testimonial {
-      img#john {
-        border-radius: 36px;
-        float: left;
-        margin-right: 20px;
-        width: 72px;
-        vertical-align: center;
-      }
-
-      h2 {
-        font-size: 25px;
-        font-weight: bold;
-        line-height: 27px;
-        margin-bottom: 8px;
-        padding-top: 8px;
-
-        a {
-          color: #fff;
-
-          &:hover {
-            text-decoration: none;
-          }
-        }
-      }
-
-      h3 {
-        color: #fff;
-        font-size: 18px;
-        line-height: 20px;
-        margin-bottom: 25px;
-
-        a {
-          color: #fff;
-
-          &:hover {
-            text-decoration: none;
-          }
-        }
-
-        img {
-          vertical-align: bottom;
-          margin-left: 8px;
-
-          /* All Mobile Sizes (devices and browser) */
-          @media only screen and (max-width: 767px) {
-          }
-        }
-      }
-
-      p {
-        color: #fff;
-        font-size: 18px;
-        line-height: 29px;
-      }
-    }
-
     #customer_logos {
       text-align: center;
       color: #dee2e7;
@@ -169,39 +169,19 @@ body#page_layout.homepage_bottom  {
 
   #failed_charge_banner,
   #team_routing_banner {
+    color: #505254;
 
     h1 {
       font-size: 28px;
       line-height: 40px;
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
       font-weight: normal;
     }
 
-    span {
-      font-size: 28px;
-      line-height: 40px;
-      text-align: center;
-      margin-bottom: 40px;
-      font-weight: bold;
-      font-style: italic;
-    }
 
     .testimonial {
-      img {
-        border-radius: 36px;
-        float: left;
-        margin-right: 20px;
-        width: 72px;
-        vertical-align: center;
-      }
-
-      h2 {
-        font-size: 25px;
-        font-weight: bold;
-        line-height: 27px;
-        margin-bottom: 8px;
-        padding-top: 8px;
+      h2, h3 {
         color: #505254;
 
         a {
@@ -213,37 +193,24 @@ body#page_layout.homepage_bottom  {
         }
       }
 
-      h3 {
-        font-size: 18px;
-      }
-
       p {
+        color: #666;
         font-size: 18px;
-        line-height: 26px;
-        float: right;
-        margin-top: 16px;
+        line-height: 29px;
+        padding-top: 10px;
       }
+    }
+
+    #failed_charge_email_diagram img,
+    #team_routing_diagram img {
+      vertical-align: bottom;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
     }
   }
 
   #failed_charge_banner {
     background-color: #dee2e7;
-  }
-
-  #failed_charge_callout,
-  #team_routing_callout {
-    background-color: #FDFFDC;
-    padding: 10px 10px;
-    border-radius: 3px;
-    border: 1px solid eee;
-    text-align: center;
-    margin-bottom: 20px;
-
-    h3 {
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 2px;
-    }
   }
 
   #benefits_banner {
