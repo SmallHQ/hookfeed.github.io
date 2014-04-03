@@ -61,7 +61,7 @@ body#page_layout.homepage_bottom  {
     color: #fff;
     padding: 40px 0px;
 
-    #testimonial {
+    .testimonial {
       img#john {
         border-radius: 36px;
         float: left;
@@ -156,20 +156,98 @@ body#page_layout.homepage_bottom  {
     }
   }
 
-  #benefits_banner,
-  #team_banner {
+  #failed_charge_banner,
+  #team_routing_banner,
+  #benefits_banner {
+    padding-top: 94px;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      padding-bottom: 60px;
+    }
+  }
+
+  #failed_charge_banner,
+  #team_routing_banner {
+
     h1 {
       font-size: 28px;
       line-height: 40px;
       text-align: center;
       margin-bottom: 40px;
+      font-weight: normal;
+    }
+
+    span {
+      font-size: 28px;
+      line-height: 40px;
+      text-align: center;
+      margin-bottom: 40px;
       font-weight: bold;
+      font-style: italic;
+    }
+
+    .testimonial {
+      img {
+        border-radius: 36px;
+        float: left;
+        margin-right: 20px;
+        width: 72px;
+        vertical-align: center;
+      }
+
+      h2 {
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 27px;
+        margin-bottom: 8px;
+        padding-top: 8px;
+        color: #505254;
+
+        a {
+          color: #505254;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+
+      h3 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 26px;
+        float: right;
+        margin-top: 16px;
+      }
+    }
+  }
+
+  #failed_charge_banner {
+    background-color: #dee2e7;
+  }
+
+  #failed_charge_callout,
+  #team_routing_callout {
+    background-color: #FDFFDC;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: 1px solid eee;
+    text-align: center;
+    margin-bottom: 20px;
+
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 2px;
     }
   }
 
   #benefits_banner {
     background-color: #dee2e7;
-    padding-top: 94px;
     padding-bottom: 114px;
 
     /* All Mobile Sizes (devices and browser) */
@@ -178,6 +256,11 @@ body#page_layout.homepage_bottom  {
     }
 
     h1 {
+      font-size: 28px;
+      line-height: 40px;
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: bold;
       color: #505254;
     }
 
