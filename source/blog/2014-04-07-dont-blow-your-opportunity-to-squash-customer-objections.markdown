@@ -1,5 +1,5 @@
 ---
-title: Don't Act Huge...Don't Act Tiny
+title: Don't Blow Your Opportunity to Squash Customer Objections
 teaser: How we launched a sign up page that didn't address the objections of our customers, and what we did to fix it.
 author: matt_goldman
 published: true
@@ -7,7 +7,7 @@ published: true
 
 ![](https://s3.amazonaws.com/smallhq/big-vs-small.gif)
 
-# Don't Act Huge...Don't Act Tiny
+# Don't Blow Your Opportunity to Squash Customer Objections
 
 **I was 18 and on my way downtown to start my first company.**
 
