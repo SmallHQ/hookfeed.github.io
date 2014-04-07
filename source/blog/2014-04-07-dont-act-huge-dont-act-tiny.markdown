@@ -2,7 +2,7 @@
 title: Don't Act Huge...Don't Act Tiny
 teaser: How we launched a sign up page that didn't address the objections of our customers, and what we did to fix it.
 author: matt_goldman
-published: false
+published: true
 ---
 
 ![](https://s3.amazonaws.com/smallhq/big-vs-small.gif)
@@ -27,7 +27,7 @@ But it wasn't until recently that we realized the negative effects this was havi
 
 Without even thinking twice about it, we took the pride of being small and injected it directly into HookFeed's sign up page.
 
-<img src="https://s3.amazonaws.com/smallhq/old-vs-new-signup.jpg" alt="Old vs. New HookFeed sign up Pages" class="full-image">
+<img src="https://s3.amazonaws.com/smallhq/old-vs-new-signup.gif" alt="Old vs. New HookFeed sign up Pages" class="full-image">
 
 ## The Old Page
 
@@ -51,10 +51,6 @@ After taking a second look many weeks later *(with a clear mind)*, we decided to
 
 It made us seem like too small of a team to take seriously, and didn't accomplish the original goal: showing that we're here, and ready to hustle for whatever you need as our customer.
 
-> We thought through the objections that customers would have when viewing this page, which were actually quite different from when we launched.
-
-Since launch, we'd added a free plan *(which still requires a credit card)*. As you can imagine, we had a whole new set of objections to address.
-
 ### A Personal Touch
 
 We wanted to keep a personal photo of one of us, and offer to help with any questions they may have. We really are just an email away, and that sets us apart from a large, faceless company.
@@ -65,7 +61,7 @@ The new help box is featured prominently, and doesn't give the impression that t
 
 ### Objection Squashing
 
-> When you're a small team running a big product...it's easy to get a page to "Done" and then move on to more important matters for weeks or months.
+When you're a small team running a big product...it's easy to get a page to "Done" and then move on to more important matters for weeks or months.
 
 In the case of our sign up page, we launched with two objection-squashing Q&As right next to the credit card form (inspired by [Freckle's](https://secure.letsfreckle.com/signup/Small) sign up page).
 
