@@ -4,11 +4,127 @@
   <id>http://www.hookfeed.com/blog</id>
   <link href="http://www.hookfeed.com/blog"/>
   <link href="http://www.hookfeed.com/feed.xml" rel="self"/>
-  <updated>2014-04-02T07:00:00Z</updated>
+  <updated>2014-04-07T07:00:00Z</updated>
   <author>
     <name>Matt Goldman</name>
     <name>Joelle Steiniger</name>
   </author>
+  <entry>
+    <title>Don't Act Huge...Don't Act Tiny</title>
+    <link rel="alternate" href="http://www.hookfeed.com/blog/dont-act-huge-dont-act-tiny/"/>
+    <id>http://www.hookfeed.com/blog/dont-act-huge-dont-act-tiny/</id>
+    <published>2014-04-07T07:00:00Z</published>
+    <updated>2014-04-07T08:51:34-07:00</updated>
+    <author>
+      <name>Matt Goldman</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://s3.amazonaws.com/smallhq/big-vs-small.gif" /&gt;&lt;/p&gt;
+
+&lt;h1&gt;Don&amp;rsquo;t Act Huge&amp;hellip;Don&amp;rsquo;t Act Tiny&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;I was 18 and on my way downtown to start my first company.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Many aspects were uncertain, but one thing was for sure: the name had to sound legit. If I wanted my company to be successful like the ones on TV, people would need to think it was huge.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;So naturally, I took my initials, added some awesome, and ended up with &lt;strong&gt;MHG Enterprises&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I did everything right. I started with business cards, a fancy title, a &amp;ldquo;business&amp;rdquo; phone number &lt;em&gt;(my parent&amp;rsquo;s home phone)&lt;/em&gt;, address labels, printed envelopes&amp;hellip;the whole shebang!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Except I did everything wrong.&lt;/strong&gt; People love working with small companies&amp;hellip;as long as they have strong faith that you&amp;rsquo;re capable of delivering on your promises.&lt;/p&gt;
+
+&lt;p&gt;For the past few years, I&amp;rsquo;ve drifted towards the other end of the spectrum naming my current company &lt;a href="http://smallhq.com?utm_source=hookfeed_blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=dont-act-big-dont-act-small"&gt;Small HQ&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s no secret that we are small &lt;em&gt;(just &lt;a href="https://twitter.com/SDMattG"&gt;me&lt;/a&gt; and &lt;a href="https://twitter.com/JoelleSteiniger"&gt;Joelle&lt;/a&gt;)&lt;/em&gt;, and that we want to stay small.&lt;/p&gt;
+
+&lt;p&gt;But it wasn&amp;rsquo;t until recently that we realized the negative effects this was having on our product, &lt;a href="http://hookfeed.com?utm_source=hookfeed_blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=dont-act-big-dont-act-small"&gt;HookFeed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Without even thinking twice about it, we took the pride of being small and injected it directly into HookFeed&amp;rsquo;s sign up page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/smallhq/old-vs-new-signup.gif" alt="Old vs. New HookFeed sign up Pages" class="full-image"&gt;&lt;/p&gt;
+
+&lt;h2&gt;The Old Page&lt;/h2&gt;
+
+&lt;p&gt;This wasn&amp;rsquo;t our first rodeo - we&amp;rsquo;d been building and supporting products for about a year.&lt;/p&gt;
+
+&lt;p&gt;One realization we&amp;rsquo;d made was that a personal touch could go a long way. It&amp;rsquo;s one of the (many) reasons why we use &lt;a href="https://www.intercom.io/"&gt;Intercom&lt;/a&gt; to communicate with our customers.&lt;/p&gt;
+
+&lt;p&gt;I love when, as the customer of another product, the founder reaches out to help me. It shows that they are small enough to be the sort of company I&amp;rsquo;d like to work with, and serious enough that the founder sees the value in going the extra mile for customers.&lt;/p&gt;
+
+&lt;p&gt;But Joelle and I let this personalization go a bit too far when designing our page:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;HookFeed is 100% founder-funded and made with love in sunny San Diego&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Why? Mostly selfish reasons. What does our funding or location have to do with what our potential customers are thinking when they sign up? &lt;strong&gt;Not-a-damn-thing!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Not to mention the form was so tall that it pushed the section off the page for most visitors.&lt;/p&gt;
+
+&lt;h2&gt;The New Page&lt;/h2&gt;
+
+&lt;p&gt;After taking a second look many weeks later &lt;em&gt;(with a clear mind)&lt;/em&gt;, we decided to remove the section.&lt;/p&gt;
+
+&lt;p&gt;It made us seem like too small of a team to take seriously, and didn&amp;rsquo;t accomplish the original goal: showing that we&amp;rsquo;re here, and ready to hustle for whatever you need as our customer.&lt;/p&gt;
+
+&lt;h3&gt;A Personal Touch&lt;/h3&gt;
+
+&lt;p&gt;We wanted to keep a personal photo of one of us, and offer to help with any questions they may have. We really are just an email away, and that sets us apart from a large, faceless company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Joelle Offering Help to New Customers" src="https://s3.amazonaws.com/smallhq/joelle-help-box.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The new help box is featured prominently, and doesn&amp;rsquo;t give the impression that the company is tiny, unlike the first version.&lt;/p&gt;
+
+&lt;h3&gt;Objection Squashing&lt;/h3&gt;
+
+&lt;p&gt;When you&amp;rsquo;re a small team running a big product&amp;hellip;it&amp;rsquo;s easy to get a page to &amp;ldquo;Done&amp;rdquo; and then move on to more important matters for weeks or months.&lt;/p&gt;
+
+&lt;p&gt;In the case of our sign up page, we launched with two objection-squashing Q&amp;amp;As right next to the credit card form (inspired by &lt;a href="https://secure.letsfreckle.com/signup/Small"&gt;Freckle&amp;rsquo;s&lt;/a&gt; sign up page).&lt;/p&gt;
+
+&lt;p&gt;At the time of launch, we didn&amp;rsquo;t have a free plan, so the Q&amp;amp;As were focused on the concerns of paying users. In the rush to update our pricing structure&amp;hellip;we forgot to update our sign up page with more appropriate objection-busters.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I know that if I were signing up for a free plan, I would not expect to need to give a credit card!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here are the subtle changes we made to these Q&amp;amp;As that now adapt based on the plan you select on the previous page. If you&amp;rsquo;re a free user, we address entirely different concerns.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Addressing HookFeed Customer Objections" src="https://s3.amazonaws.com/smallhq/old-vs-new-objections.gif" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Will I be charged [now vs. anything]?&lt;/h3&gt;
+
+&lt;p&gt;If I&amp;rsquo;m signing up to become a free user of a product, and I see &amp;ldquo;Will I be charged now?&amp;rdquo; in the FAQs&amp;hellip;it leads me to believe that at some point in the future, I will be charged.&lt;/p&gt;
+
+&lt;p&gt;Whereas if I&amp;rsquo;m signing up for a paid plan with a trial, my main concern is that I won&amp;rsquo;t be charged until my trial has completed.&lt;/p&gt;
+
+&lt;p&gt;We also clarify that if you ever do need to upgrade, we will give you advance notice before making any changes to your account that will trigger a charge.&lt;/p&gt;
+
+&lt;h3&gt;Why do you need my card?&lt;/h3&gt;
+
+&lt;p&gt;Similar to the first question, if our explanation of why we need your credit card includes language about your trial expiring, then it&amp;rsquo;s natural to assume that something will change at that point in time for your account.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Free trial?! I thought I was signing up for a free plan!&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is why we changed the language for free users to not mention a trial in any way.&lt;/p&gt;
+
+&lt;p&gt;For paid customers, we focus on keeping your account functional rather than emphasizing &amp;ldquo;back-and-forth&amp;rdquo; hassle when your trial ends.&lt;/p&gt;
+
+&lt;h2&gt;What Can You Do to Avoid the Same Mistakes?&lt;/h2&gt;
+
+&lt;p&gt;Every new feature or change in direction requires that you revisit old pages, copy, and positioning.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There is no &amp;ldquo;done&amp;rdquo; with SaaS products.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As you grow, this laundry list of product aspects to monitor and keep up-to-date grows so do your best to limit your early scope to the bare minimum.&lt;/p&gt;
+
+&lt;p&gt;Constantly revisit the flows that your customers experience. When each member of your team goes heads-down on improving parts of your product, it&amp;rsquo;s easy to neglect the experience as a whole.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Get Out of Denial About Your Startup's Priorities</title>
     <link rel="alternate" href="http://www.hookfeed.com/blog/get-out-of-denial-about-your-startups-priorities/"/>
