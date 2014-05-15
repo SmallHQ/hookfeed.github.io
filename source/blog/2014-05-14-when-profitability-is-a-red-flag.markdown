@@ -15,7 +15,7 @@ This is what I grew up knowing about business.
 
 <hr>
 
-In a recent interview with [Jason Cohen](http://www.twitter.com/asmartbear), Founder of [WP Engine](http://wpengine.com), we got to talking about business goals. He said something that, at the time, seemed jarring to me, though I’ve since come to understand his point. He said:
+In a [recent interview](http://howtobuildarocketship.com/podcast/ep-27-jason-cohen/) with [Jason Cohen](http://www.twitter.com/asmartbear), Founder of [WP Engine](http://wpengine.com), we got to talking about business goals. He said something that, at the time, seemed jarring to me, though I’ve since come to understand his point. He said:
 
 > “Profitability is the last thing you want. Profitability indicates you’re out of ideas.”
 
