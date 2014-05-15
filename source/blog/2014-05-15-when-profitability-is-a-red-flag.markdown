@@ -1,6 +1,6 @@
 ---
 title: When Profitability is a Red Flag
-teaser: I don’t have a business degree.
+teaser: In a recent interview with Jason Cohen, Founder of WP Engine, he said something that, at the time, seemed jarring to me, though I’ve since come to understand his point. He said: “Profitability is the last thing you want. Profitability indicates you’re out of ideas.”
 author: joelle_steiniger
 published: true
 ---
