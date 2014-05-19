@@ -462,23 +462,11 @@ body#page_layout.homepage_bottom  {
       #three_benefits {
 
         .benefit {
-          margin-bottom: 0px;
           text-align: center;
 
           /* All Mobile Sizes (devices and browser) */
           @media only screen and (max-width: 767px) {
             margin-bottom: 40px;
-          }
-
-          &:nth-child(1), &:nth-child(2), &:nth-child(3) {
-            margin-bottom: 30px;
-          }
-
-          &:last-child {
-            /* All Mobile Sizes (devices and browser) */
-            @media only screen and (max-width: 767px) {
-              margin-bottom: 0px;
-            }
           }
 
           span {
@@ -656,7 +644,7 @@ body#page_layout.homepage_bottom  {
       }
 
       #free_plan {
-        text-align: left;
+        text-align: right;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
@@ -665,7 +653,7 @@ body#page_layout.homepage_bottom  {
       }
 
       #enterprise {
-        text-align: right;
+        text-align: left;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
