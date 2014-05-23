@@ -89,10 +89,9 @@ input[type="submit"] {
 
 /* BEGIN HEADER BAR */
 #header_bar_banner {
-  background-color: rgba(255,255,255,0.95);
-  position: fixed;
+  background-color: #29333a;
   width: 100%;
-  z-index: 9999;
+
 }
 #header_bar {
   height: 50px;
@@ -117,8 +116,8 @@ input[type="submit"] {
     float: right;
 
     a {
-      color: #bcc3cc;
-      font-size: 15px;
+      color: #ECEDEE;
+      font-size: 16px;
       line-height: 24px;
       padding: 13px 0px;
       display: inline-block;
@@ -126,15 +125,16 @@ input[type="submit"] {
       transition: color .2s;
 
       &#trial_button {
-        color: #84c1b1;
+        color: #2ecc71;
+        font-size: 14px;
         font-weight: bold;
-        border: 2px solid #84c1b1;
+        border: 2px solid #2ecc71;
         border-radius: 3px;
-        padding: 5px 8px;
+        padding: 5px 15px;
 
         &:hover {
           color: #f7f7f7 !important;
-          background-color: #84c1b1 !important;
+          background-color: #2ecc71 !important;
         }
       }
 
