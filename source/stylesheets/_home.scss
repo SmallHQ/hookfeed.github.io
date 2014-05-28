@@ -39,7 +39,7 @@ body#page_layout.index {
       h2 {
         font-size: 24px;
         font-weight: 400;
-        color: #A9AEB1;
+        color: #D6DEE3;
         margin-bottom: 50px;
         vertical-align: baseline;
 
@@ -57,10 +57,10 @@ body#page_layout.index {
       }
 
       a {
-        color: #2ecc71;
+        color: #19aecd;
         font-size: 18px;
-        font-weight: 400;
-        border: 2px solid #2ecc71;
+        font-weight: 700;
+        border: 2px solid #19aecd;
         border-radius: 3px;
         padding: 10px 30px;
         text-decoration: none;
@@ -69,7 +69,7 @@ body#page_layout.index {
 
         &:hover {
           color: #f7f7f7 !important;
-          background-color: #2ecc71 !important;
+          background-color: #19aecd !important;
         }
       }
 
@@ -239,10 +239,10 @@ body#page_layout.index {
     }
 
     a {
-      color: #2ecc71;
+      color: #19aecd;
       font-size: 20px;
       font-weight: bold;
-      border: 2px solid #2ecc71;
+      border: 2px solid #19aecd;
       border-radius: 3px;
       padding: 20px 50px;
       text-decoration: none;
@@ -250,7 +250,7 @@ body#page_layout.index {
 
       &:hover {
         color: #f7f7f7 !important;
-        background-color: #2ecc71 !important;
+        background-color: #19aecd !important;
       }
     }
   }
