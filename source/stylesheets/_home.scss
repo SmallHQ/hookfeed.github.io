@@ -57,10 +57,11 @@ body#page_layout.index {
       }
 
       a {
-        color: #19aecd;
+        color: #f7f7f7;
+        background-color: #5a9bce;
         font-size: 18px;
         font-weight: 700;
-        border: 2px solid #19aecd;
+        border-bottom: 2px solid rgba(0,0,0,0.2);
         border-radius: 3px;
         padding: 10px 30px;
         text-decoration: none;
@@ -68,8 +69,6 @@ body#page_layout.index {
         display: inline-block;
 
         &:hover {
-          color: #f7f7f7 !important;
-          background-color: #19aecd !important;
         }
       }
 
@@ -189,6 +188,7 @@ body#page_layout.index {
 
       &:last-of-type {
         padding-bottom: 0;
+        margin-bottom: 40px;
       }
     }
 
@@ -201,7 +201,8 @@ body#page_layout.index {
     }
 
     h3 {
-      font-size: 12px;
+      font-size: 13px;
+      color: #5a9bce;
       margin-bottom: 16px;
       font-weight: 700;
     }
@@ -239,18 +240,17 @@ body#page_layout.index {
     }
 
     a {
-      color: #19aecd;
+      color: #f7f7f7;
+      background-color: #5a9bce;
+      border-bottom: 2px solid rgba(0,0,0,0.2);
       font-size: 20px;
       font-weight: bold;
-      border: 2px solid #19aecd;
       border-radius: 3px;
       padding: 20px 50px;
       text-decoration: none;
       vertical-align: middle;
 
       &:hover {
-        color: #f7f7f7 !important;
-        background-color: #19aecd !important;
       }
     }
   }

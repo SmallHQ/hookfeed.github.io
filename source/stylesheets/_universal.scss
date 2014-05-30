@@ -55,6 +55,20 @@ footer {
     }
   }
 
+  a.madeinsd {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+      &:hover {
+        text-decoration: none;
+      }
+  }
+
   p {
     margin-top: 20px;
     margin-bottom: 40px;
