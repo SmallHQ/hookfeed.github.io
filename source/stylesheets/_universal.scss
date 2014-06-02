@@ -46,6 +46,11 @@ footer {
     display: inline;
     margin-right: 18px;
 
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (max-width: 479px) {
+      font-size: 16px;
+    }
+
     &:last-child {
       margin-right: none;
     }
@@ -67,6 +72,12 @@ footer {
       &:hover {
         text-decoration: none;
       }
+
+
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (max-width: 479px) {
+      font-size: 16px;
+    }
   }
 
   p {
@@ -131,7 +142,7 @@ input[type="submit"] {
 
     a {
       color: #ECEDEE;
-      font-size: 16px;
+      font-size: 17px;
       line-height: 24px;
       padding: 13px 0px;
       display: inline-block;

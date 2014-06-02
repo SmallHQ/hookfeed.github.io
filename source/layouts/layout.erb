@@ -31,11 +31,12 @@
     <div id="header_bar" class="container">
       <div class="sixteen columns">
         <div id="logo">
-        <img src="/images/HookFeed_Logo.png" width="150">
+        <a href="/"><img src="/images/HookFeed_Logo.png" width="150"></a>
         <!--
           <%= link_to '<img src="https://s3.amazonaws.com/HookFeed/hookfeed_logo_retina.png" width="150">', '/' %> -->
         </div>
         <nav>
+          <%= link_to 'Pricing', '/pricing' %>
           <%= link_to 'Blog', '/blog' %>
           <%= link_to 'Login', 'https://secure.hookfeed.com/login' %>
         </nav>

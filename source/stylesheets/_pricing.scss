@@ -40,9 +40,9 @@ body#page_layout.pricing {
           text-align: right;
         }
         #annual_toggle {
-          border: 2px solid #19aecd;
+          border: 2px solid #5a9bce;
           border-radius: 3px;
-          color: #19aecd;
+          color: #5a9bce;
           cursor: pointer;
           display: inline-block;
           font-size: 14px;
@@ -57,8 +57,8 @@ body#page_layout.pricing {
           }
 
           &.active {
-            background-color: #19aecd;
-            border: 1px solid #19aecd;
+            background-color: #5a9bce;
+            border: 1px solid #5a9bce;
             color: #f7f7f7;
           }
         }
@@ -101,7 +101,7 @@ body#page_layout.pricing {
            font-weight: bold;
            margin-bottom: 10px;
            color: #fff;
-           background-color: #19aecd;
+           background-color: #5a9bce;
            padding: 6px 0 2px;
            margin-bottom: 20px;
 
@@ -132,7 +132,7 @@ body#page_layout.pricing {
               font-size: 18px;
               margin-right: 1px;
               font-weight: 700;
-              color: #19aecd;
+              color: #5a9bce;
             }
           }
 
@@ -201,7 +201,7 @@ body#page_layout.pricing {
 
         a {
           font-weight: bold;
-          color: #19aecd;
+          color: #5a9bce;
         }
 
         /* All Mobile Sizes (devices and browser) */
@@ -338,7 +338,7 @@ body#page_layout.pricing {
         font-weight: 400;
         margin-bottom: 56px;
 
-        a { color: #19aecd; text-decoration: underline; }
+        a { color: #5a9bce; text-decoration: underline; }
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
