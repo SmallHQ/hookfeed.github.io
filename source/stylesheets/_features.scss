@@ -20,7 +20,7 @@ body#page_layout.features {
       display: inline;
 
       &:last-child {
-        margin-right: none;
+        margin-right: 0px;
       }
     }
   }
@@ -60,7 +60,6 @@ body#page_layout.features {
         border: 2px solid #54bd9c;
         border-radius: 2px;
         color: #54bd9c;
-
       }
     }
   }

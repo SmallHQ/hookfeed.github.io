@@ -31,9 +31,7 @@
     <div id="header_bar" class="container">
       <div class="sixteen columns">
         <div id="logo">
-        <a href="/"><img src="/images/HookFeed_Logo.png" width="150"></a>
-        <!--
-          <%= link_to '<img src="https://s3.amazonaws.com/HookFeed/hookfeed_logo_retina.png" width="150">', '/' %> -->
+          <a href="/"><img src="/images/HookFeed_Logo.png" width="150"></a>
         </div>
         <nav>
           <%= link_to 'Pricing', '/pricing' %>
@@ -45,6 +43,20 @@
   </section><!-- END #header_bar_banner -->
 
   <%= yield %>
+
+  <section id="footer_banner">
+    <div id="footer" class="container">
+      <footer class="sixteen columns">
+        <a href="/blog">Blog</a>
+        <a href="mailto:support@hookfeed.com">Support</a>
+        <a href="/pricing#faqs_banner">FAQs</a>
+        <a href="mailto:joelle@hookfeed.com?subject=Why%20I%20%3C3%20HookFeed%20(and%20why%20HookFeed%20should%20%3C3%20me%20back)">We're Hiring!</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-of-service">Terms &amp; Conditions</a>
+        <a href="http://www.madeinsd.org" class="madeinsd">Made with <img src="images/heart.png" width="25"> in Sunny San Diego</a>
+      </footer>
+    </div>
+  </section>
 
   <% unless development? %>
     <!-- Crazy Egg -->
