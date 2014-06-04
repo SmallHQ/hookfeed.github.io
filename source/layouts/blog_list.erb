@@ -33,7 +33,7 @@
         <nav>
           <%= link_to 'About HookFeed', '/' %>
           <%= link_to 'Blog', '/blog' %>
-          <%= link_to 'Login', 'https://secure.hookfeed.com/login' %>
+          <%= link_to 'Login', "#{(development?) ? 'http' : 'https'}://secure.hookfeed.#{(development?) ? 'dev' : 'com'}/login" %>
         </nav>
       </div><!-- END .sixteen.columns -->
     </div><!-- END #header_bar.container -->
