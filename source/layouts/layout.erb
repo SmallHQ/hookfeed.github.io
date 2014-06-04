@@ -9,7 +9,6 @@
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
   <%= stylesheet_link_tag  "application" %>
-  <%= javascript_include_tag  "application" %>
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -20,10 +19,7 @@
   <script type="text/javascript" src="//use.typekit.net/qee5bpm.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-  <%= partial 'partials/mixpanel' %>
-  <script type='text/javascript'>
-    mixpanel.track('Viewed Home Page');
-  </script>
+  <%= partial 'partials/segment_io' %>
 </head>
 
 <body id="page_layout" class="<%= page_classes %>">
@@ -31,12 +27,12 @@
     <div id="header_bar" class="container">
       <div class="sixteen columns">
         <div id="logo">
-          <%= link_to '<img src="https://s3.amazonaws.com/HookFeed/hookfeed_logo_retina.png" width="130" height="24">', '/' %>
+          <a href="/"><img src="https://s3.amazonaws.com/HookFeed/HookFeed_Logo_Light.png" width="150"></a>
         </div>
         <nav>
-          <%= link_to 'Pricing/Start Free Trial', '/#pricing_banner', id: "trial_button" %>
+          <%= link_to 'Pricing', '/pricing' %>
           <%= link_to 'Blog', '/blog' %>
-          <%= link_to 'Login', 'https://secure.hookfeed.com/login' %>
+          <%= link_to 'Login', "#{(development?) ? 'http' : 'https'}://secure.hookfeed.#{(development?) ? 'dev' : 'com'}/login" %>
         </nav>
       </div><!-- END .sixteen.columns -->
     </div><!-- END #header_bar.container -->
@@ -44,32 +40,19 @@
 
   <%= yield %>
 
-  <% unless development? %>
-    <!-- Crazy Egg -->
-    <script type="text/javascript">
-      setTimeout(function(){var a=document.createElement("script");
-      var b=document.getElementsByTagName("script")[0];
-      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0022/1949.js?"+Math.floor(new Date().getTime()/3600000);
-      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-    </script>
+  <section id="footer_banner">
+    <div id="footer" class="container">
+      <footer class="sixteen columns">
+        <a href="/blog">Blog</a>
+        <a href="mailto:support@hookfeed.com">Support</a>
+        <a href="/pricing#faqs_banner">FAQs</a>
+        <a href="mailto:joelle@hookfeed.com?subject=Why%20I%20%3C3%20HookFeed%20(and%20why%20HookFeed%20should%20%3C3%20me%20back)">We're Hiring!</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-of-service">Terms &amp; Conditions</a>
+        <a href="http://www.madeinsd.org" class="madeinsd">Made with <img src="https://s3.amazonaws.com/HookFeed/heart.png" width="25"> in Sunny San Diego</a>
+      </footer>
+    </div>
+  </section>
 
-    <!-- Google Analytics -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-40298732-1']);
-      _gaq.push(['_setDomainName', 'hookfeed.com']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <!-- END Google Analytics -->
-
-    <%= partial 'partials/perfect_audience' %>
-
-  <% end %>
 </body>
 </html>
