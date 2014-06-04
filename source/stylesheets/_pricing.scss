@@ -51,6 +51,10 @@ body#page_layout.pricing {
           padding: 5px 8px;
           text-align: right;
 
+          -webkit-user-select: none;  /* Chrome all / Safari all */
+             -moz-user-select: none;     /* Firefox all */
+              -ms-user-select: none;      /* IE 10+ */
+
           input {
           cursor: pointer;
             margin-right: 5px;
@@ -90,9 +94,10 @@ body#page_layout.pricing {
 
           h2 {
             font-size: 18px;
-            font-weight: 700;
+            font-weight: normal;
             margin-bottom: 10px;
             color: #6c7079;
+            text-transform: uppercase;
           }
 
           h3 {
@@ -130,7 +135,7 @@ body#page_layout.pricing {
 
             span {
               font-size: 18px;
-              margin-right: 1px;
+              margin-right: 5px;
               font-weight: 700;
               color: #5a9bce;
             }
@@ -148,14 +153,15 @@ body#page_layout.pricing {
             border-radius: 3px;
             color: #f7f7f7;
             display: block;
-            font-weight: bold;
-            font-size: 18px;
+            font-weight: normal;
+            font-size: 16px;
             margin: 20px 20px 0;
             padding: 12px 0;
             text-decoration: none;
             text-align: center;
             box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
             text-shadow: 0px 1px 0px rgba(0,0,0,0.09);
+            text-transform: uppercase;
 
             /* Tablet Portrait size to standard 960 (devices and browsers) */
             @media only screen and (min-width: 768px) and (max-width: 959px) {
