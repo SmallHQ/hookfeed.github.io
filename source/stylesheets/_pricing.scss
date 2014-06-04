@@ -2,8 +2,8 @@ body#page_layout.pricing {
 
 #pricing_banner {
     background-color: #29333a;
-    padding-top: 94px;
-    padding-bottom: 122px;
+    padding-top: 54px;
+    padding-bottom: 60px;
 
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {
@@ -29,7 +29,7 @@ body#page_layout.pricing {
         }
 
         h2 {
-          font-size: 18px;
+          font-size: 22px;
           line-height: 28px;
           font-weight: 400;
         }
