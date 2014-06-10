@@ -1,0 +1,146 @@
+body#page_layout.updates {
+  /* Nivo Lightbox Overrides */
+  .nivo-lightbox-overlay { background-color: rgba(0,0,0,.7) }
+  .nivo-lightbox-close, .nivo-lightbox-prev, .nivo-lightbox-next { display: none }
+  .nivo-lightbox-image img { border-radius: 3px }
+
+  #whats_new_banner {
+    padding-top: 100px;
+
+    #whats_new {
+      .feature,
+      .bugfix,
+      .performance {
+        @extend .clearfix;
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 0px 1px 1px #e5e5e5;
+        margin-bottom: 30px;
+        padding: 20px;
+        position: relative;
+
+        .icon {
+          border-radius: 3px;
+          color: #fff;
+          display: inline-block;
+          float: left;
+          font-size: 20px;
+          font-family: $pictos;
+          height: 25px;
+          line-height: 20px;
+          margin-right: 20px;
+          padding: 6px 0px 0px 6px;
+          width: 25px;
+
+          /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+          @media only screen and (max-width: 479px) {
+            position: absolute;
+            top: -15px;
+            left: 134px;
+          }
+        }
+
+        p {
+          color: #808080;
+          float:left;
+          font-size: 15px;
+          line-height: 25px;
+          width: 609px;
+
+          time {
+            color: #bbb;
+            display: block;
+            font-size: 12px;
+            line-height: 12px;
+          }
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) { width: 465px }
+
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (min-width: 480px) and (max-width: 767px) { width: 329px }
+
+          /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+          @media only screen and (max-width: 479px) { width: 260px }
+        }
+
+        .demo {
+          clear: both;
+          padding-top: 20px;
+
+          .demo-image {
+            float: left;
+            width: 320px;
+
+            &:first-child {
+              margin-right: 20px;
+            }
+
+            /* Tablet Portrait size to standard 960 (devices and browsers) */
+            @media only screen and (min-width: 768px) and (max-width: 959px) { width: 248px }
+
+            /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+            @media only screen and (min-width: 480px) and (max-width: 767px) { width: 180px }
+
+            /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+            @media only screen and (max-width: 479px) {
+              display: block;
+              width: 260px;
+
+              &:first-child {
+                margin-bottom: 15px;
+                margin-right: 0px;
+              }
+
+              &:last-child {
+                margin-bottom: 0px;
+              }
+            }
+
+            a.fancybox {
+              display: block;
+            }
+
+            img {
+              border-radius: 3px;
+              width: 320px;
+
+              /* Tablet Portrait size to standard 960 (devices and browsers) */
+              @media only screen and (min-width: 768px) and (max-width: 959px) { width: 248px }
+
+              /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+              @media only screen and (min-width: 480px) and (max-width: 767px) { width: 180px }
+
+              /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+              @media only screen and (max-width: 479px) {
+                width: 260px;
+              }
+            }
+          }
+        }
+      }
+
+      .feature {
+        .icon {
+          background-color: #79c782;
+          width: 24px;
+          padding-left: 7px;
+        }
+      }
+
+      .bugfix {
+        .icon {
+          background-color: #E95156;
+        }
+      }
+
+      .performance {
+        .icon {
+          background-color: #DDD64D;
+          width: 21px;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}

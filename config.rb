@@ -20,6 +20,17 @@ activate :blog do |blog|
   blog.prefix = "blog"
 end
 
+activate :blog do |blog|
+  blog.name = "updates"
+  blog.permalink = ":title.html"
+  blog.layout = "layout"
+  blog.prefix = "updates"
+  blog.publish_future_dated = true
+end
+
+
+
+
 activate :livereload
 activate :directory_indexes
 activate :syntax

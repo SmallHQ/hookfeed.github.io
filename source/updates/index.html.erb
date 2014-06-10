@@ -1,0 +1,17 @@
+---
+title: "What's New? | HookFeed: Customer Analytics and Email Alerts for Stripe (SaaS/E-Commerce)"
+priority: 1
+changefreq: daily
+---
+
+<%= javascript_include_tag "updates" %>
+
+<section id="whats_new_banner">
+  <div id="whats_new" class="container">
+    <div class="twelve columns offset-by-two">
+      <% blog('updates').articles.each do |update| %>
+        <%= partial 'partials/update', locals: {update: update} %>
+      <% end %>
+    </div>
+  </div><!-- END #whats_new.container -->
+</section><!-- END #whats_new_banner -->

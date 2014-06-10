@@ -1,0 +1,25 @@
+<% if update.data.type == 'feature' %>
+<div class="feature">
+  <span class="icon">k</span>
+<% elsif update.data.type == 'bugfix' %>
+<div class="bugfix">
+  <span class="icon">x</span>
+<% elsif update.data.type == 'performance' %>
+<div class="performance">
+  <span class="icon">e</span>
+<% end %>
+
+  <p><time><%= update.date.strftime('%B %-d, %Y') %></time><%= update.body %></p>
+
+  <% if update.data.images && update.data.images.count > 0 %>
+    <div class="demo">
+      <% update.data.images.each do |image_url| %>
+        <div class="demo-image">
+          <a class="lightbox" href="<%= image_url %>" title="">
+            <img src="<%= image_url %>" alt="">
+          </a>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
