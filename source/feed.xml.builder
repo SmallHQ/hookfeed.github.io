@@ -2,16 +2,16 @@ xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   site_url = "http://www.hookfeed.com"
   xml.title "HookFeed Blog"
-  xml.id URI.join(site_url, blog.options.prefix.to_s)
-  xml.link "href" => URI.join(site_url, blog.options.prefix.to_s)
+  xml.id URI.join(site_url, blog('blog').options.prefix.to_s)
+  xml.link "href" => URI.join(site_url, blog('blog').options.prefix.to_s)
   xml.link "href" => URI.join(site_url, current_page.path), "rel" => "self"
-  xml.updated(blog.articles.first.date.to_time.iso8601) unless blog.articles.empty?
+  xml.updated(blog('blog').articles.first.date.to_time.iso8601) unless blog('blog').articles.empty?
   xml.author {
     xml.name "Matt Goldman"
     xml.name "Joelle Steiniger"
   }
 
-  blog.articles.each do |article|
+  blog('blog').articles.each do |article|
     xml.entry do
       xml.title article.title
       xml.link "rel" => "alternate", "href" => URI.join(site_url, article.url)

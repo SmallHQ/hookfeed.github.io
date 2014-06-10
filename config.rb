@@ -15,6 +15,7 @@ end
 # Helpers
 ###
 activate :blog do |blog|
+  blog.name = "blog"
   blog.permalink = ":title.html"
   blog.layout = "blog"
   blog.prefix = "blog"

@@ -9,7 +9,7 @@ changefreq: daily
   <div id="blog_list" class="container">
     <div class="ten columns offset-by-three">
 
-      <% blog.articles.each do |article| %>
+      <% blog('blog').articles.each do |article| %>
         <article>
           <h1><a href="<%= article.url %>"><%= article.title %></a></h1>
           <p><%= article.data.teaser %></p>
