@@ -5,7 +5,6 @@ author: joelle_steiniger
 published: true
 ---
 
-![When Profitability is a Red Flag](https://s3.amazonaws.com/HookFeed/profitability_blog_header.jpg)
 # When Profitability is a Red Flag
 ## Or, The Difference Between a Business and a Startup
 

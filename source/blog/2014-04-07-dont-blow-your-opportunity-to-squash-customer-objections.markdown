@@ -5,8 +5,6 @@ author: matt_goldman
 published: true
 ---
 
-![](https://s3.amazonaws.com/smallhq/big-vs-small.gif)
-
 # Don't Blow Your Opportunity to Squash Customer Objections
 
 **I was 18 and on my way downtown to start my first company.**

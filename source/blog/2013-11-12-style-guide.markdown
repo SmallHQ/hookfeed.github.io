@@ -5,9 +5,6 @@ author: joelle_steiniger
 published: false
 ---
 
-<!-- Image (660px wide by any height, 300px tall looks good - retina: 1320px wide by 600px tall) -->
-![Alt text](http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_5263607dd1bfc_1.JPG)
-
 # Get Your SaaS in Gear by Talking to Your Peers
 
 Kale chips gentrify bespoke actually, Cosby sweater try-hard distillery vinyl ethnic lo-fi cray American Apparel sartorial church-key. Actually PBR&B raw denim, squid ennui Shoreditch semiotics. Meggings dreamcatcher viral YOLO, street art mlkshk cray fixie.

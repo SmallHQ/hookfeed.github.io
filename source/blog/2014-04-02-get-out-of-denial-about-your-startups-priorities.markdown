@@ -6,7 +6,6 @@ author: joelle_steiniger
 published: true
 ---
 
-![Get Out of Denial About Your Startup’s Priorities](https://s3.amazonaws.com/HookFeed/denial_blog_header.jpg)
 # Get Out of Denial About Your Startup’s Priorities
 ## With One, Simple Question.
 
