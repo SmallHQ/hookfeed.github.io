@@ -1,5 +1,349 @@
-<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <title>HookFeed - Stripe Email Notifications and Digest Analytics</title> <meta name=description content=""> <meta name=viewport content="width=device-width, initial-scale=1.0"> <meta content="IE=edge,chrome=1" http-equiv=X-UA-Compatible> <link href="/stylesheets/application-209ebd9f.css" media=screen rel=stylesheet /> <!--[if lt IE 9]><script src="../assets/js/html5shiv.js"></script><![endif]--> <script src="//use.typekit.net/qee5bpm.js"></script> <script>try{Typekit.load();}catch(e){}</script> <script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HookFeed - Stripe Email Notifications and Digest Analytics</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+  <link href="/stylesheets/application-f144f88f.css" media="screen" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- TypeKit -->
+  <script type="text/javascript" src="//use.typekit.net/qee5bpm.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript">
   window.analytics=window.analytics||[],window.analytics.methods=["identify","group","track","page","pageview","alias","ready","on","once","off","trackLink","trackForm","trackClick","trackSubmit"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var key=window.analytics.methods[i];window.analytics[key]=window.analytics.factory(key)}window.analytics.load=function(t){if(!document.getElementById("analytics-js")){var a=document.createElement("script");a.type="text/javascript",a.id="analytics-js",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.io/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)}},window.analytics.SNIPPET_VERSION="2.0.9",
   window.analytics.load("pk12xajikt");
   window.analytics.page();
-</script> </head> <body id=page_layout class="old_index old_index_index"> <section id=header_bar_banner> <div id=header_bar class=container> <div class="sixteen columns"> <div id=logo> <a href="/"><img src="https://s3.amazonaws.com/HookFeed/HookFeed_Logo_Light.png" width=150></a> </div> <nav> <a href="/pricing">Pricing</a> <a href="/blog">Blog</a> <a href="https://secure.hookfeed.com/login">Login</a> </nav> </div> </div> </section> <section id=headline_banner> <div id=headline class=container> <div class="sixteen columns"> <h1>Critical<img src="https://s3.amazonaws.com/HookFeed/stripe_logo.png" height=50 width=122>Alerts. Simple Analytics.</h1> <h2>Recover failed charges. Reduce churn. Monitor progress.</h2> </div> </div> </section> <section id=testimonial_banner> <div class="container testimonial"> <div class="seven columns"> <a href="https://twitter.com/collision"><img src="https://s3.amazonaws.com/HookFeed/john_collison.jpg" width=72 height=72 id=john class=person></a> <h2><a href="https://twitter.com/collision">John Collison</a></h2> <h3><a href="https://stripe.com">Co-Founder of<img src="https://s3.amazonaws.com/HookFeed/stripe-mini.png" height=20></a></h3> <p>"This is one of the things I've been hoping someone would build since we launched."</p> </div> <div class="eight columns offset-by-one" id=customer_logos> <p>HookFeed is Trusted By:</p> <div class=row> <div class="four columns alpha"> <a href="https://segment.io?utm_source=hookfeed&utm_medium=referral&utm_campaign=customer_links"><img src="https://s3.amazonaws.com/HookFeed/logo_segmentio.png" alt="" width=160></a> </div> <div class="four columns omega"> <a href="//wpcurve.com?utm_source=hookfeed&utm_medium=referral&utm_campaign=customer_links"><img src="https://s3.amazonaws.com/HookFeed/logo_wpcurve.png" alt="" width=160></a> </div> </div> <div class=row> <div class="four columns alpha"> <a href="https://www.runscope.com?utm_source=hookfeed&utm_medium=referral&utm_campaign=customer_links"><img src="https://s3.amazonaws.com/HookFeed/logo_runscope.png" alt="" width=160></a> </div> <div class="four columns omega"> <a href="https://brandisty.com?utm_source=hookfeed&utm_medium=referral&utm_campaign=customer_links"><img src="https://s3.amazonaws.com/HookFeed/logo_brandisty.png" alt="" width=160></a> </div> </div> </div> </div> </section> <section id=pricing_banner> <div id=pricing class=container> <div id=pricing_headlines class="sixteen columns"> <h1>It's Time You Knew What's Happening in Your Stripe Account</h1> <h2>Get Instant Notifications of Failed Charges, Cancellations, and More!</h2> </div> <div class=row id=pricing_buckets> <div class="one-third column pricing_bucket"> <div class=inner> <h2>Developer</h2> <h3>$14<span>/month</span></h3> <p>If you collect between<strong>21 – 100 charges/mo</strong></p> <ul> <li><strong>Email Alerts</strong></li> <li><strong>Daily Analytics</strong></li> <li><strong>Weekly Analytics</strong></li> <li>Unlimited Stripe Accounts</li> <li>Unlimited Teammates</li> </ul> <a id=1400_21_100_btn class=signup href="https://secure.hookfeed.com/users/new?s=1400_21_100">Get Free Trial</a> </div> </div> <div class="one-third column pricing_bucket"> <div class=inner> <h2>Startup</h2> <h3>$39<span>/month</span></h3> <p>If you collect between<strong>101 – 1,000 charges/mo</strong></p> <ul> <li><strong>Email Alerts</strong></li> <li><strong>Daily Analytics</strong></li> <li><strong>Weekly Analytics</strong></li> <li>Unlimited Stripe Accounts</li> <li>Unlimited Teammates</li> </ul> <a id=3900_101_1000_btn class=signup href="https://secure.hookfeed.com/users/new?s=3900_101_1000">Get Free Trial</a> </div> </div> <div class="one-third column pricing_bucket"> <div class=inner> <h2>Business</h2> <h3>$99<span>/month</span></h3> <p>If you collect between<strong>1,001 – 5,000 charges/mo</strong></p> <ul> <li><strong>Email Alerts</strong></li> <li><strong>Daily Analytics</strong></li> <li><strong>Weekly Analytics</strong></li> <li>Unlimited Stripe Accounts</li> <li>Unlimited Teammates</li> </ul> <a id=9900_1001_5000_btn class=signup href="https://secure.hookfeed.com/users/new?s=9900_1001_5000">Get Free Trial</a> </div> </div> </div> <div class=row> <div class="eight columns" id=free_plan> Collect less than 20 charges each month? Use our <a href="https://secure.hookfeed.com/users/new?s=0_0_20">free plan</a>. </div> <div class="eight columns" id=enterprise> Need a larger plan? <a href="mailto:support@hookfeed.com">Let's talk...</a> </div> </div> </div> </section> <section id=failed_charge_banner> <div id=failed_charge class=container> <div class="sixteen columns"> <h1>About 5% of Your Charges are Failing. <strong><i>What Are You Doing about It?</i></strong></h1> </div> <div class="eight columns testimonial"> <a href="https://twitter.com/thedannorris"><img src="https://s3.amazonaws.com/HookFeed/dan_norris.jpeg" width=72 height=72 id=dan class=person></a> <h2><a href="https://twitter.com/thedannorris">Dan Norris</a></h2> <h3>Founder of <a href="https://wpcurve.com">WP Curve</a></h3> <p>&ldquo;Before HookFeed, we were in a painful situation where we could either get hundreds of Stripe notifications (which we didn't need) or we could get none.</p> <p>Getting none meant we'd miss failed charges and in some cases, <b>we'd serve customers for months without realizing they hadn't paid.</b></p> <p>HookFeed solved the problem by allowing us to set up notifications for only the events we cared about. It's a no brainer at the price and I'd highly recommend it!&rdquo;</p> </div> <div id=failed_charge_email_diagram class="seven columns offset-by-one"> <img src="https://s3.amazonaws.com/HookFeed/failed_charge_email_diagram.gif" class=scale-with-grid width=400> </div> </div> </section> <section id=team_routing_banner> <div id=team_routing class=container> <div class="sixteen columns"> <h1>Route Critical Alerts to the Right People on Your Team. <b><i>Automatically.</i></b></h1> </div> <div id=team_routing_diagram class="seven columns"> <img src="https://s3.amazonaws.com/HookFeed/team_routing_diagram_v4.gif" class=scale-with-grid width=400> </div> <div class="eight columns offset-by-one testimonial"> <a href="https://twitter.com/michaelsacca"><img src="https://s3.amazonaws.com/HookFeed/michael_sacca.jpg" width=72 height=72 id=michael class=person></a> <h2><a href="https://twitter.com/michaelsacca">Michael Sacca</a></h2> <h3>Founder of <a href="//brandisty.com">Brandisty</a></h3> <p>&ldquo;Being able to route specific alerts to my team has been awesome. Knowing that someone&rsquo;s on it when bad things happen is a huge relief.</p> <p><b>Without any intervention, my team can immediately start rescuing lost revenue, and decreasing involuntary churn.</b></p> <p>As for me and my co-founder, the weekly analytics emails have been fantastic for monitoring progress without flooding our email inboxes.&rdquo;</p> </div> </div> </section> <section id=benefits_banner> <div id=benefits class=container> <h1>Instant Email Alerts and Daily/Weekly Analytics</h1> <div id=payment_platform_logos class=row> <a href="#" id=stripe> <img src="https://s3.amazonaws.com/HookFeed/stripe_logo.png" height=50 width=122> <div id=pointer></div> </a> <a href="https://smallhq.wufoo.com/forms/hookfeed-integrations/def/field109=Braintree" id=braintree> <img src="https://s3.amazonaws.com/HookFeed/braintree.png" width=160 height=40> </a> <a href="https://smallhq.wufoo.com/forms/hookfeed-integrations/def/field109=Balanced%20Payments" id=balanced> <img src="https://s3.amazonaws.com/HookFeed/balanced.png" width=140 height=61> </a> <a href="https://smallhq.wufoo.com/forms/hookfeed-integrations" id=other> <p>and More...</p> </a> </div> <div id=email_samples class=row> <nav id=stripe_events> <h2>We Notify You of:</h2> <a href="#" class=active data-height=667 data-responsive-height=574 data-img=img-charge-failed>Failed Charges</a> <a href="#" data-height=601 data-responsive-height=517 data-img=img-charge-created>Successful Charges</a> <a href="#" data-height=601 data-responsive-height=517 data-img=img-charge-refund>Refunds</a> <a href="#" data-height=620 data-responsive-height=533 data-img=img-subscription-created>New Subscribers</a> <a href="#" data-height=776 data-responsive-height=668 data-img=img-subscription-upgrade>Upgrades</a> <a href="#" data-height=797 data-responsive-height=686 data-img=img-subscription-downgrade>Downgrades</a> <a href="#" data-height=599 data-responsive-height=515 data-img=img-subscription-deleted>Cancellations</a> <a href="#" data-height=520 data-responsive-height=447 data-img=img-transfer-paid>Bank Transfers</a> <a href="#" data-height=520 data-responsive-height=447 data-img=img-transfer-failed>Failed Bank Transfers</a> <a href="#" data-height=642 data-responsive-height=552 data-img=img-charge-dispute>Disputed Charges</a> <a href="#" data-height=735 data-responsive-height=632 data-img=img-dispute-settled>Settled Disputes</a> </nav> <div id=email_preview> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-charge-failed.jpg" alt="" width=658 id=img-charge-failed class=active> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-charge-created.jpg" alt="" width=658 id=img-charge-created> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-charge-refund.jpg" alt="" width=658 id=img-charge-refund> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-subscription-created.jpg" alt="" width=658 id=img-subscription-created> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-subscription-upgrade.jpg" alt="" width=658 id=img-subscription-upgrade> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-subscription-downgrade.jpg" alt="" width=658 id=img-subscription-downgrade> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-subscription-deleted.jpg" alt="" width=658 id=img-subscription-deleted> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-transfer-paid.jpg" alt="" width=658 id=img-transfer-paid> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-transfer-failed.jpg" alt="" width=658 id=img-transfer-failed> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-charge-dispute.jpg" alt="" width=658 id=img-charge-dispute> <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-dispute-settled.jpg" alt="" width=658 id=img-dispute-settled> </div> </div> <div id=three_benefits class=row> <div class="left_tri columns benefit"> <span>Q</span> <h2>One-Click Connect</h2> <p>Connect your Stripe account to HookFeed with just <b>one click</b>. <u>No code necessary</u>. Be up and running in less than a minute.</p> </div> <div class="center_tri columns benefit"> <span>N</span> <h2>Summary Emails</h2> <p>Not every event in your account needs your immediate attention. Want a weekly summary of new signups? No problem!</p> </div> <div class="right_tri columns benefit"> <span>l</span> <h2>Multiple Stripe Accounts</h2> <p>Have multiple Stripe accounts? Connect them all and monitor all the important stuff in one place. It's so easy.</p> </div> </div> </div> </section> <section id=team_banner> <div id=team class=container> <h1>Keep Your Team in the Loop - <b>Automatically</b></h1> </div> </section> <section id=faqs_banner> <div id=faqs class=container> <div class="sixteen columns"> <h2>FAQs</h2> </div> <div class=row> <div class="left_half columns"> <dl> <dt>Is HookFeed secure?</dt> <dd>Completely. When you connect HookFeed to your Stripe account you’re giving us read-only access. All interactions within the app are SSL encrypted. And we’ll never share your information with anyone.</dd> <dt>Which Stripe events do you track?</dt> <dd>Currently we track Charges, Failed Charges, Refunds, New Subscribers, Upgrades, Downgrades, Cancellations, Bank Transfers, Failed Bank Transfers, Disputed Charges, and Settled Disputes. We're open to your suggestions for other events. A full list of events from Stripe can be found <a href="https://stripe.com/docs/api#list_events">here</a>.</dd> <dt>Do I need to know how to code?</dt> <dd>No! You can connect your Stripe account to HookFeed in one click. Literally. No code necessary.</dd> </dl> </div> <div class="right_half columns"> <dl> <dt>Can I cancel anytime?</dt> <dd>Yes. We’ll be sad to see you go, but if HookFeed isn’t for you we totally understand. We make it super easy to cancel your service and disconnect your Stripe account.</dd> <dt>Can I pick which events get sent to me?</dt> <dd>Yes. Once you’re logged into your HookFeed account you can choose which events get sent to you in an instant email alert, and which events will be compiled into a daily and/or weekly digest email. You'll do the same for any teammates you add.</dd> <dt>What if I have more questions?</dt> <dd>Email us any questions you have. We're happy to help out!<br><a href="mailto:support@hookfeed.com">support@hookfeed.com</a></dd> </dl> </div> </div> <footer> <a href="mailto:support@hookfeed.com">Support</a> <span>Built by <a href="//www.smallhq.com">Small HQ</a> &nbsp;|&nbsp; <a href="//www.madeinsd.org"> Made in SD</a></span> <a href="https://mixpanel.com/f/partner" style="margin-top:10px;display:block;"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics"/></a> </footer> </div> </section> <section id=footer_banner> <div id=footer class=container> <footer class="sixteen columns"> <a href="/blog">Blog</a> <a href="mailto:support@hookfeed.com">Support</a> <a href="/pricing#faqs_banner">FAQs</a> <a href="mailto:joelle@hookfeed.com?subject=Why%20I%20%3C3%20HookFeed%20(and%20why%20HookFeed%20should%20%3C3%20me%20back)">We're Hiring!</a> <a href="/privacy-policy">Privacy Policy</a> <a href="/terms-of-service">Terms &amp; Conditions</a> <a href="//www.madeinsd.org" class=madeinsd>Made with <img src="https://s3.amazonaws.com/HookFeed/heart.png" width=25> in Sunny San Diego</a> </footer> </div> </section> </body> </html>
+</script>
+</head>
+
+<body id="page_layout" class="old_index old_index_index">
+  <section id="header_bar_banner">
+    <div id="header_bar" class="container">
+      <div class="sixteen columns">
+        <div id="logo">
+          <a href="/"><img src="https://s3.amazonaws.com/HookFeed/HookFeed_Logo_Light.png" width="150"></a>
+        </div>
+        <nav>
+          <a href="/pricing">Pricing</a>
+          <a href="/blog">Blog</a>
+          <a href="https://secure.hookfeed.com/login">Login</a>
+        </nav>
+      </div><!-- END .sixteen.columns -->
+    </div><!-- END #header_bar.container -->
+  </section><!-- END #header_bar_banner -->
+
+  <section id="headline_banner">
+  <div id="headline" class="container">
+    <div class="sixteen columns">
+      <h1>Critical<img src="https://s3.amazonaws.com/HookFeed/stripe_logo.png" height="50" width="122">Alerts. Simple Analytics.</h1>
+      <h2>Recover failed charges. Reduce churn. Monitor progress.</h2>
+    </div><!-- END .sixteen.columns -->
+  </div><!-- END #headline.container -->
+</section><!-- END #headline_banner -->
+
+<section id="testimonial_banner">
+  <div class="container testimonial">
+    <div class="seven columns">
+      <a href="https://twitter.com/collision"><img src="https://s3.amazonaws.com/HookFeed/john_collison.jpg" width="72" height="72" id="john" class="person"></a>
+      <h2><a href="https://twitter.com/collision">John Collison</a></h2>
+      <h3><a href="https://stripe.com">Co-Founder of<img src="https://s3.amazonaws.com/HookFeed/stripe-mini.png" height="20"></a></h3>
+      <p>"This is one of the things I've been hoping someone would build since we launched."</p>
+    </div><!-- END .seven.columns -->
+
+    <div class="eight columns offset-by-one" id="customer_logos">
+      <p>HookFeed is Trusted By:</p>
+
+      <div class="row">
+        <div class="four columns alpha">
+          <a href="https://segment.io?utm_source=hookfeed&utm_medium=referral&utm_campaign=customer_links"><img src="https://s3.amazonaws.com/HookFeed/logo_segmentio.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns omega">
+          <a href="http://wpcurve.com?utm_source=hookfeed&utm_medium=referral&utm_campaign=customer_links"><img src="https://s3.amazonaws.com/HookFeed/logo_wpcurve.png" alt="" width="160"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="four columns alpha">
+          <a href="https://www.runscope.com?utm_source=hookfeed&utm_medium=referral&utm_campaign=customer_links"><img src="https://s3.amazonaws.com/HookFeed/logo_runscope.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns omega">
+          <a href="https://brandisty.com?utm_source=hookfeed&utm_medium=referral&utm_campaign=customer_links"><img src="https://s3.amazonaws.com/HookFeed/logo_brandisty.png" alt="" width="160"></a>
+        </div>
+      </div>
+      <!--<img src="https://s3.amazonaws.com/HookFeed/user_logos.png" class="scale-with-grid">-->
+    </div><!-- END #customer_logos -->
+  </div><!-- END #testimonial.container -->
+</section><!-- END #testimonial -->
+
+
+<section id="pricing_banner">
+  <div id="pricing" class="container">
+    <div id="pricing_headlines" class="sixteen columns">
+      <h1>It's Time You Knew What's Happening in Your Stripe Account</h1>
+      <h2>Get Instant Notifications of Failed Charges, Cancellations, and More!</h2>
+    </div><!-- END #pricing_headlines -->
+
+    <div class="row" id="pricing_buckets">
+      <div class="one-third column pricing_bucket">
+        <div class="inner">
+          <h2>Developer</h2>
+          <h3>$14<span>/month</span></h3>
+          <p>If you collect between<strong>21 – 100 charges/mo</strong></p>
+          <ul>
+            <li><strong>Email Alerts</strong></li>
+            <li><strong>Daily Analytics</strong></li>
+            <li><strong>Weekly Analytics</strong></li>
+            <li>Unlimited Stripe Accounts</li>
+            <li>Unlimited Teammates</li>
+          </ul>
+          <a id="1400_21_100_btn" class="signup" href="https://secure.hookfeed.com/users/new?s=1400_21_100">Get Free Trial</a>
+        </div>
+      </div>
+
+      <div class="one-third column pricing_bucket">
+        <div class="inner">
+          <h2>Startup</h2>
+          <h3>$39<span>/month</span></h3>
+          <p>If you collect between<strong>101 – 1,000 charges/mo</strong></p>
+          <ul>
+            <li><strong>Email Alerts</strong></li>
+            <li><strong>Daily Analytics</strong></li>
+            <li><strong>Weekly Analytics</strong></li>
+            <li>Unlimited Stripe Accounts</li>
+            <li>Unlimited Teammates</li>
+          </ul>
+          <a id="3900_101_1000_btn" class="signup" href="https://secure.hookfeed.com/users/new?s=3900_101_1000">Get Free Trial</a>
+        </div>
+      </div>
+
+      <div class="one-third column pricing_bucket">
+        <div class="inner">
+          <h2>Business</h2>
+          <h3>$99<span>/month</span></h3>
+          <p>If you collect between<strong>1,001 – 5,000 charges/mo</strong></p>
+          <ul>
+            <li><strong>Email Alerts</strong></li>
+            <li><strong>Daily Analytics</strong></li>
+            <li><strong>Weekly Analytics</strong></li>
+            <li>Unlimited Stripe Accounts</li>
+            <li>Unlimited Teammates</li>
+          </ul>
+          <a id="9900_1001_5000_btn" class="signup" href="https://secure.hookfeed.com/users/new?s=9900_1001_5000">Get Free Trial</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eight columns" id="free_plan">
+        Collect less than 20 charges each month? Use our <a href="https://secure.hookfeed.com/users/new?s=0_0_20">free plan</a>.
+      </div>
+
+      <div class="eight columns" id="enterprise">
+        Need a larger plan? <a href="mailto:support@hookfeed.com">Let's talk...</a>
+      </div>
+    </div><!-- END .row -->
+  </div><!-- END #pricing.container -->
+</section><!-- END #pricing_banner -->
+
+
+<section id="failed_charge_banner">
+  <div id="failed_charge" class="container">
+    <div class="sixteen columns">
+      <h1>About 5% of Your Charges are Failing. <strong><i>What Are You Doing about It?</i></strong></h1>
+    </div><!-- END .sixteen.columns -->
+
+    <div class="eight columns testimonial">
+      <a href="https://twitter.com/thedannorris"><img src="https://s3.amazonaws.com/HookFeed/dan_norris.jpeg" width="72" height="72" id="dan" class="person"></a>
+      <h2><a href="https://twitter.com/thedannorris">Dan Norris</a></h2>
+      <h3>Founder of <a href="https://wpcurve.com">WP Curve</a></h3>
+      <p>&ldquo;Before HookFeed, we were in a painful situation where we could either get hundreds of Stripe notifications (which we didn't need) or we could get none.</p>
+
+      <p>Getting none meant we'd miss failed charges and in some cases, <b>we'd serve customers for months without realizing they hadn't paid.</b></p>
+
+      <p>HookFeed solved the problem by allowing us to set up notifications for only the events we cared about. It's a no brainer at the price and I'd highly recommend it!&rdquo;</p>
+    </div><!-- END .testimonial.eight.columns -->
+
+    <div id="failed_charge_email_diagram" class="seven columns offset-by-one">
+      <img src="https://s3.amazonaws.com/HookFeed/failed_charge_email_diagram.gif" class="scale-with-grid" width="400">
+    </div>
+  </div><!-- END #failed_charge -->
+</section><!-- END #failed_charge_banner -->
+
+<section id="team_routing_banner">
+  <div id="team_routing" class="container">
+    <div class="sixteen columns">
+      <h1>Route Critical Alerts to the Right People on Your Team. <b><i>Automatically.</i></b></h1>
+    </div><!-- END .sixteen.columns -->
+
+    <div id="team_routing_diagram" class="seven columns">
+      <img src="https://s3.amazonaws.com/HookFeed/team_routing_diagram_v4.gif" class="scale-with-grid" width="400">
+    </div>
+
+    <div class="eight columns offset-by-one testimonial">
+      <a href="https://twitter.com/michaelsacca"><img src="https://s3.amazonaws.com/HookFeed/michael_sacca.jpg" width="72" height="72" id="michael" class="person"></a>
+      <h2><a href="https://twitter.com/michaelsacca">Michael Sacca</a></h2>
+      <h3>Founder of <a href="http://brandisty.com">Brandisty</a></h3>
+      <p>&ldquo;Being able to route specific alerts to my team has been awesome. Knowing that someone&rsquo;s on it when bad things happen is a huge relief.</p>
+      <p><b>Without any intervention, my team can immediately start rescuing lost revenue, and decreasing involuntary churn.</b></p>
+      <p>As for me and my co-founder, the weekly analytics emails have been fantastic for monitoring progress without flooding our email inboxes.&rdquo;</p>
+    </div><!-- END .testimonial.eight.columns -->
+  </div><!-- END #team_routing -->
+</section><!-- END #team_routing_banner -->
+
+
+<section id="benefits_banner">
+  <div id="benefits" class="container">
+    <h1>Instant Email Alerts and Daily/Weekly Analytics</h1>
+
+    <div id="payment_platform_logos" class="row">
+      <a href="#" id="stripe">
+        <img src="https://s3.amazonaws.com/HookFeed/stripe_logo.png" height="50" width="122">
+        <div id="pointer"></div>
+      </a>
+      <a href="https://smallhq.wufoo.com/forms/hookfeed-integrations/def/field109=Braintree" id="braintree">
+        <img src="https://s3.amazonaws.com/HookFeed/braintree.png" width="160" height="40">
+      </a>
+      <a href="https://smallhq.wufoo.com/forms/hookfeed-integrations/def/field109=Balanced%20Payments" id="balanced">
+        <img src="https://s3.amazonaws.com/HookFeed/balanced.png" width="140" height="61">
+      </a>
+      <a href="https://smallhq.wufoo.com/forms/hookfeed-integrations" id="other">
+        <p>and More...</p>
+      </a>
+    </div>
+
+    <div id="email_samples" class="row">
+      <nav id="stripe_events">
+        <h2>We Notify You of:</h2>
+        <a href="#" class="active" data-height="667" data-responsive-height="574" data-img="img-charge-failed">Failed Charges</a>
+        <a href="#" data-height="601" data-responsive-height="517" data-img="img-charge-created">Successful Charges</a>
+        <a href="#" data-height="601" data-responsive-height="517" data-img="img-charge-refund">Refunds</a>
+        <a href="#" data-height="620" data-responsive-height="533" data-img="img-subscription-created">New Subscribers</a>
+        <a href="#" data-height="776" data-responsive-height="668" data-img="img-subscription-upgrade">Upgrades</a>
+        <a href="#" data-height="797" data-responsive-height="686" data-img="img-subscription-downgrade">Downgrades</a>
+        <a href="#" data-height="599" data-responsive-height="515" data-img="img-subscription-deleted">Cancellations</a>
+        <a href="#" data-height="520" data-responsive-height="447" data-img="img-transfer-paid">Bank Transfers</a>
+        <a href="#" data-height="520" data-responsive-height="447" data-img="img-transfer-failed">Failed Bank Transfers</a>
+        <a href="#" data-height="642" data-responsive-height="552" data-img="img-charge-dispute">Disputed Charges</a>
+        <a href="#" data-height="735" data-responsive-height="632" data-img="img-dispute-settled">Settled Disputes</a>
+      </nav>
+      <div id="email_preview">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-charge-failed.jpg" alt="" width="658" id="img-charge-failed" class="active">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-charge-created.jpg" alt="" width="658" id="img-charge-created">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-charge-refund.jpg" alt="" width="658" id="img-charge-refund">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-subscription-created.jpg" alt="" width="658" id="img-subscription-created">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-subscription-upgrade.jpg" alt="" width="658" id="img-subscription-upgrade">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-subscription-downgrade.jpg" alt="" width="658" id="img-subscription-downgrade">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-subscription-deleted.jpg" alt="" width="658" id="img-subscription-deleted">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-transfer-paid.jpg" alt="" width="658" id="img-transfer-paid">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-transfer-failed.jpg" alt="" width="658" id="img-transfer-failed">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-charge-dispute.jpg" alt="" width="658" id="img-charge-dispute">
+        <img src="https://s3.amazonaws.com/HookFeed/email_previews/stripe-dispute-settled.jpg" alt="" width="658" id="img-dispute-settled">
+      </div>
+    </div>
+
+    <div id="three_benefits" class="row">
+      <div class="left_tri columns benefit">
+        <span>Q</span>
+        <h2>One-Click Connect</h2>
+        <p>Connect your Stripe account to HookFeed with just <b>one click</b>. <u>No code necessary</u>. Be up and running in less than a minute.</p>
+      </div><!-- END .benefit -->
+
+      <div class="center_tri columns benefit">
+        <span>N</span>
+        <h2>Summary Emails</h2>
+        <p>Not every event in your account needs your immediate attention. Want a weekly summary of new signups? No problem!</p>
+      </div><!-- END .benefit -->
+
+      <div class="right_tri columns benefit">
+      <span>l</span>
+      <h2>Multiple Stripe Accounts</h2>
+        <p>Have multiple Stripe accounts? Connect them all and monitor all the important stuff in one place. It's so easy.</p>
+      </div><!-- END .benefit -->
+    </div><!-- END #three_benefits -->
+  </div><!-- END #benefits.container -->
+</section><!-- END #benefits_banner -->
+
+
+
+<section id="team_banner">
+  <div id="team" class="container">
+    <h1>Keep Your Team in the Loop - <b>Automatically</b></h1>
+  </div><!-- END #team.container -->
+</section><!-- END #team_banner -->
+
+
+
+<section id="faqs_banner">
+  <div id="faqs" class="container">
+
+    <div class="sixteen columns">
+      <h2>FAQs</h2>
+    </div><!-- END .sixteen.columns -->
+
+    <div class="row">
+      <div class="left_half columns">
+        <dl>
+          <dt>Is HookFeed secure?</dt>
+          <dd>Completely. When you connect HookFeed to your Stripe account you’re giving us read-only access. All interactions within the app are SSL encrypted. And we’ll never share your information with anyone.</dd>
+
+          <dt>Which Stripe events do you track?</dt>
+          <dd>Currently we track Charges, Failed Charges, Refunds, New Subscribers, Upgrades, Downgrades, Cancellations, Bank Transfers, Failed Bank Transfers, Disputed Charges, and Settled Disputes. We're open to your suggestions for other events. A full list of events from Stripe can be found <a href="https://stripe.com/docs/api#list_events">here</a>.</dd>
+
+          <dt>Do I need to know how to code?</dt>
+          <dd>No! You can connect your Stripe account to HookFeed in one click. Literally. No code necessary.</dd>
+        </dl>
+      </div><!-- END .left_half.columns -->
+
+      <div class="right_half columns">
+        <dl>
+          <dt>Can I cancel anytime?</dt>
+          <dd>Yes. We’ll be sad to see you go, but if HookFeed isn’t for you we totally understand. We make it super easy to cancel your service and disconnect your Stripe account.</dd>
+
+          <dt>Can I pick which events get sent to me?</dt>
+          <dd>Yes. Once you’re logged into your HookFeed account you can choose which events get sent to you in an instant email alert, and which events will be compiled into a daily and/or weekly digest email. You'll do the same for any teammates you add.</dd>
+
+          <dt>What if I have more questions?</dt>
+          <dd>Email us any questions you have. We're happy to help out!<br><a href="mailto:support@hookfeed.com">support@hookfeed.com</a></dd>
+        </dl>
+      </div><!-- END .right_half.columns -->
+    </div><!-- END .row -->
+
+    <footer>
+      <a href="mailto:support@hookfeed.com">Support</a>
+      <span>Built by <a href="http://www.smallhq.com">Small HQ</a> &nbsp;|&nbsp;  <a href="http://www.madeinsd.org"> Made in SD</a></span>
+      <a href="https://mixpanel.com/f/partner" style="margin-top:10px;display:block;"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+    </footer>
+  </div><!-- END #faqs.container -->
+</section><!-- END #faqs_banner -->
+
+
+
+
+  <section id="footer_banner">
+    <div id="footer" class="container">
+      <footer class="sixteen columns">
+        <a href="/blog">Blog</a>
+        <a href="mailto:support@hookfeed.com">Support</a>
+        <a href="/pricing#faqs_banner">FAQs</a>
+        <a href="mailto:joelle@hookfeed.com?subject=Why%20I%20%3C3%20HookFeed%20(and%20why%20HookFeed%20should%20%3C3%20me%20back)">We're Hiring!</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-of-service">Terms &amp; Conditions</a>
+        <a href="http://www.madeinsd.org" class="madeinsd">Made with <img src="https://s3.amazonaws.com/HookFeed/heart.png" width="25"> in Sunny San Diego</a>
+      </footer>
+    </div>
+  </section>
+
+</body>
+</html>
