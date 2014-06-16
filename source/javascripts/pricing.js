@@ -6,7 +6,7 @@ Number.prototype.format = function(n, x) {
 };
 
 var coupon_id = $.url().param('c');
-var pricing_plans = $.url().param('p') || "m_39900_10_1501_3000,m_24900_5_501_1500,m_12900_3_101_500,m_3900_2_26_100,m_0_1_0_25";
+var pricing_plans = $.url().param('p') || "m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25";
 var plan_names = $.url().param('n') || "Pro,Business,Team,Starter";
 var pricing_plans_array = pricing_plans.split(',');
 var plan_names_array = plan_names.split(',');
