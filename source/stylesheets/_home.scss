@@ -331,7 +331,8 @@ body#page_layout.index {
       }
 
       &:first-child,
-      &:last-child {
+      &:last-child,
+      &:nth-child(3) {
         a { margin-top: 25px; }
       }
     }
@@ -340,8 +341,10 @@ body#page_layout.index {
       .four.columns {
         a { margin-top: 8px; }
 
-        &:nth-child(2) {
-          a { margin-top: 15px; }
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3) {
+          a { margin-top: 25px; }
         }
       }
     }
