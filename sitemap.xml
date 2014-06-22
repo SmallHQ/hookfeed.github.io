@@ -37,13 +37,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.hookfeed.com/</loc>
-    <lastmod>2014-06-21T00:00:00-07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>http://www.hookfeed.com/old_index/</loc>
+    <loc>http://www.hookfeed.com/updates/</loc>
     <lastmod>2014-06-21T00:00:00-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
@@ -55,7 +49,7 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>http://www.hookfeed.com/updates/</loc>
+    <loc>http://www.hookfeed.com/</loc>
     <lastmod>2014-06-21T00:00:00-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
