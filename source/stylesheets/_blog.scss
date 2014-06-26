@@ -40,12 +40,7 @@
 #blog_banner {
   padding-top: 10px;
 
-  /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {
-    padding-top: 175px;
-  }
-
-  #blog {
+  article {
     h1, h2, h3, h4 {
       color: #505254;
       font-weight: bold;
@@ -54,14 +49,14 @@
     h1 {
       font-size: 40px;
       line-height: 45px;
-      text-align: center;
+      letter-spacing: -1px;
       margin: 50px 0;
 
       /* All Mobile Sizes (devices and browser) */
       @media only screen and (max-width: 767px) {
         font-size: 30px;
         line-height: 34px;
-        margin-top: 0px;
+        margin-top: 30px;
         margin-bottom: 30px;
       }
     }
@@ -75,6 +70,7 @@
     h2 {
       font-size: 24px;
       line-height: 28px;
+      letter-spacing: -1px;
       margin-bottom: 6px;
     }
 
@@ -88,7 +84,6 @@
       font-size: 28px;
       line-height: 30px;
       font-weight: normal;
-      text-align: center;
       margin-bottom: 50px;
       margin-top: -29px;
 
@@ -96,49 +91,22 @@
       @media only screen and (max-width: 767px) {
         font-size: 26px;
         margin-top: -16px;
+        margin-bottom: 30px
       }
     }
 
     img {
       border-radius: 4px;
-      margin: 0 -40px;
-      width: 660px;
-
-      &.full-image {
-        border-radius: 4px;
-        margin: 0 -190px;
-        width: 960px;
-      }
+      width: 580px;
 
       /* Tablet Portrait size to standard 960 (devices and browsers) */
-      @media only screen and (min-width: 768px) and (max-width: 959px) {
-        width: 540px;
-
-        &.full-image {
-          margin: 0 -154px;
-          width: 768px;
-        }
-      }
+      @media only screen and (min-width: 768px) and (max-width: 959px) {width: 460px}
 
       /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-      @media only screen and (min-width: 480px) and (max-width: 767px) {
-        width: 500px;
-
-        &.full-image {
-          margin: 0 -40px;
-          width: 500px;
-        }
-      }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {width: 420px}
 
       /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-      @media only screen and (max-width: 479px) {
-        width: 380px;
-
-        &.full-image {
-          margin: 0 -40px;
-          width: 380px;
-        }
-      }
+      @media only screen and (max-width: 479px) {width: 300px}
     }
 
     ul, ol {
@@ -211,25 +179,73 @@
       }
     }
   }
+
+  aside#sidebar {
+    padding-top: 58px;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {display: none}
+
+    img {
+      width: 280px;
+
+      /* Tablet Portrait size to standard 960 (devices and browsers) */
+      @media only screen and (min-width: 768px) and (max-width: 959px) {width: 220px}
+    }
+
+    #sharing {
+      text-align: center;
+
+      p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 14px;
+        color: #909295;
+      }
+
+      #twitter, #googleplus, #facebook, #linkedin, #buffer {
+        display: inline-block;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          display: block;
+          margin-bottom: 8px;
+        }
+      }
+
+      #facebook {
+        margin-right: 40px;
+      }
+    }
+  }
 }
+
 
 #sharing_banner {
   padding: 20px 0px;
+  display: none;
+
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {
+    display: block;
+  }
+
   #sharing {
     text-align: center;
+
+    #anchor_divider {
+      color: #c0c5ce;
+      font-family: Pictos;
+      font-size: 24px;
+      margin-bottom: 60px;
+      text-align: center;
+    }
 
     p {
       font-size: 18px;
       line-height: 20px;
       margin-bottom: 14px;
       color: #909295;
-    }
-
-    #anchor_divider {
-        color: #c0c5ce;
-        font-family: Pictos;
-        font-size: 24px;
-        margin-bottom: 40px;
     }
 
     #twitter, #googleplus, #facebook, #linkedin, #buffer {
@@ -248,8 +264,23 @@
   }
 }
 
+
+
 #promo_banner {
   padding: 20px 0px;
+
+  #anchor_divider {
+    color: #c0c5ce;
+    font-family: Pictos;
+    font-size: 24px;
+    margin-bottom: 60px;
+    text-align: center;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
+  }
 
   #rocketship_promo {
     background-color: #f4f2e7;

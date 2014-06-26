@@ -58,5 +58,4 @@ And while figuring out your risk tolerance is important, and will certainly help
 
 Once you can answer that, you’ll know what to work on today.
 
-For me, I can’t help but think of myself at the frozen yogurt shop faced with the cliché choice of chocolate or vanilla. I’m a swirl kinda girl… maybe that’s a sign?
-
+For me, I can’t help but think of myself at the frozen yogurt shop faced with the cliché choice of chocolate or vanilla. I’m a swirl kinda girl...maybe that’s a sign?

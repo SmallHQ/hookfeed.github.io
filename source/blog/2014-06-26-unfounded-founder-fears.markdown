@@ -73,6 +73,6 @@ Every decision you make has a long-term impact on your product. You’ve got to 
 
 <hr>
 
-Ultimately, you just need to be realistic and honest with yourself. Step back look objectively at what you’ve already built. Consult a trusted friend. Consult 10 if you're still unsure. Don’t worry about perfection, long-term visions, or anything else holding you back. It’s all going to change anyway. If you’re solving the core problem you set out to solve, and you’re holding back for no good reason, do yourself a huge favor…launch already!
+Ultimately, you just need to be realistic and honest with yourself. Step back look objectively at what you’ve already built. Consult a trusted friend. Consult 10 if you're still unsure. Don’t worry about perfection, long-term visions, or anything else holding you back. It’s all going to change anyway. If you’re solving the core problem you set out to solve, and you’re holding back for no good reason, do yourself a huge favor...launch already!
 
 
