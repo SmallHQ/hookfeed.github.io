@@ -86,31 +86,15 @@
 
   <section id="blog_banner">
     <div id="blog" class="container">
-      <article class="ten columns">
+      <article class="ten columns offset-by-three">
         <%= yield %>
       </article><!-- END .ten.columns -->
 
-      <aside class="five columns offset-by-one" id="sidebar">
-        <img src="http://placehold.it/280x120">
-
+      <aside class="three columns" id="sidebar">
         <div id="sharing">
-          <p>If you liked this article it would mean a lot to me if you'd share it!</p>
-
           <div id="twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed">Tweet</a>
-          </div>
-
-          <div id="buffer">
-            <a href="http://bufferapp.com/add" class="buffer-add-button" data-count="horizontal" data-via="HookFeed" >Buffer</a><script type="text/javascript" src="http://static.bufferapp.com/js/button.js"></script>
-          </div>
-
-          <div id="googleplus">
-            <div class="g-plusone"></div>
-          </div>
-
-          <div id="facebook">
-            <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false">
-            </div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed" data-size="large">Tweet</a>
+            <a href="https://twitter.com/HookFeed" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @HookFeed</a>
           </div>
         </div>
       </aside><!-- END .five.columns -->
@@ -147,7 +131,7 @@
 
   <section id="promo_banner">
     <div id="promo" class="container">
-      <div class="ten columns">
+      <div class="ten columns offset-by-three">
         <div id="anchor_divider">a</div>
         <div class="promo_inner" id="hookfeed_promo">
           <a href="/?utm_source=hookfeed-blog&utm_medium=blog&utm_campaign=customer-card-promo"><img src="https://d2uerwjzv5u4r9.cloudfront.net/blog_promo.jpg" width="560" class="scale-with-grid"></a>
@@ -158,7 +142,7 @@
 
   <section id="bio_banner">
     <div id="bio" class="container">
-      <div class="ten columns">
+      <div class="ten columns offset-by-three">
         <h4>About the Author</h4>
         <%= partial "authors/#{current_page.data.author}" %>
       </div><!-- END .ten columns offset-by-three -->

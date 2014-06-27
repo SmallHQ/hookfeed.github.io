@@ -2,26 +2,21 @@
   background-color: #fff;
 }
 #blog_list_banner {
-  padding-top: 50px;
-
-  /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {
-    padding-top: 175px;
-  }
+  padding-top: 60px;
 
   #blog_list {
     article {
       margin-bottom: 30px;
 
       h1 {
-        font-size: 31px;
+        font-size: 30px;
         font-weight: bold;
-        line-height: 40px;
+        line-height: 35px;
         letter-spacing: -1px;
         margin-bottom: 6px;
 
         a {
-          color: #494b4d;
+          color: #505254;
 
           &:hover {
             text-decoration: none;
@@ -47,8 +42,8 @@
     }
 
     h1 {
-      font-size: 40px;
-      line-height: 45px;
+      font-size: 30px;
+      line-height: 35px;
       letter-spacing: -1px;
       margin: 50px 0;
 
@@ -85,7 +80,7 @@
       line-height: 30px;
       font-weight: normal;
       margin-bottom: 50px;
-      margin-top: -29px;
+      margin-top: -40px;
 
       /* All Mobile Sizes (devices and browser) */
       @media only screen and (max-width: 767px) {
@@ -186,24 +181,18 @@
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {display: none}
 
-    img {
-      width: 280px;
-
-      /* Tablet Portrait size to standard 960 (devices and browsers) */
-      @media only screen and (min-width: 768px) and (max-width: 959px) {width: 220px}
-    }
-
     #sharing {
-      text-align: center;
-
-      p {
-        font-size: 18px;
-        line-height: 20px;
-        margin-bottom: 14px;
-        color: #909295;
+      a.twitter-share-button,
+      a.twitter-follow-button {
+        display: none;
       }
 
-      #twitter, #googleplus, #facebook, #linkedin, #buffer {
+      iframe {
+        margin-bottom: 10px;
+        display:block;
+      }
+
+      #twitter {
         display: inline-block;
 
         /* All Mobile Sizes (devices and browser) */
@@ -211,10 +200,6 @@
           display: block;
           margin-bottom: 8px;
         }
-      }
-
-      #facebook {
-        margin-right: 40px;
       }
     }
   }
