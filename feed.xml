@@ -4,17 +4,104 @@
   <id>http://www.hookfeed.com/blog</id>
   <link href="http://www.hookfeed.com/blog"/>
   <link href="http://www.hookfeed.com/feed.xml" rel="self"/>
-  <updated>2014-05-14T07:00:00Z</updated>
+  <updated>2014-06-26T07:00:00Z</updated>
   <author>
     <name>Matt Goldman</name>
     <name>Joelle Steiniger</name>
   </author>
   <entry>
+    <title>Unfounded Founder Fears</title>
+    <link rel="alternate" href="http://www.hookfeed.com/blog/unfounded-founder-fears/"/>
+    <id>http://www.hookfeed.com/blog/unfounded-founder-fears/</id>
+    <published>2014-06-26T07:00:00Z</published>
+    <updated>2014-06-26T10:58:19-07:00</updated>
+    <author>
+      <name>Matt Goldman</name>
+    </author>
+    <content type="html">&lt;h1&gt;Unfounded Founder Fears&lt;/h1&gt;
+
+&lt;h2&gt;And Why You Have To Get Past Them&lt;/h2&gt;
+
+&lt;p&gt;I laid awake almost every night that week playing mental ping pong.&lt;/p&gt;
+
+&lt;p&gt;I was convinced we weren’t ready yet, though all “expert” advice would preach otherwise. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Launch early! Launch Often! Iterate!”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Reid Hoffman Quote" src="https://d2uerwjzv5u4r9.cloudfront.net/tumblr_l63ltpE9ZZ1qz6pqio1_500.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Screw that. HookFeed was my baby. And my baby wasn’t ready to meet the world yet. Was it?&lt;/p&gt;
+
+&lt;p&gt;The emotional impact of doubt had taken a big toll on Matt and I. We’d battle back and forth. We’d convince each other of reasons to launch, then find all kinds of reasons to wait. We were at the tail-end of a many-month long dev hole, with little to no outside feedback. We were exhausted. And we hadn’t even “started” yet. &lt;/p&gt;
+
+&lt;p&gt;We were doing everything we’d advise others not to do. And we knew it, but we couldn’t stop. Until one day, when we explained it all to our buddy, Ross Campbell. He patiently listened, smiling the whole while. Finally, when we’d done our best to convince him why we weren’t ready to launch yet he just started laughing. “You guys have no idea the value you’ve already created!” &lt;/p&gt;
+
+&lt;p&gt;Damn, he was right. We were so close to our long-term vision of HookFeed that we didn’t even see how valuable we’d already made it.&lt;/p&gt;
+
+&lt;p&gt;This conversation prompted us to do what we should have done weeks earlier. We talked about our fears. About what was really holding us back. &lt;/p&gt;
+
+&lt;p&gt;The funny thing about a simple exercise like that is when you say your fears out loud, the things that have been keeping you up at night sound totally small. And often, counter-intuitive from what you know to be true. &lt;/p&gt;
+
+&lt;p&gt;The reason this works so well is because fear is (usually) irrational. So verbalizing out loud what you’re actually worried about forces you to acknowledge that, and think rationally about it. I highly encourage you try this whenever you’re feeling doubtful about something. It’s so simple and so effective.&lt;/p&gt;
+
+&lt;h2&gt;Here’s an example of a real fear I had:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;What if we drive a ton of launch traffic, all those people look once, don’t see “X” feature, and never come back.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Truth:&lt;/strong&gt; It takes an average of 6-8 touch points with someone before they ultimately buy. Maybe more depending on what you’re selling. As entrepreneurs, we know this — which is why we put so much effort into things like building email lists, blogging, educating, etc. We know we need to provide value, earn trust, and build loyal audiences before those people are going to be willing to enter their credit card numbers. So the logical thing to do would be to get that process in motion sooner, rather than later — all the while, iterating on the product.&lt;/p&gt;
+
+&lt;p&gt;The thing about all our other fears is that they really came down to one common thread: Fear of the unknown. And there were a lot of unknowns about launching.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What if no one signs up?&lt;/li&gt;
+&lt;li&gt;What if everyone expects “X” feature and we don’t have it?&lt;/li&gt;
+&lt;li&gt;What if our pricing is too high (or too low)?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I could have written pages of “what ifs”.&lt;/p&gt;
+
+&lt;p&gt;But the thing about these kinds of questions is, there’s only one way to find out the answer. You have to take the unknown, and make it known. &lt;strong&gt;You have to launch.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Aside from the emotional relief of moving past whatever fears have paralyzed you in pre-launch purgatory, there are other intrinsic benefits to launching your product that you simply can’t take advantage of until you release it out into the wild.&lt;/p&gt;
+
+&lt;h2&gt;Until You Launch, You’re Guessing&lt;/h2&gt;
+
+&lt;p&gt;Every feature, every decision is a guess. You make a lot of upfront assumptions when you’re launching a product, and only when you launch are you able to prove those assumptions right or wrong. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s a real example.&lt;/strong&gt;
+When we decided to launch we were missing what I considered to be 50% of the product. We were offering “customer analytics for Stripe”, but only supporting companies who operate on subscription billing. This left out anyone doing one-off charges (like all eCommerce companies). In other words, were only serving a segment of our entire potential market. So the question became:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Do we serve 0% of the market until we can serve 100%?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Or, do we start with what we’ve got (subscription services) and grow from there. &lt;/p&gt;
+
+&lt;p&gt;We opted for the latter and something awesome happened. We received a number of signups from eCommerce companies anyway.&lt;/p&gt;
+
+&lt;p&gt;It gave us a chance to talk to them personally, get them excited about what was to come for their specific needs, and develop an arsenal of excited, qualified, prospective customers. Plus, we require a credit card up front, so we knew these people were serious about wanting to try (and pay for) our product. &lt;/p&gt;
+
+&lt;p&gt;Now we can place an actual dollar value on building out that portion of the product. No assumptions. No guessing. The demand is loud and clear, and there’s money on the line. Perhaps most importantly, we know what to prioritize — which is huge when you’ve got a small team with limited resources.&lt;/p&gt;
+
+&lt;p&gt;A side note to mention about this is that people are much more patient than we often give them credit for. Not a single person was upset that they had to wait a few weeks — rather they were excited that we were addressing their needs and felt more connected to us and our process after talking to them.&lt;/p&gt;
+
+&lt;h2&gt;Launching Allows You to be Deliberate in Future Decisions.&lt;/h2&gt;
+
+&lt;p&gt;Once you launch and open up the feedback loop with real customers (and real potential customers) you get a much clearer understanding of what’s most important. That doesn’t mean building every feature they request (and they’ll request a lot) — but rather, you’ll realize that some of the things you thought would be “must haves” haven’t been requested by a single person. Or 80% of people are all telling you the exact same thing. Feedback like this is invaluable to your prioritization process and development of your roadmap. &lt;/p&gt;
+
+&lt;p&gt;Every decision you make has a long-term impact on your product. You’ve got to be deliberate about even the smallest decisions, features, etc. Bottom line: the more informed you are, the less guessing you have to do.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Ultimately, you just need to be realistic and honest with yourself. Step back look objectively at what you’ve already built. Consult a trusted friend. Consult 10 if you&amp;rsquo;re still unsure. Don’t worry about perfection, long-term visions, or anything else holding you back. It’s all going to change anyway. If you’re solving the core problem you set out to solve, and you’re holding back for no good reason, do yourself a huge favor&amp;hellip;launch already!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>When Profitability is a Red Flag</title>
     <link rel="alternate" href="http://www.hookfeed.com/blog/when-profitability-is-a-red-flag/"/>
     <id>http://www.hookfeed.com/blog/when-profitability-is-a-red-flag/</id>
     <published>2014-05-14T07:00:00Z</published>
-    <updated>2014-06-16T11:48:54-07:00</updated>
+    <updated>2014-06-26T10:57:47-07:00</updated>
     <author>
       <name>Matt Goldman</name>
     </author>
@@ -74,7 +161,7 @@
 
 &lt;p&gt;Once you can answer that, you’ll know what to work on today.&lt;/p&gt;
 
-&lt;p&gt;For me, I can’t help but think of myself at the frozen yogurt shop faced with the cliché choice of chocolate or vanilla. I’m a swirl kinda girl… maybe that’s a sign?&lt;/p&gt;
+&lt;p&gt;For me, I can’t help but think of myself at the frozen yogurt shop faced with the cliché choice of chocolate or vanilla. I’m a swirl kinda girl&amp;hellip;maybe that’s a sign?&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -196,7 +283,7 @@
     <link rel="alternate" href="http://www.hookfeed.com/blog/get-out-of-denial-about-your-startups-priorities/"/>
     <id>http://www.hookfeed.com/blog/get-out-of-denial-about-your-startups-priorities/</id>
     <published>2014-04-02T07:00:00Z</published>
-    <updated>2014-06-16T11:48:54-07:00</updated>
+    <updated>2014-06-26T10:58:47-07:00</updated>
     <author>
       <name>Matt Goldman</name>
     </author>
@@ -204,13 +291,13 @@
 
 &lt;h2&gt;With One, Simple Question.&lt;/h2&gt;
 
-&lt;p&gt;As startup founders, we’re all looking for ways to move that needle. But when was the last time you stopped to question your efforts and whether or not they’re the ‘right ones’? I can say I did this zero times…until a few weeks ago. &lt;/p&gt;
+&lt;p&gt;As startup founders, we’re all looking for ways to move that needle. But when was the last time you stopped to question your efforts and whether or not they’re the ‘right ones’? I can say I did this zero times&amp;hellip;until a few weeks ago. &lt;/p&gt;
 
 &lt;p&gt;In a recent chat with &lt;a href="https://twitter.com/hnshah"&gt;Hiten Shah&lt;/a&gt;, he told me that the thing he sees early startups struggle with the most, time and time again, is misplaced focus.&lt;/p&gt;
 
 &lt;p&gt;This wasn’t the answer I was expecting. Or maybe I should say, it wasn’t the answer I was hoping for.&lt;/p&gt;
 
-&lt;p&gt;I wanted a concrete, common reason like, “Most early startups focus too much on customer development, marketing, product features, scaling, etc… when they should be doing [BLANK].” &lt;/p&gt;
+&lt;p&gt;I wanted a concrete, common reason like, “Most early startups focus too much on customer development, marketing, product features, scaling, etc&amp;hellip;when they should be doing [BLANK].” &lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;“Misplaced focus,” he said.&lt;/p&gt;
@@ -246,7 +333,7 @@
 
 &lt;p&gt;In my opinion, it’s quite the opposite. I’d love be able to put less in and get more out. &lt;/p&gt;
 
-&lt;p&gt;There are always going to be plenty of outside factors that make it difficult to reach your goals — but do you ever stop to ask yourself if the things within your control, the things you are doing are the right things for that exact point in time? I rarely did… until recently.&lt;/p&gt;
+&lt;p&gt;There are always going to be plenty of outside factors that make it difficult to reach your goals — but do you ever stop to ask yourself if the things within your control, the things you are doing are the right things for that exact point in time? I rarely did&amp;hellip;until recently.&lt;/p&gt;
 
 &lt;h2&gt;Confession: I don’t know what the hell I’m doing.&lt;/h2&gt;
 
@@ -258,11 +345,11 @@
 
 &lt;h2&gt;So How’s That Working for You?&lt;/h2&gt;
 
-&lt;p&gt;I can’t help but think back to an instructor I once had. Big, booming, Belgian guy with a killer accent. He’d ask this one question that just came back to me as I sit here writing this post. You’d tell him about your struggles in achieving some goal (getting your team to work better together, getting a promotion at work, losing weight… whatever). You’d list off the things you’d been doing to try and achieve it. And after each action you listed, he’d ask:&lt;/p&gt;
+&lt;p&gt;I can’t help but think back to an instructor I once had. Big, booming, Belgian guy with a killer accent. He’d ask this one question that just came back to me as I sit here writing this post. You’d tell him about your struggles in achieving some goal (getting your team to work better together, getting a promotion at work, losing weight&amp;hellip;whatever). You’d list off the things you’d been doing to try and achieve it. And after each action you listed, he’d ask:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;“And how’s that working for you?”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You’d list off something else you did and he’d ask again. &lt;em&gt;“And how’s that working for you?”&lt;/em&gt; He did this incessantly… often to the point of berating the person. But his point was clear every time.&lt;/p&gt;
+&lt;p&gt;You’d list off something else you did and he’d ask again. &lt;em&gt;“And how’s that working for you?”&lt;/em&gt; He did this incessantly&amp;hellip;often to the point of berating the person. But his point was clear every time.&lt;/p&gt;
 
 &lt;p&gt;If you keep doing things that aren’t working, you’ll never get there. Try something else. If that doesn’t work, try something else. Get creative. Problem solve. Attack things from different angles. But stop spending your energy doing things you know don’t work.&lt;/p&gt;
 
@@ -273,8 +360,6 @@
 &lt;p&gt;The thing about running a startup is that there’s never a clear-cut path. I know we’re going to make lots of mistakes. It’s part of the fun and a component of a unique, lifelong education. In fact, the freedom to make them is part of why I got into this business instead of something easier or more secure. But in order to grow (not just move the needle, but grow personally) I’m going to need to get comfortable being uncomfortable. I’m going to have to experiment, try new things — fail fast and move on. I need to avoid the opportunity for denial and take that instructor’s advice to be more mindful about what I’m doing, and why.&lt;/p&gt;
 
 &lt;p&gt;Which is why at the end of every day I now spend a few minutes (that’s all it takes) to think about what I did and ask myself &lt;strong&gt;&lt;em&gt;“how’s this working for me?”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -282,7 +367,7 @@
     <link rel="alternate" href="http://www.hookfeed.com/blog/how-to-boost-saas-cash-flow-by-exploiting-december/"/>
     <id>http://www.hookfeed.com/blog/how-to-boost-saas-cash-flow-by-exploiting-december/</id>
     <published>2013-12-23T08:00:00Z</published>
-    <updated>2014-06-21T20:42:12-07:00</updated>
+    <updated>2014-06-26T10:57:26-07:00</updated>
     <author>
       <name>Matt Goldman</name>
     </author>
@@ -298,7 +383,7 @@
 
 &lt;p&gt;Last Spring, I flew to Vegas for a little SaaS conference. It ended up being my best business decision all year.&lt;/p&gt;
 
-&lt;p&gt;I hesitate to tell you which conference, because I worry that if more people catch on…prices will increase and attendance will become even more limited.&lt;/p&gt;
+&lt;p&gt;I hesitate to tell you which conference, because I worry that if more people catch on&amp;hellip;prices will increase and attendance will become even more limited.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Ah hell, it was &lt;a href="http://www.microconf.com/"&gt;MicroConf&lt;/a&gt; !&lt;/p&gt;
