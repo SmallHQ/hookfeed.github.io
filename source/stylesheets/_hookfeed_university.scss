@@ -30,6 +30,7 @@
     background-color: rgba(90,155,206,.2);
     padding: 30px 50px;
     border-radius: 3px;
+    margin-top: 50px;
   }
 
   h1 {
@@ -51,6 +52,16 @@
   p {
     font-size: 15px;
     color: #6C7079;
+  }
+
+  img#lifesaver {
+    position: absolute;
+    top: 0px;
+    right: -10px;
+  }
+
+  img#lock {
+    vertical-align: middle;
   }
 
   input[type="email"]{
