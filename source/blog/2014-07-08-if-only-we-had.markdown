@@ -1,6 +1,6 @@
 ---
 title: "\"If Only We Had __________.\""
-teaser: ""
+teaser: "Life is tough as a small bootstrapped team. You’re constantly playing the role of underdog, with few wins, little appreciation, and constant doubt. There is never enough time, money, or energy to achieve what you want in the timeframe you want it."
 author: matt_goldman
 published: true
 ---
