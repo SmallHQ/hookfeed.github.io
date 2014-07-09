@@ -1,6 +1,6 @@
 ---
 title: "\"If Only We Had __________.\""
-teaser: ""
+teaser: "Life is tough as a small bootstrapped team. You’re constantly playing the role of underdog, with few wins, little appreciation, and constant doubt. There is never enough time, money, or energy to achieve what you want in the timeframe you want it."
 author: matt_goldman
 published: true
 ---
@@ -8,7 +8,7 @@ published: true
 # "If Only We Had __________."
 ## The deliberation and blame in the minds of SaaS founders — and how you can overcome it.
 
-Life is tough as a small, bootstrapped team.
+Life is tough as a small bootstrapped team.
 
 You’re constantly playing the role of underdog, with few wins, little appreciation, and constant doubt.
 
@@ -39,7 +39,7 @@ Anxiety and fear of moving too slow seem to be triggers for placing blame on ext
 Question your thoughts, and challenge yourself to prove their validity.
 
 ## Setting Deliberate Roles and Goals
-One response I've found to be successful, is to be deliberate about the roles and goals of teammates. This probably sounds super obvious &ndash; but as you know, Founders have an immense range of tasks on their plates, and I know I need constant reminders to be deliberate about various aspects of my day.
+One response I've found to be successful, is to be deliberate about the roles and goals of teammates. This probably sounds super obvious &ndash; but as you know, founders have an immense range of tasks on their plates, and I know I need constant reminders to be deliberate about various aspects of my day.
 
 It's so easy to place tasks on auto-pilot as they become familiar, but that is one way quality decreases over time.
 
@@ -47,20 +47,24 @@ Similarly, by not being deliberate and clear about who should be working on what
 
 One of the worst aspects of your culture can be growing disappointment and resentment amongst teammates.
 
+Beyond setting goals for your team, you need to set goals for your product and customers. **This doesn't mean you should open up Excel and spend hours creating a 5-year MRR "forecast."** Although that's always fun!
+
+Rather, you should look at the work you're doing on your product, and how you're trying to help your customers be more successful...and set measurable goals to track progress.
+
 > So take a day, grab a pen, and do some planning.
 
 Work with your team to make sure everyone is on the same page, and that you're working in the same direction.
 
 The milestones you decide on may not come as quick as you like, but that's fine.
 
+And this shouldn't be a one-time thing. Planning should be a regular part of your flow, and an easy fallback whenever you start feeling anxious.
+
 ## Do You Actually Need Help?
-At this stage, you should have a good idea of whether your internal frustrations are justified, and whether you actually need help...whether that's in the form of hiring someone else, raising some funding, etc.
+At this stage, you should have a good idea of whether your internal frustrations are justified, and whether you actually need help...whether that's in the form of hiring someone else, raising some funding, or another form of outside assistance.
 
 Based on your deliberate planning, you'll have a roadmap that either:
 
-1. Calms you and puts things in perspective
+1. Calms you and puts things in perspective, or:
 2. Helps you be objective about what's actually needed
 
-In the case that you do need to hire or raise funding, consider how you could re-arrange your roadmap to shift revenue-building activities sooner. Can you find a way to continue self-funding and grow faster by making sacrifices in less-important areas of your business or product?
-
-> When in doubt, take a few deep breaths, be objective about what needs to get done and what can wait — and get back to executing.
+In the case that you do need outside help, consider how you could re-arrange your roadmap to shift revenue-building activities sooner. Can you find a way to continue self-funding and grow faster by making sacrifices in less-important areas of your business or product?
