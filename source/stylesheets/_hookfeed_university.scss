@@ -22,7 +22,7 @@
 
 #failed_charges_banner {
   background-color: #F5F5F5;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 60px;
   text-align: center;
 
@@ -31,6 +31,14 @@
     padding: 30px 50px;
     border-radius: 3px;
     margin-top: 50px;
+  }
+
+  span {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 300;
+    font-style: italic;
+    color: #444;
   }
 
   h1 {
