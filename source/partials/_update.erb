@@ -9,14 +9,16 @@
   <span class="icon">e</span>
 <% end %>
 
-  <p><time><%= update.date.strftime('%B %-d, %Y') %></time><%= update.body %></p>
+  <time><%= update.date.strftime('%B %-d, %Y') %></time>
+
+  <%= update.body %>
 
   <% if update.data.images && update.data.images.count > 0 %>
     <div class="demo">
       <% update.data.images.each do |image_url| %>
         <div class="demo-image">
-          <a class="lightbox" href="<%= image_url %>" title="">
-            <img src="<%= image_url %>" alt="">
+          <a class="lightbox" href="http://d2uerwjzv5u4r9.cloudfront.net/updates/<%= image_url %>" title="">
+            <img src="http://d2uerwjzv5u4r9.cloudfront.net/updates/<%= image_url %>" alt="" width="320">
           </a>
         </div>
       <% end %>
