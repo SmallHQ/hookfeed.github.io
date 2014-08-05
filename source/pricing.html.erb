@@ -16,35 +16,45 @@ layout: pricing_layout
   </div>
 </section>
 
-<section id="pricing_table_banner">
-  <div id="pricing_table" class="container">
-<!--
-        Need a custom plan? <a href="mailto:support@hookfeed.com">Email Us</a> or Call (858) 876-7228.-->
+<section id="pricing_details_banner">
+  <div id="pricing_details" class="container">
+
     <div class="ten columns">
-      <table>
-        <tbody>
-          <tr>
-            <td>$10/mo.</td>
-            <td>You and 1 teammate<br>100 monthly paying customers</td>
-            <td><a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Get Started</a></td>
-          </tr>
-          <tr>
-            <td>$20/mo.</td>
-            <td>You and 2 teammates<br>200 monthly paying customers</td>
-            <td><a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Get Started</a></td>
-          </tr>
-          <tr>
-            <td>$50/mo.</td>
-            <td>You and 4 teammates<br>500 monthly paying customers</td>
-            <td><a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Get Started</a></td>
-          </tr>
-          <tr>
-            <td>$100/mo.</td>
-            <td>You and 9 teammates<br>1,000 monthly paying customers</td>
-            <td><a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Get Started</a></td>
-          </tr>
-        </tbody>
-      </table>
+      <ul id="pricing_list" class="clearfix">
+        <li class="clearfix">
+          <span class="price">$10<span class="label">/mo.</span></span>
+          <ul>
+            <li><span class="number">100</span> <span class="label">Customers</span></li>
+            <li><span class="number">2</span> <span class="label">Teammates</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Start My Trial</a>
+        </li>
+        <li class="clearfix">
+          <span class="price">$20<span class="label">/mo.</span></span>
+          <ul>
+            <li><span class="number">200</span> <span class="label">Customers</span></li>
+            <li><span class="number">3</span> <span class="label">Teammates</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Start My Trial</a>
+        </li>
+        <li class="clearfix">
+          <span class="price">$50<span class="label">/mo.</span></span>
+          <ul>
+            <li><span class="number">500</span> <span class="label">Customers</span></li>
+            <li><span class="number">5</span> <span class="label">Teammates</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Start My Trial</a>
+        </li>
+        <li class="clearfix">
+          <span class="price">$100<span class="label">/mo.</span></span>
+          <ul>
+            <li><span class="number">1,000</span> <span class="label">Customers</span></li>
+            <li><span class="number">10</span> <span class="label">Teammates</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Start My Trial</a>
+        </li>
+      </ul>
+
       <div id="free_notice">Fewer than 25 monthly paying customers?<br>Try our <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_0_1_0_25&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">free plan</a>.</div>
       <div id="enterprise_notice">Need something custom?<br>Call (858) 876-7228 or <a href="mailto:joelle.steiniger@hookfeed.com">email us</a>.</div>
     </div>
@@ -60,7 +70,7 @@ layout: pricing_layout
       </ul>
 
       <div id="money_back_guarantee">
-
+guarantee stuff
       </div>
     </div>
   </div><!-- END #pricing.container -->

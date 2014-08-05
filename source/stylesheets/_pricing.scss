@@ -38,44 +38,141 @@ body#page_layout.pricing {
   }
 }
 
-#pricing_table_banner {
+#pricing_details_banner {
   background-color: #f5f5f5;
   padding: 50px 0px;
 
-  #pricing_table {
-    table {
+  #pricing_details {
+    ul#pricing_list {
       background-color: #fff;
       border-radius: 3px;
       box-shadow: 0px 1px 1px #e5e5e5;
-      width: 100%;
+      padding: 30px;
 
-      tbody {
-        tr {
-          td {
-            &:first-child {
-              font-weight: bold;
-              padding: 5px 10px 5px 30px;
-              width: 100px;
-            }
+      &>li {
+        clear: both;
+        display: block;
+        margin-bottom: 20px;
 
-            &:nth-child(2) {
-              font-size: 13px;
-              padding: 5px 10px 5px 10px;
-            }
 
-            &:last-child {
-              padding: 5px 30px 5px 10px;
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          border-bottom: 1px solid #f5f5f5;
+          padding-bottom: 20px;
+          text-align: center;
 
-              a {
-                background-color: $green;
-              }
-            }
+          &:last-child {
+            border-bottom: 0px;
+            padding-bottom: 0px;
+          }
+        }
+
+        &:nth-child(1) {
+          &>a {
+            background-color: lighten(#5A9BCE, 9%);
+            border-bottom: 2px solid lighten(#5A9BCE, 3%);
+          }
+          .price, span.number {color: lighten(#5A9BCE, 9%)}
+        }
+        &:nth-child(2) {
+          &>a {
+            background-color: lighten(#5A9BCE, 6%);
+            border-bottom: 2px solid #5A9BCE;
+          }
+          .price, span.number {color: lighten(#5A9BCE, 6%)}
+        }
+        &:nth-child(3) {
+          &>a {
+            background-color: lighten(#5A9BCE, 3%);
+            border-bottom: 2px solid darken(#5A9BCE, 3%);
+          }
+          .price, span.number {color: lighten(#5A9BCE, 3%)}
+        }
+        &:nth-child(4) {
+          &>a {
+            background-color: #5A9BCE;
+            border-bottom: 2px solid darken(#5A9BCE, 6%);
+          }
+          .price, span.number {color: #5A9BCE}
+        }
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+
+        .price {
+          float: left;
+          font-size: 20px;
+          font-weight: bold;
+          width: 100px;
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) {width: 85px}
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            display: block;
+            float: none;
+            margin-bottom: 10px;
+            width: 100%;
           }
 
-          &:first-child {
-            td {
-              padding-top: 30px;
+          .label {
+            color: #6C7079;
+            font-size: 13px;
+            font-weight: normal;
+          }
+        }
+
+        ul {
+          float: left;
+          margin-left: 40px;
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) {margin-left: 0px;}
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            float: none;
+            margin-bottom: 15px;
+            margin-left: 0px;
+          }
+
+          li {
+            display: inline;
+
+            &:first-child {
+              margin-right: 10px;
             }
+
+            span.number {
+              font-weight: bold;
+              font-size: 15px;
+            }
+            span.label {
+              border-bottom: 1px dotted #ddd;
+              color: #6C7079;
+              font-size: 13px;
+            }
+          }
+        }
+
+        &>a {
+          border-radius: 2px;
+          color: #fff;
+          display: inline-block;
+          float: right;
+          font-size: 13px;
+          font-weight: bold;
+          padding: 3px 8px;
+
+          &:hover {
+            text-decoration: none;
+          }
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            float: none;
           }
         }
       }
