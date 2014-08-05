@@ -10,101 +10,59 @@ layout: pricing_layout
 <section id="pricing_banner">
   <div id="pricing" class="container">
     <div id="pricing_headlines" class="sixteen columns">
-      <h1>Start Boosting Your Revenue in Minutes.</h1>
-      <h2>Try It Free For 7 Days.</h2>
+      <h1>Start Retaining More Customers</h1>
+      <h2>Try HookFeed Free For 7 Days</h2>
     </div><!-- END #pricing_headlines -->
+  </div>
+</section>
 
-    <div class="row" id="pricing_buckets">
-
-      <div class="sixteen columns" id="annual_toggle_container">
-        <label id="annual_toggle"><input type="checkbox"> I want 2 months free</label>
-      </div>
-      <div class="four columns pricing_bucket">
-        <div class="inner">
-          <h2>Pro</h2>
-          <h3>$249<span>/month</span></h3>
-          <ul>
-            <li class="teammates_limit"><span>10</span><strong>Team Members</strong></li>
-            <li class="customers_limit"><span>5,000</span><strong>Paying Customers</strong></li>
-          </ul>
-          <hr>
-          <ul>
-            <li>Customer Analytics</strong></li>
-            <li>Instant Email Alerts</li>
-            <li>Summary Emails</li>
-            <li><strong>Phone</strong> &amp; Email Support</li>
-          </ul>
-          <a class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Start Free Trial</a>
-        </div>
-      </div>
-
-      <div class="four columns pricing_bucket">
-        <div class="inner">
-          <h2>Business</h2>
-          <h3>$149<span>/month</span></h3>
-          <ul>
-            <li class="teammates_limit"><span>5</span><strong>Team Members</strong></li>
-            <li class="customers_limit"><span>2,500</span><strong>Paying Customers</strong></li>
-          </ul>
-          <hr>
-          <ul>
-            <li>Customer Analytics</strong></li>
-            <li>Instant Email Alerts</li>
-            <li>Summary Emails</li>
-            <li>Email Support</li>
-          </ul>
-          <a class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_14900_5_1001_2500&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Start Free Trial</a>
-        </div>
-      </div>
-
-      <div class="four columns pricing_bucket">
-        <div class="inner">
-          <h2>Team</h2>
-          <h3>$79<span>/month</span></h3>
-          <ul>
-            <li class="teammates_limit"><span>3</span><strong>Team Members</strong></li>
-            <li class="customers_limit"><span>1,000</span><strong>Paying Customers</strong></li>
-          </ul>
-          <hr>
-          <ul>
-            <li>Customer Analytics</strong></li>
-            <li>Instant Email Alerts</li>
-            <li>Summary Emails</li>
-            <li>Email Support</li>
-          </ul>
-          <a class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_7900_3_251_1000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Start Free Trial</a>
-        </div>
-      </div>
-
-      <div class="four columns pricing_bucket">
-        <div class="inner">
-          <h2>Starter</h2>
-          <h3>$39<span>/month</span></h3>
-          <ul>
-            <li class="teammates_limit"><span>2</span><strong>Team Members</strong></li>
-            <li class="customers_limit"><span>250</span><strong>Paying Customers</strong></li>
-          </ul>
-          <hr>
-          <ul>
-            <li>Customer Analytics</strong></li>
-            <li>Instant Email Alerts</li>
-            <li>Summary Emails</li>
-            <li>Email Support</li>
-          </ul>
-          <a class="signup" href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_3900_2_26_250&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Start Free Trial</a>
-        </div>
-      </div>
+<section id="pricing_table_banner">
+  <div id="pricing_table" class="container">
+<!--
+        Need a custom plan? <a href="mailto:support@hookfeed.com">Email Us</a> or Call (858) 876-7228.-->
+    <div class="ten columns">
+      <table>
+        <tbody>
+          <tr>
+            <td>$10/mo.</td>
+            <td>You and 1 teammate<br>100 monthly paying customers</td>
+            <td><a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Get Started</a></td>
+          </tr>
+          <tr>
+            <td>$20/mo.</td>
+            <td>You and 2 teammates<br>200 monthly paying customers</td>
+            <td><a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Get Started</a></td>
+          </tr>
+          <tr>
+            <td>$50/mo.</td>
+            <td>You and 4 teammates<br>500 monthly paying customers</td>
+            <td><a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Get Started</a></td>
+          </tr>
+          <tr>
+            <td>$100/mo.</td>
+            <td>You and 9 teammates<br>1,000 monthly paying customers</td>
+            <td><a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_24900_10_2501_5000&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">Get Started</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="free_notice">Fewer than 25 monthly paying customers?<br>Try our <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_0_1_0_25&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">free plan</a>.</div>
+      <div id="enterprise_notice">Need something custom?<br>Call (858) 876-7228 or <a href="mailto:joelle.steiniger@hookfeed.com">email us</a>.</div>
     </div>
 
-    <div class="row">
-      <div class="eight columns" id="enterprise">
-        Need a custom plan? <a href="mailto:support@hookfeed.com">Email Us</a> or Call (858) 876-7228.
-      </div>
+    <div class="six columns">
+      <h3>All our plans include:</h3>
+      <ul id="all_plans_include">
+        <li>Customer Segmenting</li>
+        <li>E-Mail Alerts</li>
+        <li>Daily Activity Summaries</li>
+        <li>Integrations with apps like Help Scout</li>
+        <li>E-Mail Support</li>
+      </ul>
 
-      <div class="eight columns" id="free_plan">
-        Collect less than <span>25</span> charges each month? Use our <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_0_1_0_25&p=m_24900_10_2501_5000,m_14900_5_1001_2500,m_7900_3_251_1000,m_3900_2_26_250,m_0_1_0_25">free plan</a>.
+      <div id="money_back_guarantee">
+
       </div>
-    </div><!-- END .row -->
+    </div>
   </div><!-- END #pricing.container -->
 </section><!-- END #pricing_banner -->
 
