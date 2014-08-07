@@ -128,14 +128,17 @@ body#page_layout.pricing {
 
           .label {
             color: #6C7079;
-            font-size: 13px;
+            font-size: 15px;
             font-weight: normal;
+
+            /* Tablet Portrait size to standard 960 (devices and browsers) */
+            @media only screen and (min-width: 768px) and (max-width: 959px) {font-size: 13px;}
           }
         }
 
         ul {
           float: left;
-          margin-left: 40px;
+          margin-left: 20px;
 
           /* Tablet Portrait size to standard 960 (devices and browsers) */
           @media only screen and (min-width: 768px) and (max-width: 959px) {margin-left: 0px;}
@@ -152,7 +155,17 @@ body#page_layout.pricing {
 
             &:first-child {
               margin-right: 10px;
-              width: 110px;
+              width: 140px;
+
+              /* Tablet Portrait size to standard 960 (devices and browsers) */
+              @media only screen and (min-width: 768px) and (max-width: 959px) {
+                margin-right: 0px;
+                width: 110px;
+              }
+              /* All Mobile Sizes (devices and browser) */
+              @media only screen and (max-width: 767px) {
+                width: 120px;
+              }
             }
 
             span.number {
@@ -162,7 +175,10 @@ body#page_layout.pricing {
             span.label {
               border-bottom: 1px dotted #ddd;
               color: #6C7079;
-              font-size: 13px;
+              font-size: 15px;
+
+              /* Tablet Portrait size to standard 960 (devices and browsers) */
+              @media only screen and (min-width: 768px) and (max-width: 959px) {font-size: 13px;}
             }
           }
         }

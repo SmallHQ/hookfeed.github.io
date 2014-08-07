@@ -29,4 +29,10 @@ $(document).ready(function() {
 
   // Blog sticky sidebar
   $('aside#sidebar').sticky({topSpacing:0});
+
+
+
+
+  // Tooltips on pricing page for explanations
+  $('.customers_tooltip, .teammates_tooltip').tipr({mode: 'top'});
 });
