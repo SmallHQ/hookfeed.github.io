@@ -1,6 +1,6 @@
 ---
 title: Get Out of Denial About Your Startup's Priorities
-teaser: As startup founders, we’re all looking for ways to move that needle. But when was the last time you stopped to question your efforts and whether or not they’re the ‘right ones’? I can say I did this zero times…until a few weeks ago.
+teaser: As startup founders, we’re all looking for ways to move that needle. But when was the last time you stopped to question your efforts and whether or not they’re the ‘right ones’? I can say I did this zero times...until a few weeks ago.
 promo: hookfeed
 author: joelle_steiniger
 published: true
@@ -9,13 +9,13 @@ published: true
 # Get Out of Denial About Your Startup’s Priorities
 ## With One, Simple Question.
 
-As startup founders, we’re all looking for ways to move that needle. But when was the last time you stopped to question your efforts and whether or not they’re the ‘right ones’? I can say I did this zero times…until a few weeks ago. 
+As startup founders, we’re all looking for ways to move that needle. But when was the last time you stopped to question your efforts and whether or not they’re the ‘right ones’? I can say I did this zero times...until a few weeks ago. 
 
 In a recent chat with [Hiten Shah](https://twitter.com/hnshah), he told me that the thing he sees early startups struggle with the most, time and time again, is misplaced focus.
 
 This wasn’t the answer I was expecting. Or maybe I should say, it wasn’t the answer I was hoping for.
 
-I wanted a concrete, common reason like, “Most early startups focus too much on customer development, marketing, product features, scaling, etc… when they should be doing [BLANK].” 
+I wanted a concrete, common reason like, “Most early startups focus too much on customer development, marketing, product features, scaling, etc...when they should be doing [BLANK].” 
 
 >“Misplaced focus,” he said.
 
@@ -45,7 +45,7 @@ This false reality that busy = productive is dangerous. The *real* reality is th
 
 In my opinion, it’s quite the opposite. I’d love be able to put less in and get more out. 
 
-There are always going to be plenty of outside factors that make it difficult to reach your goals — but do you ever stop to ask yourself if the things within your control, the things you are doing are the right things for that exact point in time? I rarely did… until recently.
+There are always going to be plenty of outside factors that make it difficult to reach your goals — but do you ever stop to ask yourself if the things within your control, the things you are doing are the right things for that exact point in time? I rarely did...until recently.
 
 ##Confession: I don’t know what the hell I’m doing.
 
@@ -56,11 +56,11 @@ I’ve written before about how when too many choices are in front of you, analy
 I’m faced with challenges that are so new I don’t even know where to start. So I don’t. I work on all of the things I know how to do, whether or not they’re the things that will get that needle to move. I do the things I know I’m good at. I stay plenty busy. And the needle doesn’t move. This, my friends, is denial. And it’s a recipe for failure.
 
 ##So How’s That Working for You?
-I can’t help but think back to an instructor I once had. Big, booming, Belgian guy with a killer accent. He’d ask this one question that just came back to me as I sit here writing this post. You’d tell him about your struggles in achieving some goal (getting your team to work better together, getting a promotion at work, losing weight… whatever). You’d list off the things you’d been doing to try and achieve it. And after each action you listed, he’d ask:
+I can’t help but think back to an instructor I once had. Big, booming, Belgian guy with a killer accent. He’d ask this one question that just came back to me as I sit here writing this post. You’d tell him about your struggles in achieving some goal (getting your team to work better together, getting a promotion at work, losing weight...whatever). You’d list off the things you’d been doing to try and achieve it. And after each action you listed, he’d ask:
 
 ***“And how’s that working for you?”***
 
-You’d list off something else you did and he’d ask again. *“And how’s that working for you?”* He did this incessantly… often to the point of berating the person. But his point was clear every time.
+You’d list off something else you did and he’d ask again. *“And how’s that working for you?”* He did this incessantly...often to the point of berating the person. But his point was clear every time.
 
 If you keep doing things that aren’t working, you’ll never get there. Try something else. If that doesn’t work, try something else. Get creative. Problem solve. Attack things from different angles. But stop spending your energy doing things you know don’t work.
 
@@ -69,17 +69,3 @@ If you keep doing things that aren’t working, you’ll never get there. Try so
 The thing about running a startup is that there’s never a clear-cut path. I know we’re going to make lots of mistakes. It’s part of the fun and a component of a unique, lifelong education. In fact, the freedom to make them is part of why I got into this business instead of something easier or more secure. But in order to grow (not just move the needle, but grow personally) I’m going to need to get comfortable being uncomfortable. I’m going to have to experiment, try new things — fail fast and move on. I need to avoid the opportunity for denial and take that instructor’s advice to be more mindful about what I’m doing, and why.
 
 Which is why at the end of every day I now spend a few minutes (that’s all it takes) to think about what I did and ask myself ***“how’s this working for me?”***
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
