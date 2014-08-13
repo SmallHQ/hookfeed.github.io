@@ -5,9 +5,28 @@ body#page_layout.updates {
   .nivo-lightbox-image img { border-radius: 3px }
 
   #whats_new_banner {
-    padding-top: 100px;
+    padding-top: 50px;
 
     #whats_new {
+      h1, h2 {
+        color: #444;
+        font-weight: 300;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 34px;
+        line-height: 42px;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 50px;
+      }
+
       .feature,
       .bugfix,
       .performance {
@@ -15,8 +34,8 @@ body#page_layout.updates {
         background-color: #fff;
         border-radius: 3px;
         box-shadow: 0px 1px 1px #e5e5e5;
-        margin-bottom: 30px;
-        padding: 20px;
+        margin-bottom: 50px;
+        padding: 20px 20px 0;
         position: relative;
 
         .icon {
@@ -28,31 +47,51 @@ body#page_layout.updates {
           font-family: $pictos;
           height: 25px;
           line-height: 20px;
-          margin-right: 20px;
           padding: 6px 0px 0px 6px;
+          position: absolute;
+          top: -15px;
+          left: 337px;
           width: 25px;
 
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) { left: 265px }
+
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (min-width: 480px) and (max-width: 767px) { left: 197px }
+
           /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-          @media only screen and (max-width: 479px) {
-            position: absolute;
-            top: -15px;
-            left: 134px;
+          @media only screen and (max-width: 479px) { left: 134px }
+        }
+
+        time {
+          color: #bbb;
+          display: block;
+          font-size: 12px;
+          line-height: 12px;
+          margin-bottom: 10px;
+        }
+
+        h3 {
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 17px;
+          margin-bottom: 2px;
+        }
+
+        p, ul, ol {
+          color: #808080;
+          font-size: 15px;
+          line-height: 25px;
+          margin-bottom: 10px;
+
+          &:last-child {
+            margin-bottom: 20px;
           }
         }
 
         p {
-          color: #808080;
-          float:left;
-          font-size: 15px;
-          line-height: 25px;
           width: 609px;
-
-          time {
-            color: #bbb;
-            display: block;
-            font-size: 12px;
-            line-height: 12px;
-          }
 
           /* Tablet Portrait size to standard 960 (devices and browsers) */
           @media only screen and (min-width: 768px) and (max-width: 959px) { width: 465px }
@@ -64,15 +103,30 @@ body#page_layout.updates {
           @media only screen and (max-width: 479px) { width: 260px }
         }
 
+        ul, ol {
+          margin-left: 30px;
+          width: 579px;
+
+          /* Tablet Portrait size to standard 960 (devices and browsers) */
+          @media only screen and (min-width: 768px) and (max-width: 959px) { width: 435px }
+
+          /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+          @media only screen and (min-width: 480px) and (max-width: 767px) { width: 299px }
+
+          /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+          @media only screen and (max-width: 479px) { width: 230px }
+        }
+
         .demo {
           clear: both;
-          padding-top: 20px;
+          padding-top: 10px;
 
           .demo-image {
             float: left;
+            margin-bottom: 17px;
             width: 320px;
 
-            &:first-child {
+            &:nth-child(2n+1) {
               margin-right: 20px;
             }
 
@@ -91,18 +145,16 @@ body#page_layout.updates {
                 margin-bottom: 15px;
                 margin-right: 0px;
               }
-
-              &:last-child {
-                margin-bottom: 0px;
-              }
             }
 
-            a.fancybox {
+            a.lightbox {
               display: block;
             }
 
             img {
               border-radius: 3px;
+              border: 1px solid #EEE;
+              box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
               width: 320px;
 
               /* Tablet Portrait size to standard 960 (devices and browsers) */

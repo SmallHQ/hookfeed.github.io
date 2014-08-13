@@ -4,11 +4,12 @@ priority: 1
 changefreq: daily
 ---
 
-<%= javascript_include_tag "updates" %>
-
 <section id="whats_new_banner">
   <div id="whats_new" class="container">
     <div class="twelve columns offset-by-two">
+      <h1>We're Just Getting Started...</h1>
+      <h2>Awesome features &amp; fixes from HookFeed's product team</h2>
+
       <% blog('updates').articles.each do |update| %>
         <%= partial 'partials/update', locals: {update: update} %>
       <% end %>
