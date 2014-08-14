@@ -335,6 +335,9 @@ body#page_layout.index {
       &:nth-child(3) {
         a { margin-top: 25px; }
       }
+      &:last-child {
+        a { margin-top: 12px; }
+      }
     }
 
     .row:last-of-type {
@@ -342,9 +345,11 @@ body#page_layout.index {
         a { margin-top: 8px; }
 
         &:nth-child(1),
-        &:nth-child(2),
-        &:nth-child(3) {
+        &:nth-child(2) {
           a { margin-top: 25px; }
+        }
+        &:last-child {
+          a { margin-top: 32px; }
         }
       }
     }
