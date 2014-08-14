@@ -312,7 +312,7 @@ body#page_layout.index {
   #customers_banner {
     background: #3c4952;
     color: #fff;
-    padding: 40px 0px;
+    padding: 40px 0px 60px;
 
     h4 {
       font-size: 18px;
@@ -340,7 +340,7 @@ body#page_layout.index {
       }
     }
 
-    .row:last-of-type {
+    .row:nth-child(2) {
       .four.columns {
         a { margin-top: 8px; }
 
@@ -348,8 +348,31 @@ body#page_layout.index {
         &:nth-child(2) {
           a { margin-top: 25px; }
         }
+
+        &:nth-child(3) {
+          a { margin-top: 20px; }
+        }
         &:last-child {
+          a { margin-top: 46px; }
+        }
+      }
+    }
+
+    .row:last-of-type {
+      .four.columns {
+        a { margin-top: 8px; }
+
+        &:nth-child(1),
+        &:nth-child(2), {
           a { margin-top: 32px; }
+        }
+
+        &:nth-child(3) {
+          a { margin-top: 30px;}
+        }
+
+        &:last-child(3) {
+          a { margin-top: 36px;}
         }
       }
     }
