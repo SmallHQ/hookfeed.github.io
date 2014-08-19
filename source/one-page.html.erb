@@ -1,0 +1,353 @@
+---
+title: "HookFeed: Customer Analytics and Email Alerts for Stripe (SaaS/E-Commerce)"
+priority: 1
+changefreq: daily
+layout: one_page
+---
+
+<section id="customer_series_banner">
+  <div id="customer_series" class="container">
+    <div class="sixteen columns">
+      <%= link_to 'Sign in to<img src="https://d2uerwjzv5u4r9.cloudfront.net/HookFeed_Logo_Light.png" width="90">', "#{(development?) ? 'http' : 'https'}://secure.hookfeed.#{(development?) ? 'dev' : 'com'}/login", id: 'sign_in_to_hookfeed' %>
+    </div>
+  </div>
+</section>
+
+
+<section id="long_form_banner">
+  <div id="long_form" class="container">
+    <div class="twelve columns offset-by-two">
+      <h1>"We'd serve customers for months without realizing they hadn't paid"</h1>
+
+      <p>That's a quote from one of our customers - and it's something we hear <i>a lot</i>.</p>
+
+      <p>Your business relies on the loyalty of your customers, but can you even name who they are? Or when they'll pay you next? Or who has paid you the most over the years?</p>
+
+      <p>Payment processors, like <a href="https://stripe.com">Stripe</a>, help you easily manage subscriptions, accept payments, and issue refunds - but they don't give you the full picture of what's happening under the hood of your business...let alone what's about to happen!</p>
+
+      <ul>
+        <li>Who is most at-risk of cancelling their account?</li>
+        <li>Which customers are currently overdue on their payments?</li>
+        <li>How long do my customers take to convert to paid?</li>
+        <li>Does my team know when critical customer events occur?</li>
+        <li>When was the last time we spoke to this customer?</li>
+        <li><strong>And how many customers have become zombies - not likely to renew our service?</strong></li>
+      </ul>
+
+      <p>Customer understanding doesn't come from an analytics tool. And there's no one metric that will make your customer relationships magical.</p>
+
+      <h1>You can't love your customers unless you truly understand them.</h1>
+
+      <p>To understand them, you have to surround yourself by them. That means stepping away from your product sometimes, just to nurture them. To make sure they're having a good experience with your product.</p>
+
+      <p>This doesn't have to be a chore, it all starts with simple monitoring. Putting a few ounces of brainpower towards understanding how people interact with your business every day.</p>
+
+      <p>What if your team always had all the information they needed to retain customers on a daily basis?</p>
+
+      <ul>
+        <li>What if Support knew a customer's card was about to expire?</li>
+        <li>What if Dev knew that $2,000 in MRR was stuck in-trial waiting for the same (unshipped) feature?</li>
+        <li>What if Marketing knew more customers have been coming out of trial from that campaign they've been running?</li>
+        <li>What if Sales knew which customers were involuntarily churning due to expiring or canceled credit cards?</li>
+      </ul>
+
+      <p>Your team would finally get it! They'd be in the loop...and they'd understand your customers, and your business, that much more.</p>
+
+      <p>That's what running a business is all about. Going the extra mile to provide an awesome experience.</p>
+
+      <h1>"HookFeed is more than just metrics and raw data, it provides deep customer insights."</h1>
+
+      <p>What if you and your team had a tool that made you <strong>awesome at retaining customers</strong>. A tool that helped you celebrate the wins, and avoid the losses. A tool that helped you run your business better.</p>
+
+      <p>With one-click, zero-code, connection to your Stripe account, we'll have everything we need to report on the health of your business, the loyalty of your customers, and the effectiveness of your team.</p>
+
+      <p>Not only that, but we'll also alert you and your team of critical events as they happen in your business, and send a daily summary email showcasing your progress and highlighting the bits that demand your attention.</p>
+
+      <h1>"I recovered over $1,200 in past-due payments the day I signed up for HookFeed!"</h1>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section id="pricing_details_banner">
+  <div id="pricing_details" class="container">
+
+    <div class="ten columns offset-by-three">
+      <ul id="pricing_list" class="clearfix">
+        <li class="clearfix">
+          <span class="price">$100<span class="label">/mo.</span></span>
+          <ul>
+            <li><span class="number">1,000</span> <span class="label customers_tooltip" data-tip="Number of *paying* customers/month">Customers</span></li>
+            <li><span class="number">10</span> <span class="label teammates_tooltip" data-tip="You + 9 teammates">Teammates</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_10000_10_501_1000&p=m_10000_10_501_1000,m_5000_5_251_500,m_2500_3_101_250,m_1000_2_26_100,m_0_1_0_25" class="signup">Get Free Trial</a>
+        </li>
+        <li class="clearfix">
+          <span class="price">$50<span class="label">/mo.</span></span>
+          <ul>
+            <li><span class="number">500</span> <span class="label customers_tooltip" data-tip="Number of *paying* customers/month">Customers</span></li>
+            <li><span class="number">5</span> <span class="label teammates_tooltip" data-tip="You + 4 teammates">Teammates</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_5000_5_251_500&p=m_10000_10_501_1000,m_5000_5_251_500,m_2500_3_101_250,m_1000_2_26_100,m_0_1_0_25" class="signup">Get Free Trial</a>
+        </li>
+        <li class="clearfix">
+          <span class="price">$25<span class="label">/mo.</span></span>
+          <ul>
+            <li><span class="number">250</span> <span class="label customers_tooltip" data-tip="Number of *paying* customers/month">Customers</span></li>
+            <li><span class="number">3</span> <span class="label teammates_tooltip" data-tip="You + 2 teammates">Teammates</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_2500_3_101_250&p=m_10000_10_501_1000,m_5000_5_251_500,m_2500_3_101_250,m_1000_2_26_100,m_0_1_0_25" class="signup">Get Free Trial</a>
+        </li>
+        <li class="clearfix">
+          <span class="price">$10<span class="label">/mo.</span></span>
+          <ul>
+            <li><span class="number">100</span> <span class="label customers_tooltip" data-tip="Number of *paying* customers/month">Customers</span></li>
+            <li><span class="number">2</span> <span class="label teammates_tooltip" data-tip="You + 1 teammates">Teammates</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_1000_2_26_100&p=m_10000_10_501_1000,m_5000_5_251_500,m_2500_3_101_250,m_1000_2_26_100,m_0_1_0_25" class="signup">Get Free Trial</a>
+        </li>
+        <li class="clearfix">
+          <span class="price">FREE</span>
+          <ul>
+            <li><span class="number">25</span> <span class="label customers_tooltip" data-tip="Number of *paying* customers/month">Customers</span></li>
+            <li><span class="number">1</span> <span class="label teammates_tooltip" data-tip="Just You">Teammate</span></li>
+          </ul>
+          <a href="<%= (development?) ? 'http' : 'https' %>://secure.hookfeed.<%= (development?) ? 'dev' : 'com' %>/users/new?s=m_0_1_0_25&p=m_10000_10_501_1000,m_5000_5_251_500,m_2500_3_101_250,m_1000_2_26_100,m_0_1_0_25" class="signup">Sign Up</a>
+        </li>
+      </ul>
+
+      <div id="enterprise_notice">Need something custom? Call (858) 876-7228 or <a href="mailto:joelle.steiniger@hookfeed.com">email us</a>.</div>
+    </div>
+<!--
+    <div class="six columns">
+      <h3>All our plans include:</h3>
+      <ul id="all_plans_include">
+        <li>Customer Segmenting</li>
+        <li>Instant Alerts</li>
+        <li>Daily Summaries</li>
+        <li>Help Scout Integration</li>
+        <li>E-Mail Support</li>
+      </ul>
+
+      <div id="money_back_guarantee">
+guarantee stuff
+      </div>
+    </div>-->
+  </div><!-- END #pricing.container -->
+</section><!-- END #pricing_banner -->
+
+
+
+
+<section id="customers_banner">
+  <div id="customers" class="container">
+    <div class="ten columns offset-by-three" id="customer_logos">
+      <h4>HOOKFEED IS TRUSTED BY:</h4>
+    </div>
+    <div class="sixteen columns">
+      <div class="row">
+        <div class="four columns alpha">
+          <a href="https://segment.io"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_segmentio.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns">
+          <a href="https://www.youneedabudget.com/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/YNAB_logo.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns">
+          <a href="http://wpcurve.com"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_wpcurve.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns omega">
+         <a href="http://www.ted.com/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_ted.png" alt="" width="160"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="four columns alpha">
+          <a href="http://customer.io/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_customerio.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns">
+          <a href="https://www.runscope.com"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_runscope.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns">
+          <a href="http://makersrow.com/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_makersrow.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns omega">
+          <a href="http://commando.io/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/commando_logo.png" alt="" width="160"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="four columns alpha">
+          <a href="http://idonethis.com/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_idonethis.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns">
+          <a href="https://www.stacklead.com"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_stacklead.png" alt="" width="160"></a>
+        </div>
+
+        <div class="four columns">
+          <a href="http://brandisty.com/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_brandisty.png" alt="" width="160"></a>
+        </div>
+        <!--
+        <div class="four columns">
+          <a href="http://skillcrush.com/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_skillcrush.png" alt="" width="160"></a>
+        </div> -->
+
+        <div class="four columns omega">
+          <a href="http://marvelapp.com/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/logo_marvel.png" alt="" width="160"></a>
+        </div>
+      </div>
+    </div><!-- END #customer_logos -->
+  </div>
+</section>
+
+
+
+
+
+<section id="benefits_banner">
+  <div id="benefits" class="container">
+    <div class="row">
+      <div class="twelve columns offset-by-two">
+        <h1><strong>Not convinced?</strong> Learn a bit more about what HookFeed can do for your company:</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="nine columns">
+        <img src="https://d2uerwjzv5u4r9.cloudfront.net/potential_earnings.png" width="520" class="scale-with-grid">
+      </div>
+      <div class="six columns offset-by-one">
+        <h3>GROWTH FORECASTING</h3>
+        <h2>What Are Your Potential Earnings?</h2>
+        <p><b>You've got money on the table.</b> Don't leave it there. See your potential earnings based on who's in trial and when they're coming out. Convert more trialing customers and see the direct impact on your MRR.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="six columns">
+        <h3>CHURN PREVENTION</h3>
+        <h2>Who's "At Risk"?</h2>
+        <p>Prevention is better than cure. In other words, we help you <b>preempt churn before it happens</b>. See who's credit card is going to expire or who's late on a payment. You work hard to get customers, you should keep them.</p>
+      </div>
+      <div class="nine columns offset-by-one">
+        <img src="https://d2uerwjzv5u4r9.cloudfront.net/customers_at_risk.png" width="520" class="scale-with-grid">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="nine columns">
+        <img src="https://d2uerwjzv5u4r9.cloudfront.net/disputed_charge.png" width="520" class="scale-with-grid">
+      </div>
+      <div class="six columns offset-by-one">
+        <h3>FAILED CHARGE &amp; DISPUTE MONITORING</h3>
+        <h2>How Much Are You Losing?</h2>
+        <p>Charges fail. People dispute things. It happens. <b>We empower you</b> to rescue them by making sure you have the critical information you need, right at your fingertips. No digging.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="six columns">
+        <h3>ACTIVITY TRACKING</h3>
+        <h2>Who Just Impacted Your Revenue?</h2>
+        <p>You made money today. But where did it come from? <b>We show you who contributed to that revenue, how and when.</b></p>
+        <p>We also show you who upgraded, downgraded, or cancelled their subscriptions with you—and how each of these activities impacted your bottom line.</p>
+      </div>
+      <div class="nine columns offset-by-one">
+        <img src="https://d2uerwjzv5u4r9.cloudfront.net/activity_stream.png" class="scale-with-grid">
+      </div>
+    </div>
+  </div><!-- END #benefits -->
+</section>
+
+<section class="cta_banner">
+  <div id="cta" class="container">
+    <div class="nine columns">
+      <h2>See Your Own Customers in <b><u>One-Click</u></b></h2>
+      <h3>No Setup. No Code. 100% Risk Free.</h3>
+    </div>
+    <div class="six columns offset-by-one">
+      <a href="#pricing_details_banner">Start Free Trial</a>
+    </div>
+</section>
+
+<section id="benefits_banner_2">
+  <div id="benefits" class="container">
+
+    <div class="row">
+      <div class="nine columns">
+        <img src="https://d2uerwjzv5u4r9.cloudfront.net/bottom_line_metrics.png" width="520" class="scale-with-grid">
+      </div>
+      <div class="six columns offset-by-one">
+        <h3>BOTTOM-LINE METRICS</h3>
+        <h2>How Much Are You Making?</h2>
+        <p><b>At the end of the day, your revenue is the only metric that matters.</b> Track fluctuations so you can confidently make the right business decisions.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="six columns">
+        <h3>CUSTOMER ANALYTICS</h3>
+        <h2>Who's Most Valuable?</h2>
+        <p><b>Customer knowledge is power.</b> Do you know who your most valuable customers are? Who's been with you the longest or what they've bought? Remember - analytics aren't just numbers, they're people too.</p>
+      </div>
+      <div class="nine columns offset-by-one">
+        <img src="https://d2uerwjzv5u4r9.cloudfront.net/customer_analytics.png" width="520" class="scale-with-grid">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="nine columns">
+        <img src="https://d2uerwjzv5u4r9.cloudfront.net/digest_email.png" class="scale-with-grid">
+      </div>
+      <div class="six columns offset-by-one">
+        <h3>TIMELY, ACTIONABLE INSIGHTS</h3>
+        <h2>Do You Know Your Daily Vitals?</h2>
+        <p><b>Get daily/weekly email summaries</b> of your revenue vitals and action items. Stay focused on what's most important to you, and let us deliver the goods of just what you need to know.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="six columns">
+        <h3>INSTANT EMAIL ALERTS</h3>
+        <h2>Who Handles Critical Events?</h2>
+        <p>Some things warrant your immediate attention. Choose which events (failed charges, new charges, disputes etc.) you want to know about and <b>we'll let you know instantly</b> any time it happens.</p>
+        <p>We'll also route specific alerts to certain teammates. Want all dispute notifications to go to your bookeeper? No problem.</p>
+      </div>
+      <div class="nine columns offset-by-one">
+        <img src="https://d2uerwjzv5u4r9.cloudfront.net/alert.png" class="scale-with-grid">
+      </div>
+    </div>
+  </div><!-- END #benefits-->
+</section>
+
+<section class="cta_banner">
+  <div id="cta" class="container">
+    <div class="nine columns">
+      <h2>See Your Own Numbers in <b><u>One-Click</u></b></h2>
+      <h3>No Setup. No Code. 100% Risk Free.</h3>
+    </div>
+    <div class="six columns offset-by-one">
+      <a href="#pricing_details_banner">Start Free Trial</a>
+    </div>
+</section>
