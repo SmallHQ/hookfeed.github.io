@@ -35,4 +35,14 @@ $(document).ready(function() {
 
   // Tooltips on pricing page for explanations
   $('.customers_tooltip, .teammates_tooltip').tipr({mode: 'top'});
+
+
+  // One-page homepage variation, expand hidden content
+  $('.click_to_expand_benefits').click(function(e){
+    e.preventDefault();
+
+    $(this).fadeOut(function(){
+      $('.expandable').show();
+    });
+  });
 });

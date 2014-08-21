@@ -1,5 +1,28 @@
 body#page_layout.one-page {
   /* New stuff */
+  .expandable {
+    display: none;
+  }
+  a.click_to_expand_benefits {
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    color: #ccc;
+    display: block;
+    font-size: 34px;
+    font-family: $pictos;
+    padding: 16px 0 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      font-size: 38px;
+    }
+  }
+
   #customer_series_banner {
     background-color: #29333A;
     padding-top: 20px;
@@ -66,6 +89,14 @@ body#page_layout.one-page {
 
   footer {
     margin-top: 70px !important;
+  }
+
+
+  #benefits_banner {
+    padding-bottom: 0px !important;
+  }
+  #benefits_banner_2 {
+    padding-top: 40px !important;
   }
 
 
