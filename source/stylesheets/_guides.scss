@@ -1,0 +1,167 @@
+body.guides_index {
+  #headline_banner {
+    background-color: #29333a;
+    padding-top: 54px;
+    padding-bottom: 60px;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    #headline {
+      margin-bottom: 30px;
+      text-align: center;
+
+      h1, h2 {
+        color: #f7f7f7;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 34px;
+        line-height: 42px;
+        font-weight: 300;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  #email_signup_banner  {
+    text-align: center;
+
+    #signup_box {
+      padding: 30px 0;
+      background-color: #cad0d6;
+      margin: -45px 0 40px;
+      border-radius: 3px;
+
+
+      h2 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 400;
+        margin-bottom: 14px;
+      }
+
+      input[type="text"],
+      input[type="email"] {
+        padding: 10px 10px;
+        width: 241px;
+        margin: 0px 2px 6px;
+        background-color: #f7f7f7;
+        color: #579fc1;
+        font-size: 14px;
+        box-shadow: inset 0px 1px 3px rgba(0,0,0,.13);
+        margin-bottom: 14px;
+        color: #777;
+
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+          width: 199px;
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          width: 320px;
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          width: 200px;
+        }
+      }
+
+      button {
+        background-color: #59ABCE;
+        color: #f7f7f7;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 530px;
+        border-bottom: 2px solid rgba(0,0,0,0.2);
+
+        span {
+          font-family: $pictos;
+          letter-spacing: 20px;
+          font-size: 22px;
+        }
+
+        /* Smaller than standard 960 (devices and browsers) */
+        @media only screen and (max-width: 959px) {
+          width: 446px;
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          width: 340px;
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          width: 220px;
+        }
+      }
+
+      input[type="text"],
+      input[type="email"],
+      button {
+        font-family: $proxima;
+        border-radius: 4px;
+        display: inline-block;
+        border: none;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  #guides_banner {
+    #guides {
+      text-align: center;
+      img {
+        display: inline-block;
+      }
+      button {
+        text-align: center;
+        font-family: $proxima;
+        border-radius: 4px;
+        display: inline-block;
+        border: none;
+        background-color: #54bd9c;
+        color: #f7f7f7;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 85%;
+        border-bottom: 2px solid rgba(0,0,0,0.2);
+      }
+
+      button#inactive {
+        background-color: #59abce;
+      }
+
+      button#coming_soon {
+        background-color: #cad0d4;
+      }
+      span {
+        font-family: $pictos;
+        letter-spacing: 20px;
+        font-size: 22px;
+      }
+    }
+  }
+}
+
