@@ -89,7 +89,7 @@ body#page_layout.one-page {
         margin-left: 50px;
 
         &.boxed_in {
-          background-color: #F5F3F0;
+          background-color: #FFFFF4;
           list-style-type: none;
           font-size: 17px;
           line-height: 29px;
@@ -102,11 +102,15 @@ body#page_layout.one-page {
             margin-bottom: 10px;
 
             &:first-child {
-              font-size: 19px;
+              font-size: 21px;
               line-height: 31px;
               font-weight: bold;
               margin-bottom: 5px;
               text-decoration: underline;
+            }
+
+            &:nth-child(2) {
+              font-style: italic;
             }
           }
         }
@@ -128,7 +132,7 @@ body#page_layout.one-page {
       margin-bottom: 40px;
       padding: 0 30px;
 
-      img {
+      &>img:first-of-type {
         margin-top: -40px;
         margin-bottom: 10px;
       }
@@ -140,13 +144,22 @@ body#page_layout.one-page {
         margin-bottom: 14px;
       }
 
+      a {
+        display: inline-block;
+      }
+
       p {
         font-size: 16px;
         color: #666;
+        margin-bottom: 4px;
       }
 
       img.logo {
         margin-bottom: 20px;
+      }
+
+      img#makers_row {
+        margin-top: 0px;
       }
     }
   }
