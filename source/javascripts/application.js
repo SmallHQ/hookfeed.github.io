@@ -45,4 +45,47 @@ $(document).ready(function() {
       $('.expandable').show();
     });
   });
+
+
+
+
+  // Force-unlock guides (for using different computers, clicking link from phone, etc.)
+  var guides_unlocked = $.url().param('unlocked');
+  if(guides_unlocked){
+    $.cookie('guides_unlocked', true);
+  }
+  if($.cookie('guides_unlocked')){
+    unlock_guides();
+  }
+
+  // AJAX Campaign Monitor Subscribe Form
+  $('body.guides_index .coming_soon').click(function(e){ e.preventDefault(); }); // disable coming soon links
+  $('#subscribe_form').submit(function (e) {
+    e.preventDefault();
+    $btn = $(this).children('button');
+    $btn.addClass('loading');
+    $btn.attr('disabled', 'disabled');
+
+    $.getJSON(
+      this.action + "?callback=?",
+      $(this).serialize(),
+      function (data) {
+        $btn.removeClass('loading');
+        $btn.attr('disabled', null);
+
+        if (data.Status === 400) {
+          $('#subscribe_email').addClass('error');
+        } else { // 200
+          // Set cookie, unlock guides, and show message
+          $.cookie('guides_unlocked', true);
+          unlock_guides();
+          $('#subscribe_modal').modal('hide');
+        }
+      }
+    );
+  });
 });
+
+function unlock_guides(){
+  $('body').addClass('guides_unlocked');
+}

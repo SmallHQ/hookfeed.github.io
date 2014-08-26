@@ -32,31 +32,13 @@
         <div id="logo">
           <a href="/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/HookFeed_Logo_Light.png" width="150"></a>
         </div>
-        <nav>
-          <%= link_to 'Benefits', '/benefits' %>
-          <%= link_to 'Pricing', '/pricing' %>
-          <%= link_to 'Resources', '/hookfeed-university' %>
-          <%= link_to 'Login', "#{(development?) ? 'http' : 'https'}://secure.hookfeed.#{(development?) ? 'dev' : 'com'}/login" %>
-        </nav>
+        <%= partial 'partials/navigation' %>
       </div><!-- END .sixteen.columns -->
     </div><!-- END #header_bar.container -->
   </section><!-- END #header_bar_banner -->
 
   <%= yield %>
 
-  <section id="footer_banner">
-    <div id="footer" class="container">
-      <footer class="sixteen columns">
-        <a href="/blog">Blog</a>
-        <a href="mailto:support@hookfeed.com">Support</a>
-        <a href="/updates">Updates</a>
-        <a href="mailto:joelle@hookfeed.com?subject=Why%20I%20%3C3%20HookFeed%20(and%20why%20HookFeed%20should%20%3C3%20me%20back)">We're Hiring!</a>
-        <a href="/privacy-policy">Privacy Policy</a>
-        <a href="/terms-of-service">Terms &amp; Conditions</a>
-        <a href="http://www.madeinsd.org" class="madeinsd">Made with <img src="https://d2uerwjzv5u4r9.cloudfront.net/heart.png" width="25"> in Sunny San Diego</a>
-      </footer>
-    </div>
-  </section>
-
+  <%= partial 'partials/footer' %>
 </body>
 </html>
