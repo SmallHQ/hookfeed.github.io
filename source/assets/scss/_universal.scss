@@ -170,6 +170,12 @@ input[type="submit"] {
           margin-left: 0px;
         }
       }
+
+      /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+      @media only screen and (max-width: 479px) {
+        margin-left: 8px;
+        font-size: 12px;
+      }
     }
 
     /* All Mobile Sizes (devices and browser) */

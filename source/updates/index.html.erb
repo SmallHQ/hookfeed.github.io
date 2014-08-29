@@ -4,14 +4,16 @@ priority: 1
 changefreq: daily
 ---
 
+<%= partial 'partials/headlines', locals: {
+  headline: "We're Just Getting Started...",
+  subhead: "Awesome features & fixes from HookFeed's product team"
+} %>
+
 <section id="whats_new_banner">
   <div id="whats_new" class="container">
     <div class="twelve columns offset-by-two">
-      <h1>We're Just Getting Started...</h1>
-      <h2>Awesome features &amp; fixes from HookFeed's product team</h2>
-
       <% blog('updates').articles.each do |update| %>
-        <%= partial 'partials/update', locals: {update: update} %>
+        <%= partial 'partials/updates/update', locals: {update: update} %>
       <% end %>
     </div>
   </div><!-- END #whats_new.container -->

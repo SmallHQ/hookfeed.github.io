@@ -1,4 +1,4 @@
-body#page_layout.updates {
+body.updates {
   /* Nivo Lightbox Overrides */
   .nivo-lightbox-overlay { background-color: rgba(0,0,0,.7) }
   .nivo-lightbox-close, .nivo-lightbox-prev, .nivo-lightbox-next { display: none }
@@ -8,25 +8,6 @@ body#page_layout.updates {
     padding-top: 50px;
 
     #whats_new {
-      h1, h2 {
-        color: #444;
-        font-weight: 300;
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 34px;
-        line-height: 42px;
-        margin-bottom: 5px;
-      }
-
-      h2 {
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 32px;
-        margin-bottom: 50px;
-      }
-
       .feature,
       .bugfix,
       .performance {

@@ -1,17 +1,7 @@
----
-layout: customer_stories
----
-
-<section id="headline_banner">
-  <div id="headline" class="container">
-    <div class="row">
-      <div class="twelve columns offset-by-two">
-        <h1>We Want to Give Back to You</h1>
-        <h2>Our Guides are 100% Free!</h2>
-      </div>
-    </div>
-  </div>
-</section>
+<%= partial 'partials/headlines', locals: {
+  headline: "We Want to Give Back to You",
+  subhead: "Our Guides are 100% Free!"
+} %>
 
 <section id="guides_banner">
   <div id="guides" class="container">

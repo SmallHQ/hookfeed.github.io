@@ -2,17 +2,12 @@
 title: "Pricing | HookFeed: Customer Analytics and Email Alerts for Stripe (SaaS/E-Commerce)"
 priority: 1
 changefreq: daily
-layout: pricing_layout
 ---
 
-<section id="pricing_banner">
-  <div id="pricing" class="container">
-    <div id="pricing_headlines" class="sixteen columns">
-      <h1>Start Nurturing Your Customers</h1>
-      <h2>Try HookFeed Free For 7 Days</h2>
-    </div><!-- END #pricing_headlines -->
-  </div>
-</section>
+<%= partial 'partials/headlines', locals: {
+  headline: "Start Nurturing Your Customers",
+  subhead: "Try HookFeed Free For 7 Days"
+} %>
 
 <section id="pricing_details_banner">
   <div id="pricing_details" class="container">
@@ -78,8 +73,8 @@ layout: pricing_layout
 guarantee stuff
       </div>
     </div>-->
-  </div><!-- END #pricing.container -->
-</section><!-- END #pricing_banner -->
+  </div><!-- END #pricing_details.container -->
+</section><!-- END #pricing_details_banner -->
 
 <section id="testimonial_banner">
   <div class="container testimonial">
@@ -92,7 +87,7 @@ guarantee stuff
       </div>
     </div>
   </div><!-- END #testimonial.container -->
-</section><!-- END #testimonial -->
+</section><!-- END #testimonial_banner -->
 
 <section id="faqs_banner">
   <div id="faqs" class="container">

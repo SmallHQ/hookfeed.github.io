@@ -1,4 +1,4 @@
-body#page_layout.one-page {
+body.one-page {
   /* New stuff */
   .expandable {
     display: none;
@@ -420,43 +420,6 @@ body#page_layout.one-page {
 
       img.logo {
         margin-top: 14px;
-      }
-    }
-  }
-
-  #pricing_banner {
-    background-color: #29333a;
-    padding-top: 54px;
-    padding-bottom: 30px;
-
-    /* All Mobile Sizes (devices and browser) */
-    @media only screen and (max-width: 767px) {
-      padding-top: 30px;
-      padding-bottom: 30px;
-    }
-
-    #pricing {
-      #pricing_headlines {
-        margin-bottom: 30px;
-        text-align: center;
-
-        h1, h2 {
-          color: #f7f7f7;
-          text-align: center;
-        }
-
-        h1 {
-          font-size: 34px;
-          line-height: 42px;
-          font-weight: 300;
-          margin-bottom: 10px;
-        }
-
-        h2 {
-          font-size: 22px;
-          line-height: 28px;
-          font-weight: 400;
-        }
       }
     }
   }
