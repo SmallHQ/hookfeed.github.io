@@ -1,15 +1,26 @@
-@import 'skeleton';
-@import 'universal';
-@import 'pygments';
-@import 'headlines';
-@import 'home';
-@import 'one_page';
-@import 'pricing';
-@import 'customer_stories';
-@import 'guides';
-@import 'modals';
-@import 'blog';
-@import 'lightbox';
-@import 'updates';
-@import 'legal';
-@import 'tipr';
+// Config
+@import 'config/grid';
+@import 'config/fonts';
+@import 'config/pygments';
+@import 'config/variables';
+
+// Plugins
+@import 'plugins/tipr';
+@import 'plugins/lightbox';
+
+// Universal
+@import 'universal/universal';
+@import 'universal/header';
+@import 'universal/headlines';
+@import 'universal/modals';
+@import 'universal/footer';
+
+// Pages
+@import 'pages/home';
+@import 'pages/one_page';
+@import 'pages/benefits';
+@import 'pages/guides';
+@import 'pages/pricing';
+@import 'pages/blog';
+@import 'pages/updates';
+@import 'pages/legal';

@@ -1,122 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <%= partial 'partials/meta/meta' %>
-</head>
+  <head>
+    <%= partial 'partials/meta/meta' %>
+  </head>
 
-<body id="blog_layout" class="<%= page_classes %>">
-  <!-- Twitter -->
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-  </script>
+  <body class="<%= page_classes %>">
+    <%= partial 'partials/blog/social_meta' %>
 
-  <!-- Google+ -->
-  <script type="text/javascript">
-    (function() {
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://apis.google.com/js/platform.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-  </script>
+    <%= partial 'partials/header' %>
 
-  <!-- Facebook Like Button -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
+    <section id="blog_banner">
+      <div id="blog" class="container">
+        <article class="ten columns offset-by-three">
+          <%= yield %>
+        </article><!-- END .ten.columns -->
 
-  <!-- Buffer -->
-  <script type="text/javascript" src="http://static.bufferapp.com/js/button.js"></script>
-
-  <!-- Follow Me Button -->
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-  <%= partial 'partials/header' %>
-
-  <section id="newsletter_banner">
-    <div id="newsletter" class="container">
-      <div class="ten columns offset-by-three">
-        <h2>Improve Your Business by Leveraging Customer Insights. Sign Up for Weekly Articles.<!--Get Our Newsletter And Help Your Business Grow By Leveraging Customer Analytics--></h2>
-        <form action="http://email.demandloyalty.com/t/r/s/tkvjrl/" method="post">
-          <input id="fieldName" name="cm-name" placeholder="First Name" type="text" />
-          <input id="fieldEmail" name="cm-tkvjrl-tkvjrl" placeholder="Email" type="email" required />
-          <button type="submit">Subscribe</button>
-        </form>
-        <p>We'll never assault your inbox. Emails are periodic and packed with value.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="blog_banner">
-    <div id="blog" class="container">
-      <article class="ten columns offset-by-three">
-        <%= yield %>
-      </article><!-- END .ten.columns -->
-
-      <aside class="three columns" id="sidebar">
-        <div id="sharing">
-          <div id="twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed" data-size="large">Tweet</a>
-            <a href="https://twitter.com/HookFeed" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @HookFeed</a>
+        <aside class="three columns" id="sidebar">
+          <div id="sharing">
+            <div id="twitter">
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed" data-size="large">Tweet</a>
+              <a href="https://twitter.com/HookFeed" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @HookFeed</a>
+            </div>
           </div>
-        </div>
-      </aside><!-- END .five.columns -->
-    </div><!-- END #blog.container -->
-  </section> <!-- END #blog_banner -->
+        </aside><!-- END .five.columns -->
+      </div><!-- END #blog.container -->
+    </section> <!-- END #blog_banner -->
 
 
-  <section id="sharing_banner">
-    <div id="sharing" class="container">
-      <div class="ten columns offset-by-three">
-        <div id="anchor_divider">a</div>
-        <p>If you liked this article it would mean a lot to me if you'd share it!</p>
-        <!-- Twitter -->
-        <div id="twitter">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed">Tweet</a>
-        </div><!-- END #twitter -->
-        <!-- Buffer -->
-        <div id="buffer">
-          <a href="http://bufferapp.com/add" class="buffer-add-button" data-count="horizontal" data-via="HookFeed" >Buffer</a><script type="text/javascript" src="http://static.bufferapp.com/js/button.js"></script>
-        </div><!-- END #buffer -->
-        <!-- Google+ -->
-        <div id="googleplus">
-          <div class="g-plusone"></div>
-        </div><!-- END #googleplus -->
-        <!-- Facebook -->
-        <div id="facebook">
-          <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false">
-          </div>
-        </div><!-- END #facebook -->
-      </div><!-- END .ten columns offset-by-three -->
-    </div><!-- END #sharing.container -->
-  </section> <!-- END #sharing_banner -->
+    <%= partial 'partials/blog/social_sharing' %>
 
+    <%= partial 'partials/blog/promotion' %>
 
-  <section id="promo_banner">
-    <div id="promo" class="container">
-      <div class="ten columns offset-by-three">
-        <div id="anchor_divider">a</div>
-        <div class="promo_inner" id="hookfeed_promo">
-          <a href="/?utm_source=hookfeed-blog&utm_medium=blog&utm_campaign=customer-card-promo"><img src="https://d2uerwjzv5u4r9.cloudfront.net/blog_promo.jpg" width="560" class="scale-with-grid"></a>
-        </div> <!-- END #hookfeed_promo -->
-      </div><!-- END .ten columns offset-by-three -->
-    </div><!-- END #promo.container -->
-  </section> <!-- END #promo_banner -->
+    <%= partial 'partials/blog/author_bio' %>
 
-  <section id="bio_banner">
-    <div id="bio" class="container">
-      <div class="ten columns offset-by-three">
-        <h4>About the Author</h4>
-        <%= partial "authors/#{current_page.data.author}" %>
-      </div><!-- END .ten columns offset-by-three -->
-    </div><!-- END #bio.container -->
-  </section> <!-- END #bio_banner -->
-
-
-  <%= partial 'partials/footer' %>
-</body>
+    <%= partial 'partials/footer' %>
+  </body>
 </html>

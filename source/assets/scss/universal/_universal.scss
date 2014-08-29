@@ -1,0 +1,25 @@
+body {
+  background-color: $bg;
+  color: $text;
+  font-family: $proxima;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+  &:active {
+    color: $blue_hover;
+  }
+  &:visited {color: $blue}
+}
