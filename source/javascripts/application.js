@@ -59,8 +59,7 @@ $(document).ready(function() {
   }
 
   // AJAX Campaign Monitor Subscribe Form
-  $('body.guides_index .coming_soon').click(function(e){ e.preventDefault(); }); // disable coming soon links
-  $('#subscribe_form').submit(function (e) {
+  $('#subscribe_form, #waitlist_form').submit(function (e) {
     e.preventDefault();
     $btn = $(this).children('button');
     $btn.addClass('loading');
@@ -84,6 +83,18 @@ $(document).ready(function() {
       }
     );
   });
+
+  // Hover states for eBook covers (flip over for more info)
+  $('img.front', '.guide.available').click(function(){
+    $(this).hide();
+    $('img.back', $(this).parent()).show();
+    $('.book_description', $(this).parent().parent()).show();
+  });
+  $('.book_description', '.guide').click(function(){
+    $(this).fadeOut('slow');
+    $('img.back', $(this).parent()).hide();
+    $('img.front', $(this).parent()).show();
+  })
 });
 
 function unlock_guides(){
