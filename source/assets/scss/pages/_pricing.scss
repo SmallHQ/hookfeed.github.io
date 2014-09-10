@@ -32,12 +32,19 @@ body.pricing {
 
           &:nth-child(1) {
             &>a {
+              background-color: $green;
+              border-bottom: 2px solid darken($green, 6%);
+            }
+            .price, span.number {color: $green}
+          }
+          &:nth-child(5) {
+            &>a {
               background-color: #5A9BCE;
               border-bottom: 2px solid darken(#5A9BCE, 6%);
             }
             .price, span.number {color: #5A9BCE}
           }
-          &:nth-child(2) {
+          &:nth-child(4) {
             &>a {
               background-color: lighten(#5A9BCE, 4%);
               border-bottom: 2px solid darken(#5A9BCE, 4%);
@@ -51,19 +58,12 @@ body.pricing {
             }
             .price, span.number {color: lighten(#5A9BCE, 8%)}
           }
-          &:nth-child(4) {
+          &:nth-child(2) {
             &>a {
               background-color: lighten(#5A9BCE, 12%);
               border-bottom: 2px solid lighten(#5A9BCE, 4%);
             }
             .price, span.number {color: lighten(#5A9BCE, 12%)}
-          }
-          &:nth-child(5) {
-            &>a {
-              background-color: $green;
-              border-bottom: 2px solid darken($green, 6%);
-            }
-            .price, span.number {color: $green}
           }
 
           &:last-child {
