@@ -47,7 +47,7 @@
 </script>
 </head>
 
-<body id="page_layout" class="updates updates_customizable-date-ranges updates_customizable-date-ranges_index">
+<body id="page_layout" class="updates updates_old-subscription-discount-bug updates_old-subscription-discount-bug_index">
   <section id="header_bar_banner">
     <div id="header_bar" class="container">
       <div class="sixteen columns">
@@ -64,14 +64,13 @@
     </div><!-- END #header_bar.container -->
   </section><!-- END #header_bar_banner -->
 
-  <h3>Customizable Date Ranges</h3>
+  <h3>Subscription Discount Bug</h3>
 
-<p>You can now use custom date ranges in HookFeed to filter either:</p>
+<p>Fixed a bug in which <em>subscription discounts</em> (customer discounts unaffected), created prior to signing up for HookFeed, were excluded from our interface and metric calculations.</p>
 
-<ol>
-<li>Net Revenue</li>
-<li>Subscriber Activity (Signups, Upgrades, Downgrades, Cancellations)</li>
-</ol>
+<p>All metrics have been re-calculated, and fresh subscription/discount data has been imported from Stripe.</p>
+
+<p>This bug affected a very small set of accounts, and the impact on metrics was very subtle :-)</p>
 
 
   <section id="footer_banner">
