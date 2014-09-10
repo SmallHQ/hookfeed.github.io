@@ -7,6 +7,9 @@
 <% elsif update.data.type == 'performance' %>
 <div class="performance">
   <span class="icon">e</span>
+<% elsif update.data.type == 'upcoming' %>
+<div class="upcoming">
+  <span class="icon">t</span>
 <% end %>
 
   <time><%= update.date.strftime('%B %-d, %Y') %></time>

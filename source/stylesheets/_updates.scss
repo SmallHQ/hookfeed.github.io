@@ -29,7 +29,8 @@ body#page_layout.updates {
 
       .feature,
       .bugfix,
-      .performance {
+      .performance,
+      .upcoming {
         @extend .clearfix;
         background-color: #fff;
         border-radius: 3px;
@@ -191,6 +192,14 @@ body#page_layout.updates {
           background-color: #DDD64D;
           width: 21px;
           padding-left: 10px;
+        }
+      }
+
+      .upcoming {
+        .icon {
+          background-color: #5A9BCE;
+          width: 25px;
+          padding-left: 7px;
         }
       }
     }
