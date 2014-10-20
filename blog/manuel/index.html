@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Using Estimates, Experiments, and Evidence to Understand your Customers</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+  <link rel="shortcut icon" href="/favicons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57-1ba073f6.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114-02e1ab2a.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72-34cdbbe0.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144-9a52f491.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60-4243a7b2.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120-15410961.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76-1e01afe5.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152-81636c30.png">
+<link rel="icon" type="image/png" href="/favicons/favicon-196x196-9b2ea2a8.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/favicons/favicon-160x160-d0f3049d.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicons/favicon-96x96-f645f31c.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16-eac0c5b6.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32-1a7be6e4.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#29333a">
+<meta name="msapplication-TileImage" content="/favicons/mstile-144x144-9a52f491.png">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+
+  <link href="/stylesheets/application-b34da453.css" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/application-09c972fc.js" type="text/javascript"></script>
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- TypeKit -->
+  <script type="text/javascript" src="//use.typekit.net/qee5bpm.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript">
+  window.analytics=window.analytics||[],window.analytics.methods=["identify","group","track","page","pageview","alias","ready","on","once","off","trackLink","trackForm","trackClick","trackSubmit"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var key=window.analytics.methods[i];window.analytics[key]=window.analytics.factory(key)}window.analytics.load=function(t){if(!document.getElementById("analytics-js")){var a=document.createElement("script");a.type="text/javascript",a.id="analytics-js",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.io/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)}},window.analytics.SNIPPET_VERSION="2.0.9",
+  window.analytics.load("pk12xajikt");
+  window.analytics.page();
+</script>
+</head>
+
+<body id="blog_layout" class="blog blog_manuel blog_manuel_index">
+  <!-- Twitter -->
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  </script>
+
+  <!-- Google+ -->
+  <script type="text/javascript">
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/platform.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+  </script>
+
+  <!-- Facebook Like Button -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Buffer -->
+  <script type="text/javascript" src="http://static.bufferapp.com/js/button.js"></script>
+
+  <!-- Follow Me Button -->
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <section id="header_bar_banner">
+    <div id="header_bar" class="container">
+      <div class="sixteen columns">
+        <div id="logo">
+          <a href="/"><img src="https://d2uerwjzv5u4r9.cloudfront.net/HookFeed_Logo_Light.png" width="150"></a>
+        </div>
+        <nav>
+          <a href="/">Features</a>
+          
+          <a href="/blog">Blog</a>
+          <a href="https://secure.hookfeed.com/login">Login</a>
+        </nav>
+      </div><!-- END .sixteen.columns -->
+    </div><!-- END #header_bar.container -->
+  </section><!-- END #header_bar_banner -->
+
+  <section id="newsletter_banner">
+    <div id="newsletter" class="container">
+      <div class="ten columns offset-by-three">
+        <h2>Improve Your Business by Leveraging Customer Insights. Sign Up for Weekly Articles.<!--Get Our Newsletter And Help Your Business Grow By Leveraging Customer Analytics--></h2>
+        <form action="http://email.demandloyalty.com/t/r/s/tkvjrl/" method="post">
+          <input id="fieldName" name="cm-name" placeholder="First Name" type="text" />
+          <input id="fieldEmail" name="cm-tkvjrl-tkvjrl" placeholder="Email" type="email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p>We'll never assault your inbox. Emails are periodic and packed with value.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog_banner">
+    <div id="blog" class="container">
+      <article class="ten columns offset-by-three">
+        <h1 style="margin-bottom: 20px;">Using Estimates, Experiments, and Evidence to Understand your Customers</h1>
+
+<div style="padding: 10px; font-size: 14px;line-height: 20px; background-color: #5A9BCE; border-radius: 2px; color: #fff; margin-bottom: 20px;">This is a guest post from <a href="https://twitter.com/manualwise" style="color: #fff; text-decoration: none" target="_blank">Manuel Weiss</a>, Co-Founder and Director of Marketing at <a href="https://www.codeship.io/" style="color: #fff; text-decoration: none" target="_blank">Codeship</a>. We are working to bring you valuable, repeatable lessons from the absolute best in the industry. Interested in writing for the HookFeed blog? <a href="mailto:joelle.steiniger@hookfeed.com" style="color: #fff; text-decoration: underline; font-weight: bold">Email us!</a></div>
+
+<p>At Codeship we have a simple rule: <i>Everything you think is only an assumption. You need to verify your assumptions by running experiments and delivering evidence.</i></p>
+
+<p>We look at the outcome of our experiments on a weekly basis and keep track of the data. We want to realize quickly if things are working and if not, we are going a different route. The aim is to not run in circle and not wasting any time while at the same time documenting your learnings so the whole team can benefit from them. This is why we’ve developed our very own scientific approach to Marketing.</p>
+
+<blockquote>
+<p>This process ensures we don’t just work on things because we think they work but because they actually do.</p>
+</blockquote>
+
+<p>When building a business you want to make sure you use your time wisely. Using it for things that actually move the needle.</p>
+
+<p>The most important thing when running experiments is the ability to analyze them. Not long ago, this was something that marketers really struggled with. You would have a great idea and use many resources (manpower and money) to make it come to life. But how would you track your target audience’s actions? How would you know how far down the funnel they actually made it? Marketers had to rely on people’s good will to respond to letters or to answer questions truthfully on cold calls.</p>
+
+<p>Thankfully, it’s 2014 and we have products like Google Analytics, KISSmetrics, Mixpanel, and Optimizely that enable us to follow a user’s behavior. It’s not about the products though; it’s what they allow us to see. We have the possibility to look at the actions of specific users at any given point in time.</p>
+
+<p>These tools guide us in defining funnel stages, setting email automation trigger points, and bringing attention to problems in our product. In the end, they help us create a better product for our users. And from a budget perspective, they also help us Marketers justify our marketing spend.</p>
+
+<blockquote>
+<p>Numbers are people and they deserve to be understood</p>
+</blockquote>
+
+<p>The experiments that we run are not intended to immediately generate X% more revenue or bring in Y% more unique visitors. Their main purpose is to help us understand our customers, where they come from, what they struggle with, and what they love!</p>
+
+<p>We’ve found that working with the aforementioned process analyzing our experiments, gaining learnings and consequentially making data-informed decisions gets a lot easier and is actually a lot of fun. As a result, we feel more confident than ever that we are headed in the right direction.</p>
+
+<p><b>So keep this in mind:</b> You have to make sure that you always <b>analyze and gain learnings</b> from your experiments.</p>
+
+<blockquote>
+<p>The easiest way to learn is by recording estimations prior to launching new campaigns.</p>
+</blockquote>
+
+<p>This forces you to think about the potential outcomes and makes you commit to a goal you sincerely believe you can achieve. Don’t be too hard on yourself in the beginning. Making precise estimations is not easy, but you will improve over-time.</p>
+
+<p>It is important to give yourself a threshold of how far off you allow yourself to be. If you are <b>way off</b> you should dig deeper and find out what didn’t go as expected. Let’s look at an example:</p>
+
+<p style="font-size: 16px; line-height: 23px; font-style: italic; padding: 0 30px;">You offer a service that offers German-speaking Hamburger cooking classes. Your designer produced beautiful banners and you use some of your budget for paid advertisement. You expect a certain amount of click-throughs and signups. After the experiment, you analyze your numbers and realize that you had the expected amount of unique visitors, but a very bad conversion rate for signups – it is way outside of the threshold you set.</p>
+
+<p style="font-size: 16px; line-height: 23px; font-style: italic; padding: 0 30px;">So you start digging deeper: You quickly discover that the messaging in your banners was all-wrong! English-speaking cooking aficionados, as well as Germans, use the same word for this food: “Hamburgers”. But your landing page is written entirely in German! You paid for all of those clicks and most visitors literally didn’t understand a word you were saying.</p>
+
+<p>You may not have discovered this atrocity had you not analyzed your estimation and set a realistic threshold for it.</p>
+
+<p>At Codeship we have a “game” that makes sure people keep motivated and actually evaluate their actions before we run an experiment. Everybody from the Marketing team has to commit to his/her estimations and when the experiment is finished the person closest to reality receives a special gift from the rest of the team.</p>
+
+<p>It’s critical that as you conduct experiments, you take note of your estimations, results, and learnings. This way, your teammates (and future you) can learn from it. Information like this is invaluable to new team members as they are able to reconstruct winning formulas and take a historical look at previous activities.</p>
+
+<p>For example, I have analyzed which countries send us the most organic signups. I look at these organic numbers frequently to recognize trends as early as possible. And, of course, I document them. Now, new team members immediately know why we target certain countries when doing paid activities.</p>
+
+<blockquote>
+<p>It’s important that you are tracking everything, the method doesn’t necessarily matter</p>
+</blockquote>
+
+<p>I use spreadsheets (and share an abstracted copy of mine below) but you can conduct these experiments using whatever tools you’re most comfortable with.</p>
+
+<p><b>Firstly,</b> it is important to define the channels you’ll be working with. For example: Blog, Newsletter, Podcast Sponsorship, LinkedIn, …</p>
+
+<p><b>Secondly,</b> you need to make sure you have the most important stages of your funnel represented and tracked. If you are a SaaS product like Codeship you most likely will have something like Unique Visitors, Signups, Activated Users, and Paid Customers.</p>
+
+<p><b>Thirdly,</b> get the numbers for a certain period of time for these stages of your funnel. I like to look at them in a month-by-month basis because with a lot of activities (especially paid) it’s easier to map expenses and outcome together this way.</p>
+
+<p>With the previously mentioned products, all it takes is the correct setup (ask your developers to help you) and some time to create a structure that might look something like this:</p>
+
+<p><b>August – Twitter:</b><br>2,087 Unique Visitors, 120 Signups, 50 Activated Users, 4 Customers</p>
+
+<p><b>September – Twitter:</b><br>2,140 Unique Visitors, 125 Signups, 52 Activated Users, 4 Customers</p>
+
+<p>Now that you have these metrics, you can calculate Conversion Rates. 125 Signups / 2,140 Unique Visitors, for example, gives you a Conversion Rate of 5.84%. Do the same thing for the remaining stages of your funnel. Look at them for at least throughout the last 6 months and for your most important channels. This is where your main learnings will come from.</p>
+
+<p><a href="https://docs.google.com/a/railsonfire.com/spreadsheets/d/1auC2dAKxB71_lPjTNPi3S81Nanfmh2bB5prz5dBIJdA/edit?usp=sharing" target="_blank">I set up a quick spreadsheet</a> that shows channels in a month-by-month comparison and calculates Conversion Rates for you.</p>
+
+<p>Isn’t it great? The numbers (people!) are telling you what to work on.</p>
+
+<p>Do you have a great Conversion Rate from Unique Visitors to Signups via LinkedIn,
+but very few Unique Visitors in comparison to other channels? Put your efforts into getting more visitors from LinkedIn.</p>
+
+<p>Is there a huge drop-off in Conversion Rate from Signups to Activated Users from people coming via Google? This could indicate that your onboarding process is creating problems. Do you see bad Conversion Rates from Unique Visitors to Signups? Hit up some A/B tests for your Landing Page!</p>
+
+<h2>Actionable Tasks</h2>
+
+<p>Now that you’re tracking your channels month-by-month, it’s easy to calculate their average performance. If we are defining a new experiment, we now have data to base our estimations upon.</p>
+
+<p>Let’s say you want to increase the Signup rate for one of your Landing Pages.</p>
+
+<p><b>How about this experiment:</b> Start putting Twitter testimonials on the Landing Page to provide social proof. Our assumption is that this should help create trust. And more trust should lead to more Signups.</p>
+
+<p>Previously this Landing Page got 1,000 Unique Visitors and 70 Signups per month giving you a Conversion Rate of 7%. The amount of people hitting your Landing Page won’t change that much by running this experiment. But your Signup rate should increase. Looking at your data, you can base your estimation on an average of 7% and commit to a predicted rise in Conversion Rate by 2.5% giving you 95 Signups next month.</p>
+
+<p>Did this experiment work? Did it increase your Conversion Rate to Signups? Document it for your team and <b>define actionable tasks</b>. In this case: From now on every Landing Page will show Twitter testimonials.</p>
+
+<blockquote>
+<p>We are living in exciting times in which you can visualize the depths of your funnels and track customers on their journey from 1st visit towards loyal, long-term customer</p>
+</blockquote>
+
+<p>It’s on you to use it to your advantage and gain learnings from the tools available.</p>
+
+<p>Most importantly, you need a process in-place. This article describes parts of how my team at Codeship works on this. But your team may approach it differently. Just make sure you don’t stop at making assumptions. Always try to get learnings from what you are doing.</p>
+
+<p>Looking at numbers to help you make decisions is great but make sure you don’t get caught in the trap of only executing. Always re-evaluate your channels and their performance.</p>
+
+<p>Last but not least: <b>Don’t blindly follow your numbers.</b> There will be times when you have to trust your gut-feeling.</p>
+
+      </article><!-- END .ten.columns -->
+
+      <aside class="three columns" id="sidebar">
+        <div id="sharing">
+          <div id="twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed" data-size="large">Tweet</a>
+            <a href="https://twitter.com/HookFeed" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @HookFeed</a>
+          </div>
+        </div>
+      </aside><!-- END .five.columns -->
+    </div><!-- END #blog.container -->
+  </section> <!-- END #blog_banner -->
+
+
+  <section id="sharing_banner">
+    <div id="sharing" class="container">
+      <div class="ten columns offset-by-three">
+        <div id="anchor_divider">a</div>
+        <p>If you liked this article it would mean a lot to me if you'd share it!</p>
+        <!-- Twitter -->
+        <div id="twitter">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed">Tweet</a>
+        </div><!-- END #twitter -->
+        <!-- Buffer -->
+        <div id="buffer">
+          <a href="http://bufferapp.com/add" class="buffer-add-button" data-count="horizontal" data-via="HookFeed" >Buffer</a><script type="text/javascript" src="http://static.bufferapp.com/js/button.js"></script>
+        </div><!-- END #buffer -->
+        <!-- Google+ -->
+        <div id="googleplus">
+          <div class="g-plusone"></div>
+        </div><!-- END #googleplus -->
+        <!-- Facebook -->
+        <div id="facebook">
+          <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false">
+          </div>
+        </div><!-- END #facebook -->
+      </div><!-- END .ten columns offset-by-three -->
+    </div><!-- END #sharing.container -->
+  </section> <!-- END #sharing_banner -->
+
+
+  <section id="promo_banner">
+    <div id="promo" class="container">
+      <div class="ten columns offset-by-three">
+        <div id="anchor_divider">a</div>
+        <div class="promo_inner" id="hookfeed_promo">
+          <a href="/?utm_source=hookfeed-blog&utm_medium=blog&utm_campaign=customer-card-promo"><img src="https://d2uerwjzv5u4r9.cloudfront.net/blog_promo.jpg" width="560" class="scale-with-grid"></a>
+        </div> <!-- END #hookfeed_promo -->
+      </div><!-- END .ten columns offset-by-three -->
+    </div><!-- END #promo.container -->
+  </section> <!-- END #promo_banner -->
+
+  <section id="bio_banner">
+    <div id="bio" class="container">
+      <div class="ten columns offset-by-three">
+        <h4>About the Author</h4>
+        <a href="https://twitter.com/manualwise" target="_blank"><img src="https://d2uerwjzv5u4r9.cloudfront.net/manuel.jpg" width="88" height="88"></a>
+<h2><a href="https://twitter.com/manualwise" target="_blank">Manuel Weiss</a></h2>
+<h3>Co-Founder/Marketing, <a href="https://codeship.io" target="_blank">Codeship</a></h3>
+<p>Manuel is Director of Marketing at Codeship. Codeship is a hosted Continuous Delivery service. It runs your tests and automatically deploys your code so you can focus on building the best product for your customers. The Codeship team cares a lot about simplicity and usability. You can listen to their CEO's interview about finding the WOW-moment <a href="http://rocketship.fm/podcast/ep-13-moritz-plassnig" target="_blank">here</a> and to Manuel's interview about Codeship's scientific approach to Marketing <a href="http://rocketship.fm/episodes/ep-54-manuel-weiss" target="_blank">here</a>.
+</p>
+<div id="follow"><a href="https://twitter.com/manualwise" class="twitter-follow-button" data-show-count="false">Follow @manualwise</a></div>
+      </div><!-- END .ten columns offset-by-three -->
+    </div><!-- END #bio.container -->
+  </section> <!-- END #bio_banner -->
+
+
+</body>
+</html>
