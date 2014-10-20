@@ -1,11 +1,13 @@
 ---
 title: "Using Estimates, Experiments, and Evidence to Understand your Customers"
-teaser: "Teaser"
+teaser: "At Codeship we have a simple rule: <i>Everything you think is only an assumption. You need to verify your assumptions by running experiments and delivering evidence.</i>"
 author: manuel_weiss
 published: true
 ---
 
-# Using Estimates, Experiments, and Evidence to Understand your Customers
+<h1 style="margin-bottom: 20px;">Using Estimates, Experiments, and Evidence to Understand your Customers</h1>
+
+<div style="padding: 10px; font-size: 14px;line-height: 20px; background-color: #5A9BCE; border-radius: 2px; color: #fff; margin-bottom: 20px;">This is a guest post from <a href="https://twitter.com/manualwise" style="color: #fff; text-decoration: none">Manuel Weiss</a>, Co-Founder and Director of Marketing at <a href="https://www.codeship.io/" style="color: #fff; text-decoration: none">Codeship</a>. We are working to bring you valuable, repeatable lessons from the absolute best in the industry. Interested in writing for the HookFeed blog? <a href="mailto:joelle.steiniger@hookfeed.com" style="color: #fff; text-decoration: underline; font-weight: bold">Email us!</a></div>
 
 At Codeship we have a simple rule: <i>Everything you think is only an assumption. You need to verify your assumptions by running experiments and delivering evidence.</i>
 
@@ -35,9 +37,9 @@ This forces you to think about the potential outcomes and makes you commit to a 
 
 It is important to give yourself a threshold of how far off you allow yourself to be. If you are <b>way off</b> you should dig deeper and find out what didn’t go as expected. Let’s look at an example:
 
-<p style="font-size: 14px; line-height: 20px; font-style: italic; padding: 0 30px;">You offer a service that offers German-speaking Hamburger cooking classes. Your designer produced beautiful banners and you use some of your budget for paid advertisement. You expect a certain amount of click-throughs and signups. After the experiment, you analyze your numbers and realize that you had the expected amount of unique visitors, but a very bad conversion rate for signups – it is way outside of the threshold you set.</p>
+<p style="font-size: 16px; line-height: 23px; font-style: italic; padding: 0 30px;">You offer a service that offers German-speaking Hamburger cooking classes. Your designer produced beautiful banners and you use some of your budget for paid advertisement. You expect a certain amount of click-throughs and signups. After the experiment, you analyze your numbers and realize that you had the expected amount of unique visitors, but a very bad conversion rate for signups – it is way outside of the threshold you set.</p>
 
-<p style="font-size: 14px; line-height: 20px; font-style: italic; padding: 0 30px;">So you start digging deeper: You quickly discover that the messaging in your banners was all-wrong! English-speaking cooking aficionados, as well as Germans, use the same word for this food: “Hamburgers”. But your landing page is written entirely in German! You paid for all of those clicks and most visitors literally didn’t understand a word you were saying.</p>
+<p style="font-size: 16px; line-height: 23px; font-style: italic; padding: 0 30px;">So you start digging deeper: You quickly discover that the messaging in your banners was all-wrong! English-speaking cooking aficionados, as well as Germans, use the same word for this food: “Hamburgers”. But your landing page is written entirely in German! You paid for all of those clicks and most visitors literally didn’t understand a word you were saying.</p>
 
 You may not have discovered this atrocity had you not analyzed your estimation and set a realistic threshold for it.
 
