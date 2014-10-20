@@ -9,7 +9,7 @@ published: true
 
 <div style="padding: 10px; font-size: 14px;line-height: 20px; background-color: #5A9BCE; border-radius: 2px; color: #fff; margin-bottom: 20px;">This is a guest post from <a href="https://twitter.com/manualwise" style="color: #fff; text-decoration: none" target="_blank">Manuel Weiss</a>, Co-Founder and Director of Marketing at <a href="https://www.codeship.io/" style="color: #fff; text-decoration: none" target="_blank">Codeship</a>. We are working to bring you valuable, repeatable lessons from the absolute best in the industry. Interested in writing for the HookFeed blog? <a href="mailto:joelle.steiniger@hookfeed.com" style="color: #fff; text-decoration: underline; font-weight: bold">Email us!</a></div>
 
-At Codeship we have a simple rule: <i>Everything you think is only an assumption. You need to verify your assumptions by running experiments and delivering evidence.</i>
+At <a href="https://www.codeship.io/" target="_blank">Codeship</a> we have a simple rule: <i>Everything you think is only an assumption. You need to verify your assumptions by running experiments and delivering evidence.</i>
 
 We look at the outcome of our experiments on a weekly basis and keep track of the data. We want to realize quickly if things are working and if not, we are going a different route. The aim is to not run in circle and not wasting any time while at the same time documenting your learnings so the whole team can benefit from them. This is why we’ve developed our very own scientific approach to Marketing.
 
