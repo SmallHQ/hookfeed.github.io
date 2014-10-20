@@ -6,14 +6,22 @@
 
   #blog_list {
     article {
-      margin-bottom: 30px;
+      padding: 50px 0;
+      border-bottom: 1px solid #EEE;
+
+      &:first-of-type {
+        padding-top: 0px;
+      }
+
+      &:last-of-type {
+        border-bottom: 0px;
+      }
 
       h1 {
         font-size: 30px;
-        font-weight: bold;
         line-height: 35px;
         letter-spacing: -1px;
-        margin-bottom: 6px;
+        margin-bottom: 15px;
 
         a {
           color: #505254;

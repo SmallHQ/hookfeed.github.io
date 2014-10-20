@@ -7,7 +7,7 @@ published: true
 
 <h1 style="margin-bottom: 20px;">Using Estimates, Experiments, and Evidence to Understand your Customers</h1>
 
-<div style="padding: 10px; font-size: 14px;line-height: 20px; background-color: #5A9BCE; border-radius: 2px; color: #fff; margin-bottom: 20px;">This is a guest post from <a href="https://twitter.com/manualwise" style="color: #fff; text-decoration: none">Manuel Weiss</a>, Co-Founder and Director of Marketing at <a href="https://www.codeship.io/" style="color: #fff; text-decoration: none">Codeship</a>. We are working to bring you valuable, repeatable lessons from the absolute best in the industry. Interested in writing for the HookFeed blog? <a href="mailto:joelle.steiniger@hookfeed.com" style="color: #fff; text-decoration: underline; font-weight: bold">Email us!</a></div>
+<div style="padding: 10px; font-size: 14px;line-height: 20px; background-color: #5A9BCE; border-radius: 2px; color: #fff; margin-bottom: 20px;">This is a guest post from <a href="https://twitter.com/manualwise" style="color: #fff; text-decoration: none" target="_blank">Manuel Weiss</a>, Co-Founder and Director of Marketing at <a href="https://www.codeship.io/" style="color: #fff; text-decoration: none" target="_blank">Codeship</a>. We are working to bring you valuable, repeatable lessons from the absolute best in the industry. Interested in writing for the HookFeed blog? <a href="mailto:joelle.steiniger@hookfeed.com" style="color: #fff; text-decoration: underline; font-weight: bold">Email us!</a></div>
 
 At Codeship we have a simple rule: <i>Everything you think is only an assumption. You need to verify your assumptions by running experiments and delivering evidence.</i>
 
@@ -67,7 +67,7 @@ With the previously mentioned products, all it takes is the correct setup (ask y
 
 Now that you have these metrics, you can calculate Conversion Rates. 125 Signups / 2,140 Unique Visitors, for example, gives you a Conversion Rate of 5.84%. Do the same thing for the remaining stages of your funnel. Look at them for at least throughout the last 6 months and for your most important channels. This is where your main learnings will come from.
 
-<a href="https://docs.google.com/a/railsonfire.com/spreadsheets/d/1auC2dAKxB71_lPjTNPi3S81Nanfmh2bB5prz5dBIJdA/edit?usp=sharing">I set up a quick spreadsheet</a> that shows channels in a month-by-month comparison and calculates Conversion Rates for you.
+<a href="https://docs.google.com/a/railsonfire.com/spreadsheets/d/1auC2dAKxB71_lPjTNPi3S81Nanfmh2bB5prz5dBIJdA/edit?usp=sharing" target="_blank">I set up a quick spreadsheet</a> that shows channels in a month-by-month comparison and calculates Conversion Rates for you.
 
 Isn’t it great? The numbers (people!) are telling you what to work on.
 
