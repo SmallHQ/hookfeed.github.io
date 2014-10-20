@@ -5,7 +5,7 @@ author: manuel_weiss
 published: true
 ---
 
-<h1 style="margin-bottom: 20px;">Using Estimates, Experiments, and Evidence to Understand your Customers</h1>
+<h1 style="margin-bottom: 20px;">Use Estimates, Experiments, and Evidence to Understand your Customers</h1>
 
 <div style="padding: 10px; font-size: 14px;line-height: 20px; background-color: #5A9BCE; border-radius: 2px; color: #fff; margin-bottom: 20px;">This is a guest post from <a href="https://twitter.com/manualwise" style="color: #fff; text-decoration: none" target="_blank">Manuel Weiss</a>, Co-Founder and Director of Marketing at <a href="https://www.codeship.io/" style="color: #fff; text-decoration: none" target="_blank">Codeship</a>. We are working to bring you valuable, repeatable lessons from the absolute best in the industry. Interested in writing for the HookFeed blog? <a href="mailto:joelle.steiniger@hookfeed.com" style="color: #fff; text-decoration: underline; font-weight: bold">Email us!</a></div>
 
