@@ -28,23 +28,13 @@ $(document).ready(function() {
 
 
   // Blog sticky sidebar
-  $('aside#sidebar').sticky({topSpacing:0});
+  $('aside#sidebar').stick_in_parent();
 
 
 
 
   // Tooltips on pricing page for explanations
   $('.customers_tooltip, .teammates_tooltip').tipr({mode: 'top'});
-
-
-  // One-page homepage variation, expand hidden content
-  $('.click_to_expand_benefits').click(function(e){
-    e.preventDefault();
-
-    $(this).fadeOut(function(){
-      $('.expandable').show();
-    });
-  });
 
 
 

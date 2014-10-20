@@ -1,16 +1,27 @@
+#subscription_bar_banner {
+  background-color: red;
+  padding: 40px 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
 #blog_list_banner {
   padding-top: 60px;
 
   #blog_list {
     article {
+      padding-bottom: 40px;
+      border-bottom: 1px solid #ddd;
       margin-bottom: 30px;
 
       h1 {
-        font-size: 30px;
-        font-weight: bold;
-        line-height: 35px;
+        color: #505254;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
         letter-spacing: -1px;
-        margin-bottom: 6px;
+        margin-bottom: 3px;
 
         a {
           color: #505254;
@@ -21,15 +32,35 @@
         }
       }
 
+      h2 {
+        &, & a {
+          color: #999;
+        }
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+
+        img {
+          border-radius: 20px;
+          width: 20px;
+          height: 20px;
+          vertical-align: bottom;
+        }
+      }
+
       p {
-        font-size: 18px;
-        line-height: 26px;
+        color: #222;
+        font-size: 19px;
+        line-height: 28px;
+        font-weight: 200;
       }
     }
   }
 }
 
 #blog_banner {
+  background-color: #fff;
   padding-top: 10px;
 
   article {
@@ -120,8 +151,8 @@
       padding: 40px;
       border-radius: 4px;
       margin: 0 -40px;
-      font-size: 14px;
-      line-height: 18px;
+      font-size: 15px;
+      line-height: 19px;
       font-family: Menlo, monospace;
 
       white-space: pre-wrap;                 /* CSS3 browsers  */
@@ -137,9 +168,10 @@
     }
 
     p, ul, ol, dl {
-      color: #666;
-      font-size: 20px;
-      line-height: 32px;
+      color: #222;
+      font-size: 19px;
+      line-height: 28px;
+      font-weight: 200;
     }
 
     blockquote {
@@ -148,6 +180,7 @@
 
       p {
         color: #505254;
+        font-family: Avenir;
         font-size: 26px;
         font-weight: bold;
         letter-spacing: -1px;
@@ -173,32 +206,6 @@
   }
 
   aside#sidebar {
-    padding-top: 58px;
-
-    /* All Mobile Sizes (devices and browser) */
-    @media only screen and (max-width: 767px) {display: none}
-
-    #sharing {
-      a.twitter-share-button,
-      a.twitter-follow-button {
-        display: none;
-      }
-
-      iframe {
-        margin-bottom: 10px;
-        display:block;
-      }
-
-      #twitter {
-        display: inline-block;
-
-        /* All Mobile Sizes (devices and browser) */
-        @media only screen and (max-width: 767px) {
-          display: block;
-          margin-bottom: 8px;
-        }
-      }
-    }
   }
 }
 
@@ -214,14 +221,6 @@
 
   #sharing {
     text-align: center;
-
-    #anchor_divider {
-      color: #c0c5ce;
-      font-family: Pictos;
-      font-size: 24px;
-      margin-bottom: 60px;
-      text-align: center;
-    }
 
     p {
       font-size: 18px;

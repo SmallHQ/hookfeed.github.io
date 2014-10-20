@@ -16,6 +16,7 @@ changefreq: daily
       <% blog('blog').articles.each do |article| %>
         <article>
           <h1><a href="<%= article.url %>"><%= article.title %></a></h1>
+          <h2><img src="http://placehold.it/20/20">Written by <a href="#">Matt Goldman</a></h2>
           <p><%= article.data.teaser %></p>
         </article>
       <% end %>

@@ -11,18 +11,27 @@
 
     <section id="blog_banner">
       <div id="blog" class="container">
-        <article class="ten columns offset-by-three">
+        <article class="twelve columns offset-by-two">
+          <aside id="sidebar">
+            <div id="sharing">
+              <div id="twitter">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed" data-size="large">Tweet</a>
+                <a href="https://twitter.com/HookFeed" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @HookFeed</a>
+              </div>
+            </div>
+          </aside>
+
           <%= yield %>
         </article><!-- END .ten.columns -->
 
-        <aside class="three columns" id="sidebar">
+        <!--<aside class="three columns" id="sidebar">
           <div id="sharing">
             <div id="twitter">
               <a href="https://twitter.com/share" class="twitter-share-button" data-via="HookFeed" data-size="large">Tweet</a>
               <a href="https://twitter.com/HookFeed" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @HookFeed</a>
             </div>
           </div>
-        </aside><!-- END .five.columns -->
+        </aside> END .five.columns -->
       </div><!-- END #blog.container -->
     </section> <!-- END #blog_banner -->
 
@@ -34,5 +43,7 @@
     <%= partial 'partials/blog/author_bio' %>
 
     <%= partial 'partials/footer' %>
+
+    <%= partial 'partials/blog/subscription_bar' %>
   </body>
 </html>
